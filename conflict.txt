@@ -1,16 +1,16 @@
 test3
 test3
-=====
-
-
-
-
 test4
 test4
+test6
+test6
 
 
+<<<<<<< HEAD
+=======
 
 test7
 
 
 
+>>>>>>> bb0fa142d032a2d6980cf5e1124f99f2ad42ad7d
