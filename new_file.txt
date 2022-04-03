@@ -1,0 +1,4 @@
+i am a new_file.txt
+second line contents
+third line contents
+
