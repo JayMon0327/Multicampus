@@ -1,0 +1,58 @@
+@charset "UTF-8";
+*{
+	text-align: center; /* 가로가운데 정렬 */
+	vertical-align: middle; /* 세로가운데 정렬 */
+}
+
+a {
+	text-decoration: none;
+}
+a:hover{ /* 가상으로 a태그위에 마우스를 올렸다고 가정하고 스타일을 지정(가상선택자) */
+	text-decoration: overline;
+	background: white; 
+	color: red; /* 글자색 */
+}
+li {
+	list-style: none;
+	float: left;
+	padding: 15px;
+}
+li:first-child{
+	border-radius: 50px 0 0 50px; /* 1~4번까지 시계방향 넘버링 */
+}
+li:last-child{
+	border-radius: 0 50px 50px 0;
+}
+li:nth-child(2n){ /* 짝수인 li에 스타일 적용 */
+	background: pink;	
+}
+li:nth-child(2n+1){ /* 홀수인 li에 스타일 적용 */
+	background: orange;
+}
+/* 문법에 맞는 자동주석: ctrl + shift + /(슬러시) */
+#total { /* id중에서 total을 선택해라!(선택자->selector) */
+	width: 800px;
+	height: 800px;
+	color: blue;
+	font: 25px 궁서 bold;
+	background-image: url("../img/back.png")
+}
+#top{
+	width: 800px;
+	height: 70px;
+	background: lime;
+}
+#top2{
+	width: 250px;
+	height: 300px;
+	background: black;
+	color: yellow;
+	top: 5px;
+	right: 5px;
+	position: fixed;
+	border-radius: 100px 100px 100px 100px;
+}
+#center{
+	width: 800px;
+	height: 700px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+	$(function() {
+		$('#btn1').click(function(){
+			$.ajax({
+				crossOrigin: true,
+				url: 'https://api.openweathermap.org/data/2.5/weather?q=busan&units=metric&lang=kr&appid=a632410e51487bc1b2d4c215a6fc3aeb',
+				dataType: 'json',
+				success: function(data) {
+					console.log(data)
+					$('#result').html('위치 : ' + data.name + '<br>' +
+							'날씨 : ' + data.weather[0].description + '<br>' +
+							'풍속 : ' + data.wind.speed + '<br>' +
+							'최고 기온 : ' + data.main.temp_max + '<br>' +
+							'최저 기온 : ' + data.main.temp_min + '<br>' +
+							'체감 온도 : ' + data.main.feels_like + '<br>' +
+							'구름 : ' + data.clouds.all)
+				}
+			})
+		})
+	})
+</script>
+</head>
+<body>
+	<button id="btn1">날씨 알아보기(busan)</button>
+	<div id="result"></div>
+</body>
+</html>

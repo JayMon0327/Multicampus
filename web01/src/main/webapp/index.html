@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<!-- 1. 외부에 파일을 연결 : 다른 여러 html에서 공유하고 싶은 스타일 지정 
+	내서버 or 
+	다른서버(content network delivery, CDN)
+ -->
+<link rel="stylesheet" href="css/out.css">
+<script type="text/javascript" src="js/out.js"></script>
+<!-- 2. style/script태그를 이용: 이 html에만 적용하고 싶은 스타일 지정 -->
+<script type="text/javascript">
+	//all()
+</script>
+<style type="text/css">
+	hr {
+		width: 300px;
+		size: 10px;
+	}
+</style>
+</head>
+<body>
+<!-- 3. 인라인(태그 내)을 이용: 해당 태그에만 적용하고 싶은 스타일 지정  -->
+<button onclick="alert('나는 내용.')">나를 눌러요!</button>
+<p style="background: yellow; width: 300px; height: 150px;">저의 첫페이지입니다. </p><hr>
+<hr>
+<a href="member.html">
+	<button style="background: red; color: white; font-weight: bold;">회원정보사이트로</button>
+</a>
+</body>
+</html>
+
+
+
+
+
+

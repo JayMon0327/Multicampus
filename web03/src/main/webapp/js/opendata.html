@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function open() {
+	var xhr = new XMLHttpRequest();
+	var url = 'http://apis.data.go.kr/6260000/AttractionService/getAttractionKr'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'xm0GA26hFOFnF2FFWtQN6%2F6ZWvtnMDe%2FdQ1BbvEXVxcRiWaqHCRRYkJFxlx6rJdzn9G89w%2Bdff%2FK5dEtAfpdKg%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('stdt') + '=' + encodeURIComponent('2022'); /**/
+	queryParams += '&' + encodeURIComponent('numOfRows') + '=' + encodeURIComponent('10'); /**/
+	queryParams += '&' + encodeURIComponent('resultType') + '=' + encodeURIComponent(''); /**/
+	queryParams += '&' + encodeURIComponent('UC_SEQ') + '=' + encodeURIComponent(''); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+	    if (this.readyState == 4) {
+	    	console.log('success!!')
+	        alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+	    }
+	};
+
+	//xhr.send('');
+}
+</script>
+</head>
+<body>
+<button onclick="open()">부산시 명소 데이터를 받아오자.</button>
+</body>
+</html>

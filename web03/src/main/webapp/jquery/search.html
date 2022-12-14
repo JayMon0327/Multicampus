@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+</script>
+
+<script>
+//body부분을 DOM-Tree로 읽어서 준비가 되면, 
+//입력값으로 있는 익명함수를 실행해주세요.!
+	$(function() {
+		//button이 클릭이되면, 함수부분를 호출해주세요.(콜백함수)
+		//html태그중에서 선택할 수있는 방법(태그명, 클래스명, id명)
+		$('button').click(function() {
+			word = $('#word').val()
+			location.href = "https://search.naver.com/search.naver?query=" + word
+		})
+	})
+</script>
+
+</head>
+<body>
+검색할 단어 입력 : <input id="word">
+<button>네이버 검색 시작</button>
+</body>
+</html>

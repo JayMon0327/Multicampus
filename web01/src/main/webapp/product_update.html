@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<!-- CDN방식으로 연결하자! -->
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+	<h3>상품수정페이지</h3>
+	<a href="product.html">
+		<button>첫페이지로</button>
+	</a>
+	<hr>
+	<form action="product_update.jsp">
+		<table class="table-dark table-striped">
+			<thead>
+				<tr>
+					<th>항목명</th>
+					<th>데이터입력</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>수정할 아이디</td>
+					<td><input name="id" value="110"></td>
+				</tr>
+				<tr>
+					<td>내용</td>
+					<td><input name="content" value="fun food11"></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<button type="submit" class="btn btn-light">서버로 전송</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+
+</body>
+</html>
