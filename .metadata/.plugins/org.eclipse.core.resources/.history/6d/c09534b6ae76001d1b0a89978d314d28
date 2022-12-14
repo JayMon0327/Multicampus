@@ -1,0 +1,17 @@
+package com.multi.mvc03;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class PageService {
+
+	public PageVO pages(PageVO vo) {
+//		int pages = 0;
+//		if(count % 10 == 0) {
+//			pages = count / 10;
+//		}else {
+//			pages = count / 10 + 1;
+//		}
+	}
+	
+}

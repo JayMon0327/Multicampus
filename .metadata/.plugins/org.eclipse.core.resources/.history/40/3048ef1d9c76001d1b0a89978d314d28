@@ -1,0 +1,12 @@
+package com.multi.mvc03;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class PageService {
+
+	public void pages(PageVO vo) {
+		
+	}
+	
+}

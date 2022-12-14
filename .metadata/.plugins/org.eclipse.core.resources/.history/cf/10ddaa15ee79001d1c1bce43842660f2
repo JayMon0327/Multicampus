@@ -1,0 +1,11 @@
+package com.multi.mvc03;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class TransactionController {
+
+	public void tran() {
+		
+	}
+}

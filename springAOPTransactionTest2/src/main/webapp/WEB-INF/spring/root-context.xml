@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd"
+		
+		>
+		
+	<bean id="mybatis" class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg ref="config"></constructor-arg>
+	</bean>
+
+	<!-- mybatis설정만 담당하는 라이브러리: sql객체 생성 -->
+	<bean id="config" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="configLocation"
+			value="classpath:mybatis-config.xml"></property>
+		<property name="dataSource" ref="dbcp"></property>
+	</bean>
+	<bean id="dbcp" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName"
+			value="com.mysql.jdbc.Driver"></property>
+		<property name="url" value="jdbc:mysql://localhost:3306/school"></property>
+		<property name="username" value="root"></property>
+		<property name="password" value="1234"></property>
+		<property name="defaultAutoCommit" value="false"></property>
+	</bean>
+
+	<!-- 메일보내기 -->
+	<bean id="mailSender"
+		class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="smtp.gmail.com" />
+		<property name="port" value="587" />
+		<property name="username" value="jungwonalicia" />
+		<property name="password" value="will00!@" />
+		<property name="javaMailProperties">
+			<props>
+				<prop key="mail.transport.protocol">smtp</prop>
+				<prop key="mail.smtp.auth">true</prop>
+				<prop key="mail.smtp.starttls.enable">true</prop>
+				<prop key="mail.smtp.socketFactory.class">javax.net.ssl.SSLSocketFactory</prop>
+				<prop key="mail.debug">true</prop>
+			</props>
+		</property>
+	</bean>
+	
+		<!-- Transaction 설정 -->
+
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+ 		<property name="dataSource" ref="dbcp"/>
+ 	</bean>
+
+ 	 	 	
+
+ 	<!-- Transaction을 위한 AOP 설정 -->
+
+	<aop:config proxy-target-class="true">
+		<aop:pointcut id="tran" expression="execution(public * com.mega.mvc05.*.tran(..))" />
+		<aop:advisor advice-ref="txAdvice" pointcut-ref="tran" />
+	</aop:config> 
+
+
+
+	<!-- 선언적 Transaction 설정  -->
+	<tx:advice id="txAdvice" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="tran" rollback-for="Exception" />
+		</tx:attributes>    
+ 	</tx:advice> 
+</beans>

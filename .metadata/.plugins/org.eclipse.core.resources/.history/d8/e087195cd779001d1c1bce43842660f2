@@ -1,0 +1,10 @@
+package com.multi.mvc03;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.stereotype.Component;
+
+@Component("aop") /* ==> @Inject("aop") */
+@Aspect
+public class AOPClass {
+
+}

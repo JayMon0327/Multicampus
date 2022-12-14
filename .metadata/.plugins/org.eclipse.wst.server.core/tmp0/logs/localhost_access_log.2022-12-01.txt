@@ -1,0 +1,5 @@
+127.0.0.1 - - [01/Dec/2022:11:02:54 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [01/Dec/2022:11:02:56 +0900] "GET /mvcProject/uploadPath.jsp HTTP/1.1" 200 287
+0:0:0:0:0:0:0:1 - - [01/Dec/2022:11:02:56 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [01/Dec/2022:11:03:07 +0900] "POST /mvcProject/uploadForm HTTP/1.1" 200 270
+0:0:0:0:0:0:0:1 - - [01/Dec/2022:11:03:08 +0900] "GET /mvcProject/resources/upload/car.jpg HTTP/1.1" 200 53803

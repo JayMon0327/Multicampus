@@ -1,0 +1,14 @@
+package com.multi.mvc03;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class TransactionService {
+
+	
+	public void tran() { //트랜잭션 처리해주는 메서드
+		//회원가입 처리
+		//게시판 글쓰기 처리
+		
+	}
+}

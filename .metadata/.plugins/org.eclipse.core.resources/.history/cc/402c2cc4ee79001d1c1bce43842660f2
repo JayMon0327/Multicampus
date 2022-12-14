@@ -1,0 +1,14 @@
+package com.multi.mvc03;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class TransactionController {
+
+	@RequestMapping("transaction.do")
+	public void transaction(MemberVO vo, BbsVO vo2, Model model) {
+		
+	}
+}
