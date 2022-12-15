@@ -40,7 +40,6 @@ public class MemoDAOImpl implements MemoDAOInterface {
 		//변경할 값: Update
 		Update update = new Update();
 		update.set("content", vo.getContent());
-		update.set("weather", vo.getWeather());
 		System.out.println("변경할 값>>" + update);
 		mongo.updateMulti(query, update, MemoVO.class ,"memo");
 		System.out.println("변경후 >> " + vo);

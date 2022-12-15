@@ -10,12 +10,16 @@
 		<td>날짜</td>
 	</tr>
 	<c:forEach items="${list}" var="vo" varStatus="status">
-	<tr background="lime">
-		<td>${status.count}</td>
-		<td>${vo.name}</td>
-		<td width="150">${vo.content}</td>
-		<td>${vo.weather}</td>
-		<td>${vo.date}</td>
-	</tr>
+		<tr background="lime">
+			<td>${status.count}</td>
+			<td>${vo.name}</td>
+			<td width="150">
+				<a href="one.memo?_id=${vo._id}">
+					${vo.content}
+				</a>
+			</td>
+			<td>${vo.weather}</td>
+			<td>${vo.date}</td>
+		</tr>
 	</c:forEach>
 </table>

@@ -20,13 +20,18 @@ public class MemoController {
 	}
 	
 	@RequestMapping("update.memo")
-	public void update(MemoVO vo) {
+	public String update(String _id, String content) {
+		MemoVO vo = new MemoVO();
+		vo.set_id(_id);
+		vo.setContent(content);
 		memoService.update(vo);
+		return "redirect:mongo_memo.jsp";
 	}
 	
 	@RequestMapping("delete.memo")
-	public void delete(String _id) {
+	public String delete(String _id) {
 		memoService.delete(_id);
+		return "redirect:mongo_memo.jsp";
 	}
 	
 	@RequestMapping("one.memo")
