@@ -1,0 +1,33 @@
+package com.multi.mongoDB;
+
+import java.util.List;
+
+public class MemoServiceImpl {
+
+	public void insert(MemoVO vo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void delete(String _id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void update(MemoVO vo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public MemoVO one(String _id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<MemoVO> list() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

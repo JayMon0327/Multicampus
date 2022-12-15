@@ -1,0 +1,5 @@
+package com.multi.mongoDB;
+
+public class MemoDAO {
+
+}

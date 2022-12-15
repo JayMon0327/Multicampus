@@ -1,0 +1,39 @@
+package com.multi.mongoDB;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class MemoServiceImpl implements MemoService {
+
+	@Autowired
+	MemoDAO memoDao;
+
+	@Override
+	public List<MemoVO> list() { 
+		return memoDao.list();
+	}
+
+	@Override
+	public void insert(MemoVO vo) {
+		memoDao.insert(vo);
+	}
+
+	@Override
+	public MemoVO one(String _id) {
+		return memoDao.one(_id);
+	}
+
+	@Override
+	public void update(MemoVO vo) {
+		memoDao.update(vo);
+	}
+
+	@Override
+	public void delete(String _id) {
+		memoDao.delete(_id);
+	}
+
+}

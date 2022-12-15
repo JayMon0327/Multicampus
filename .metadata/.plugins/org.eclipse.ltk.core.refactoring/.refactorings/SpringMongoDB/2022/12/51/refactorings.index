@@ -5,3 +5,12 @@
 1670986083457	Copy compilation unit
 1670990875699	Copy compilation unit
 1670995268154	Copy compilation unit
+1671064378292	Delete elements
+1671064385562	Delete elements
+1671064414050	Delete element
+1671064948058	Delete element
+1671065226742	Rename type 'MemoDAO'
+1671065435228	Rename type 'MemberDAOImpl'
+1671066983278	Rename type 'MemoService'
+1671067214937	Delete element
+1671067281091	Extract interface 'MemoServiceInterface'

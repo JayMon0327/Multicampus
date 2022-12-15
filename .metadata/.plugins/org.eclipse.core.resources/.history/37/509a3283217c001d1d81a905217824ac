@@ -1,0 +1,11 @@
+package com.multi.mongoDB;
+
+public class MemoVO {
+	private String _id; //_id
+	private String name; //작성자이름
+	private String content; //작성내용
+	private String weather; //작성한 날의 날씨
+	private String name; //작성날짜
+	
+	
+}

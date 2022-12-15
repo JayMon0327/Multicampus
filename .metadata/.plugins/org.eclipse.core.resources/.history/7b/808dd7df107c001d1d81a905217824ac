@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	h3{
+		width: 800px;
+		height: 35px;
+		background: pink;
+	}
+</style>
+</head>
+<body>
+<h3>멀티 메모장</h3>
+<hr color="blue">
+	<form action="">
+		작성자 : <input name="name" value="win">
+	</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+package com.multi.mongoDB;
+
+import java.util.List;
+
+public interface MemoDAO {
+	
+	List<MemoVO> list(); 
+
+	void insert(MemoVO vo); 
+
+	MemoVO one(String _id); 
+
+	void update(MemoVO vo); 
+
+	void delete(String _id); 
+}
