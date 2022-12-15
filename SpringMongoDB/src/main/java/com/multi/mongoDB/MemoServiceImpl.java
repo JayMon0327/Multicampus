@@ -1,5 +1,6 @@
 package com.multi.mongoDB;
 
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ public class MemoServiceImpl implements MemoServiceInterface {
 	
 	@Override
 	public void insert(MemoVO vo) {
+		vo.setDate(new Date());
 		dao.insert(vo);
 	}
 

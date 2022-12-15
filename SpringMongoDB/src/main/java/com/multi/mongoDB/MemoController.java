@@ -14,8 +14,9 @@ public class MemoController {
 	MemoServiceImpl memoService;
 	
 	@RequestMapping("insert.memo")
-	public void insert(MemoVO vo) {
+	public String insert(MemoVO vo) {
 		memoService.insert(vo);
+		return "redirect:mongo_memo.jsp";
 	}
 	
 	@RequestMapping("update.memo")

@@ -5,6 +5,17 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<jsp:include page="header.jsp"></jsp:include>
+<script type="text/javascript">
+$(function() {
+	$.ajax({
+		url: "list.memo",
+		success: function(table) {
+			$('#result').html(table)
+		}
+	})
+})
+</script>
 <style type="text/css">
 	h3{
 		width: 800px;

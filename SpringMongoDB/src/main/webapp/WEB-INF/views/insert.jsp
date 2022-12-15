@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body>
-
+<body bgcolor="pink">
+메모가 추가되었습니다.
 </body>
 </html>
