@@ -1,0 +1,42 @@
+@relation '설문조사_단어'
+
+@attribute 문장완성 String
+@attribute '예상수강 유무' {yes,no}
+
+@data
+'직장인 (사기업). JAVA 업무중. JAVA ML 수강 안함. weka (wekaDeeplearing4j 포함). 실무 적용전 테스트 (pilot 포함)',yes
+'직장인 (사기업). JAVA 업무중. JAVA ML 수강 중. Deeplearning4j (DL4J). 개인적인 관심',yes
+'직장인 (사기업). JAVA 업무중. JAVA ML 수강 안함. weka (wekaDeeplearing4j 포함). 실제 업무적용',yes
+'직장인 (사기업). JAVA 업무중. JAVA ML 수강 안함. Deeplearning4j (DL4J). 개인적인 관심',yes
+'학생. JAVA 업무중. JAVA ML 수강 안함. Deeplearning4j (DL4J). 개인적인 관심',yes
+'프리렌서. JAVA 업무중. JAVA ML 수강 안함. Deeplearning4j (DL4J). 개인적인 관심',yes
+'직장인 (사기업). JAVA 업무중. JAVA ML 수강 안함. weka (wekaDeeplearing4j 포함). 실제 업무적용',yes
+'프리렌서. JAVA 업무중. JAVA ML 수강 중. MLib. 개인적인 관심',no
+'직장인 (사기업). JAVA 업무중. JAVA ML 수강 중. Deeplearning4j (DL4J). 실무 적용전 테스트 (pilot 포함)',yes
+'연구원. JAVA 업무 안함. JAVA ML 수강 안함. weka (wekaDeeplearing4j 포함). 개인적인 관심',no
+'직장인 (사기업). JAVA 업무 안함. JAVA ML 수강 안함. Deeplearning4j (DL4J). 개인적인 관심',no
+'직장인 (사기업). JAVA 업무중. JAVA ML 수강 안함. Deeplearning4j (DL4J). 실제 업무적용',yes
+'연구원. JAVA 업무중. JAVA ML 수강 안함. Deeplearning4j (DL4J). 실제 업무적용',yes
+'취업준비생. JAVA 업무 안함. JAVA ML 수강 안함. weka (wekaDeeplearing4j 포함). 취업(이직)에 유리',yes
+'직장인 (사기업). JAVA 업무 안함. JAVA ML 수강 안함. weka (wekaDeeplearing4j 포함). 실제 업무적용',yes
+'학생. JAVA 업무중. JAVA ML 수강 중. Deeplearning4j (DL4J). 실제 업무적용',yes
+'서비스업. JAVA 업무 안함. JAVA ML 수강 안함. Deeplearning4j (DL4J). 개인적인 관심',no
+'직장인 (사기업). JAVA 업무중. JAVA ML 수강 중. weka (wekaDeeplearing4j 포함). 실제 업무적용',yes
+'직장인 (사기업). JAVA 업무중. JAVA ML 수강 중. weka (wekaDeeplearing4j 포함). 개인적인 관심',yes
+'직장인 (사기업). JAVA 업무중. JAVA ML 수강 안함. 잘모름. 실무 적용전 테스트 (pilot 포함)',no
+'직장인 (사기업). JAVA 업무중. JAVA ML 수강 안함. weka (wekaDeeplearing4j 포함). 실제 업무적용',yes
+'직장인 (사기업). JAVA 업무중. JAVA ML 수강 안함. weka (wekaDeeplearing4j 포함). 실제 업무적용',yes
+'직장인 (사기업). JAVA 업무 안함. JAVA ML 수강 중. weka (wekaDeeplearing4j 포함). 개인적인 관심',yes
+'직장인 (사기업). JAVA 업무중. JAVA ML 수강 안함. java ml 은 수강예정없습니다.. java ml 은 수강예정없습니다.',no
+'직장인 (사기업). JAVA 업무중. JAVA ML 수강 중. weka (wekaDeeplearing4j 포함). 개인적인 관심',yes
+'학생. JAVA 업무중. JAVA ML 수강 안함. weka (wekaDeeplearing4j 포함). 취업(이직)에 유리',yes
+'직장인 (사기업). JAVA 업무중. JAVA ML 수강 중. Deeplearning4j (DL4J). 실무 적용전 테스트 (pilot 포함)',yes
+'학생. JAVA 업무중. JAVA ML 수강 안함. Deeplearning4j (DL4J). 취업(이직)에 유리',yes
+'학생. JAVA 업무 안함. JAVA ML 수강 중. Deeplearning4j (DL4J). 실제 업무적용',yes
+'직장인 (사기업). JAVA 업무 안함. JAVA ML 수강 안함. 파이썬 . 실제 업무적용',no
+'프리렌서. JAVA 업무중. JAVA ML 수강 중. Deeplearning4j (DL4J). 실제 업무적용',yes
+'직장인 (사기업). JAVA 업무 안함. JAVA ML 수강 중. Deeplearning4j (DL4J). 개인적인 관심',yes
+'프리렌서. JAVA 업무중. JAVA ML 수강 중. Deeplearning4j (DL4J). 개인적인 관심',yes
+'프리렌서. JAVA 업무중. JAVA ML 수강 중. Deeplearning4j (DL4J). 실무 적용전 테스트 (pilot 포함)',yes
+'직장인 (사기업). JAVA 업무중. JAVA ML 수강 안함. weka (wekaDeeplearing4j 포함). 실제 업무적용',yes
+'취업준비생. JAVA 업무중. JAVA ML 수강 안함. weka (wekaDeeplearing4j 포함). 실제 업무적용',yes

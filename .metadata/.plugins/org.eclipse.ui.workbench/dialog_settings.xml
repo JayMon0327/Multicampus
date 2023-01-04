@@ -21,6 +21,16 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\a\Desktop\wekaProject22-자바SPRING추천시스템_수업후.zip"/>
+			<item value="C:\Users\a\Desktop\wekaProject2-자바SPRING추천시스템.zip"/>
+			<item value="C:\Users\a\Desktop\wekaProject0-모델불러추천시스템-2.zip"/>
+			<item value="C:\Users\a\Desktop\wekaProject0-모델불러추천시스템-1.zip"/>
+			<item value="C:\Users\a\Desktop\wekaProject0-전처리파일_모델저장+불러오기.zip"/>
+			<item value="C:\Users\a\Desktop\wekaProject0-전처리파일_모델저장/불러오기.zip"/>
+			<item value="C:\Users\a\Desktop\wekaProject0-전처리파일.zip"/>
+			<item value="C:\Users\a\Desktop\wekaProject-이어서할것.zip"/>
+			<item value="C:\Users\a\Desktop\springMongoTemplate-CRUD_.zip"/>
+			<item value="C:\Users\a\Desktop\springMongoJDBC-CRUD_pre.zip"/>
 			<item value="C:\Users\a\Desktop\springMongoJDBC-CRUD.zip"/>
 			<item value="C:\Users\a\Desktop\springMongoJDBC.zip"/>
 			<item value="C:\Users\a\Desktop\spring03-AOP_bbs+member.zip"/>
@@ -31,16 +41,6 @@
 			<item value="C:\Users\a\Desktop\spring03-paging-simpleJSON_Test.zip"/>
 			<item value="C:\Users\a\Desktop\spring03-paging-bbs최종.zip"/>
 			<item value="C:\Users\a\Desktop\spring03-paging-최종전.zip"/>
-			<item value="C:\Users\a\Desktop\spring03-paging-연습중.zip"/>
-			<item value="C:\Users\a\Desktop\spring03-fileupload+연습문제풀이.zip"/>
-			<item value="C:\Users\a\Desktop\spring03-fileupload.zip"/>
-			<item value="C:\Users\a\Desktop\spring03-mybatis-dbproperties.zip"/>
-			<item value="C:\Users\a\Desktop\spring01-중간(book-CRUD).zip"/>
-			<item value="C:\Users\a\Desktop\spring01-중간(bbs-insert+readOne).zip"/>
-			<item value="C:\Users\a\Desktop\spring01-중간(bbs-insert).zip"/>
-			<item value="C:\Users\a\Desktop\spring01-최종(MVC2).zip"/>
-			<item value="C:\Users\a\Desktop\spring01-중간.zip"/>
-			<item value="C:\Users\a\Desktop\spring01.zip"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.preferences.keysPreferencePage">

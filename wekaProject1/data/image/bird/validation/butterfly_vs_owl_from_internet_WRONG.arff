@@ -1,0 +1,24 @@
+@relation butterfly_vs_owl
+@attribute filename string
+@attribute class {검증}
+@data
+검증나비01.jpg,검증
+검증나비02.jpg,검증
+검증나비03.jpg,검증
+검증나비04.jpg,검증
+검증나비05.jpg,검증
+검증나비06.jpg,검증
+검증나비07.jpg,검증
+검증나비08.jpg,검증
+검증나비09.jpg,검증
+검증나비10.jpg,검증
+검증부엉이01.jpg,검증
+검증부엉이02.jpg,검증
+검증부엉이03.jpg,검증
+검증부엉이04.jpg,검증
+검증부엉이05.jpg,검증
+검증부엉이06.jpg,검증
+검증부엉이07.jpg,검증
+검증부엉이08.jpg,검증
+검증부엉이09.jpg,검증
+검증부엉이10.jpg,검증

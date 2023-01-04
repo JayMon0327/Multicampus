@@ -1,0 +1,1324 @@
+@relation 'd-weka.filters.unsupervised.attribute.StringToNominal-R12,14-weka.filters.unsupervised.attribute.NumericToNominal-R1-weka.filters.unsupervised.attribute.RenameAttribute-find([굚s굚S]+)-replace객실등급-R1-weka.filters.unsupervised.attribute.RenameNominalValues-R1-N1:1등급,2:2등급,3:3등급-weka.filters.unsupervised.attribute.RenameNominalValues-R2-N1:구조,0:사망-weka.filters.unsupervised.attribute.Remove-R10,13-14-weka.filters.unsupervised.attribute.Reorder-R1,3-last,2-weka.filters.unsupervised.attribute.StringToNominal-R2,7-weka.filters.unsupervised.attribute.Standardize'
+
+@attribute 객실등급 {1등급,2등급,3등급}
+@attribute 성명 {'Allen, Miss. Elisabeth Walton','Allison, Master. Hudson Trevor','Allison, Miss. Helen Loraine','Allison, Mr. Hudson Joshua Creighton','Allison, Mrs. Hudson J C (Bessie Waldo Daniels)','Anderson, Mr. Harry','Andrews, Miss. Kornelia Theodosia','Andrews, Mr. Thomas Jr','Appleton, Mrs. Edward Dale (Charlotte Lamson)','Artagaveytia, Mr. Ramon','Astor, Col. John Jacob','Astor, Mrs. John Jacob (Madeleine Talmadge Force)','Aubart, Mme. Leontine Pauline','Barber, Miss. Ellen ?Nellie?','Barkworth, Mr. Algernon Henry Wilson','Baumann, Mr. John D','Baxter, Mr. Quigg Edmond','Baxter, Mrs. James (Helene DeLaudeniere Chaput)','Bazzani, Miss. Albina','Beattie, Mr. Thomson','Beckwith, Mr. Richard Leonard','Beckwith, Mrs. Richard Leonard (Sallie Monypeny)','Behr, Mr. Karl Howell','Bidois, Miss. Rosalie','Bird, Miss. Ellen','Birnbaum, Mr. Jakob','Bishop, Mr. Dickinson H','Bishop, Mrs. Dickinson H (Helen Walton)','Bissette, Miss. Amelia','Bjornstrom-Steffansson, Mr. Mauritz Hakan','Blackwell, Mr. Stephen Weart','Blank, Mr. Henry','Bonnell, Miss. Caroline','Bonnell, Miss. Elizabeth','Borebank, Mr. John James','Bowen, Miss. Grace Scott','Bowerman, Miss. Elsie Edith','Bradley, Mr. George (?George Arthur Brayton?)','Brady, Mr. John Bertram','Brandeis, Mr. Emil','Brewe, Dr. Arthur Jackson','Brown, Mrs. James Joseph (Margaret Tobin)','Brown, Mrs. John Murray (Caroline Lane Lamson)','Bucknell, Mrs. William Robert (Emma Eliza Ward)','Burns, Miss. Elizabeth Margaret','Butt, Major. Archibald Willingham','Cairns, Mr. Alexander','Calderhead, Mr. Edward Pennington','Candee, Mrs. Edward (Helen Churchill Hungerford)','Cardeza, Mr. Thomas Drake Martinez','Cardeza, Mrs. James Warburton Martinez (Charlotte Wardle Drake)','Carlsson, Mr. Frans Olof','Carrau, Mr. Francisco M','Carrau, Mr. Jose Pedro','Carter, Master. William Thornton II','Carter, Miss. Lucile Polk','Carter, Mr. William Ernest','Carter, Mrs. William Ernest (Lucile Polk)','Case, Mr. Howard Brown','Cassebeer, Mrs. Henry Arthur Jr (Eleanor Genevieve Fosdick)','Cavendish, Mr. Tyrell William','Cavendish, Mrs. Tyrell William (Julia Florence Siegel)','Chaffee, Mr. Herbert Fuller','Chaffee, Mrs. Herbert Fuller (Carrie Constance Toogood)','Chambers, Mr. Norman Campbell','Chambers, Mrs. Norman Campbell (Bertha Griggs)','Chaudanson, Miss. Victorine','Cherry, Miss. Gladys','Chevre, Mr. Paul Romaine','Chibnall, Mrs. (Edith Martha Bowerman)','Chisholm, Mr. Roderick Robert Crispin','Clark, Mr. Walter Miller','Clark, Mrs. Walter Miller (Virginia McDowell)','Cleaver, Miss. Alice','Clifford, Mr. George Quincy','Colley, Mr. Edward Pomeroy','Compton, Miss. Sara Rebecca','Compton, Mr. Alexander Taylor Jr','Compton, Mrs. Alexander Taylor (Mary Eliza Ingersoll)','Cornell, Mrs. Robert Clifford (Malvina Helen Lamson)','Crafton, Mr. John Bertram','Crosby, Capt. Edward Gifford','Crosby, Miss. Harriet R','Crosby, Mrs. Edward Gifford (Catherine Elizabeth Halstead)','Cumings, Mr. John Bradley','Cumings, Mrs. John Bradley (Florence Briggs Thayer)','Daly, Mr. Peter Denis','Daniel, Mr. Robert Williams','Daniels, Miss. Sarah','Davidson, Mr. Thornton','Davidson, Mrs. Thornton (Orian Hays)','Dick, Mr. Albert Adrian','Dick, Mrs. Albert Adrian (Vera Gillespie)','Dodge, Dr. Washington','Dodge, Master. Washington','Dodge, Mrs. Washington (Ruth Vidaver)','Douglas, Mr. Walter Donald','Douglas, Mrs. Frederick Charles (Mary Helene Baxter)','Douglas, Mrs. Walter Donald (Mahala Dutton)','Duff Gordon, Lady. (Lucille Christiana Sutherland) (?Mrs Morgan?)','Duff Gordon, Sir. Cosmo Edmund (?Mr Morgan?)','Dulles, Mr. William Crothers','Earnshaw, Mrs. Boulton (Olive Potter)','Endres, Miss. Caroline Louise','Eustis, Miss. Elizabeth Mussey','Evans, Miss. Edith Corse','Farthing, Mr. John','Flegenheim, Mrs. Alfred (Antoinette)','Fleming, Miss. Margaret','Flynn, Mr. John Irwin (?Irving?)','Foreman, Mr. Benjamin Laventall','Fortune, Miss. Alice Elizabeth','Fortune, Miss. Ethel Flora','Fortune, Miss. Mabel Helen','Fortune, Mr. Charles Alexander','Fortune, Mr. Mark','Fortune, Mrs. Mark (Mary McDougald)','Francatelli, Miss. Laura Mabel','Franklin, Mr. Thomas Parham','Frauenthal, Dr. Henry William','Frauenthal, Mr. Isaac Gerald','Frauenthal, Mrs. Henry William (Clara Heinsheimer)','Frolicher, Miss. Hedwig Margaritha','Frolicher-Stehli, Mr. Maxmillian','Frolicher-Stehli, Mrs. Maxmillian (Margaretha Emerentia Stehli)','Fry, Mr. Richard','Futrelle, Mr. Jacques Heath','Futrelle, Mrs. Jacques Heath (Lily May Peel)','Gee, Mr. Arthur H','Geiger, Miss. Amalie','Gibson, Miss. Dorothy Winifred','Gibson, Mrs. Leonard (Pauline C Boeson)','Giglio, Mr. Victor','Goldenberg, Mr. Samuel L','Goldenberg, Mrs. Samuel L (Edwiga Grabowska)','Goldschmidt, Mr. George B','Gracie, Col. Archibald IV','Graham, Miss. Margaret Edith','Graham, Mr. George Edward','Graham, Mrs. William Thompson (Edith Junkins)','Greenfield, Mr. William Bertram','Greenfield, Mrs. Leo David (Blanche Strouse)','Guggenheim, Mr. Benjamin','Harder, Mr. George Achilles','Harder, Mrs. George Achilles (Dorothy Annan)','Harper, Mr. Henry Sleeper','Harper, Mrs. Henry Sleeper (Myna Haxtun)','Harrington, Mr. Charles H','Harris, Mr. Henry Birkhardt','Harris, Mrs. Henry Birkhardt (Irene Wallach)','Harrison, Mr. William','Hassab, Mr. Hammad','Hawksford, Mr. Walter James','Hays, Miss. Margaret Bechstein','Hays, Mr. Charles Melville','Hays, Mrs. Charles Melville (Clara Jennings Gregg)','Head, Mr. Christopher','Hilliard, Mr. Herbert Henry','Hipkins, Mr. William Edward','Hippach, Miss. Jean Gertrude','Hippach, Mrs. Louis Albert (Ida Sophia Fischer)','Hogeboom, Mrs. John C (Anna Andrews)','Holverson, Mr. Alexander Oskar','Holverson, Mrs. Alexander Oskar (Mary Aline Towner)','Homer, Mr. Harry (?Mr E Haven?)','Hoyt, Mr. Frederick Maxfield','Hoyt, Mr. William Fisher','Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)','Icard, Miss. Amelie','Isham, Miss. Ann Elizabeth','Ismay, Mr. Joseph Bruce','Jones, Mr. Charles Cresson','Julian, Mr. Henry Forbes','Keeping, Mr. Edwin','Kent, Mr. Edward Austin','Kenyon, Mr. Frederick R','Kenyon, Mrs. Frederick R (Marion)','Kimball, Mr. Edwin Nelson Jr','Kimball, Mrs. Edwin Nelson Jr (Gertrude Parsons)','Klaber, Mr. Herman','Kreuchen, Miss. Emilie','Leader, Dr. Alice (Farnham)','LeRoy, Miss. Bertha','Lesurer, Mr. Gustave J','Lewy, Mr. Ervin G','Lindeberg-Lind, Mr. Erik Gustaf (?Mr Edward Lingrey?)','Lindstrom, Mrs. Carl Johan (Sigrid Posse)','Lines, Miss. Mary Conover','Lines, Mrs. Ernest H (Elizabeth Lindsey James)','Long, Mr. Milton Clyde','Longley, Miss. Gretchen Fiske','Loring, Mr. Joseph Holland','Lurette, Miss. Elise','Madill, Miss. Georgette Alexandra','Maguire, Mr. John Edward','Maioni, Miss. Roberta','Marechal, Mr. Pierre','Marvin, Mr. Daniel Warner','Marvin, Mrs. Daniel Warner (Mary Graham Carmichael Farquarson)','Mayne, Mlle. Berthe Antonine (?Mrs de Villiers?)','McCaffry, Mr. Thomas Francis','McCarthy, Mr. Timothy J','McGough, Mr. James Robert','Meyer, Mr. Edgar Joseph','Meyer, Mrs. Edgar Joseph (Leila Saks)','Millet, Mr. Francis Davis','Minahan, Dr. William Edward','Minahan, Miss. Daisy E','Minahan, Mrs. William Edward (Lillian E Thorpe)','Mock, Mr. Philipp Edmund','Molson, Mr. Harry Markland','Moore, Mr. Clarence Bloomfield','Natsch, Mr. Charles H','Newell, Miss. Madeleine','Newell, Miss. Marjorie','Newell, Mr. Arthur Webster','Newsom, Miss. Helen Monypeny','Nicholson, Mr. Arthur Ernest','Oliva y Ocana, Dona. Fermina','Omont, Mr. Alfred Fernand','Ostby, Miss. Helene Ragnhild','Ostby, Mr. Engelhart Cornelius','Ovies y Rodriguez, Mr. Servando','Parr, Mr. William Henry Marsh','Partner, Mr. Austen','Payne, Mr. Vivian Ponsonby','Pears, Mr. Thomas Clinton','Pears, Mrs. Thomas (Edith Wearne)','Penasco y Castellana, Mr. Victor de Satode','Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)','Perreault, Miss. Anne','Peuchen, Major. Arthur Godfrey','Porter, Mr. Walter Chamberlain','Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)','Reuchlin, Jonkheer. John George','Rheims, Mr. George Alexander Lucien','Ringhini, Mr. Sante','Robbins, Mr. Victor','Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)','Roebling, Mr. Washington Augustus II','Romaine, Mr. Charles Hallace (?Mr C Rolmane?)','Rood, Mr. Hugh Roscoe','Rosenbaum, Miss. Edith Louise','Rosenshine, Mr. George (?Mr George Thorne?)','Ross, Mr. John Hugo','Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)','Rothschild, Mr. Martin','Rothschild, Mrs. Martin (Elizabeth L. Barrett)','Rowe, Mr. Alfred G','Ryerson, Master. John Borie','Ryerson, Miss. Emily Borie','Ryerson, Miss. Susan Parker ?Suzette?','Ryerson, Mr. Arthur Larned','Ryerson, Mrs. Arthur Larned (Emily Maria Borie)','Saalfeld, Mr. Adolphe','Sagesser, Mlle. Emma','Salomon, Mr. Abraham L','Schabert, Mrs. Paul (Emma Mock)','Serepeca, Miss. Augusta','Seward, Mr. Frederic Kimber','Shutes, Miss. Elizabeth W','Silverthorne, Mr. Spencer Victor','Silvey, Mr. William Baird','Silvey, Mrs. William Baird (Alice Munger)','Simonius-Blumer, Col. Oberst Alfons','Sloper, Mr. William Thompson','Smart, Mr. John Montgomery','Smith, Mr. James Clinch','Smith, Mr. Lucien Philip','Smith, Mr. Richard William','Smith, Mrs. Lucien Philip (Mary Eloise Hughes)','Snyder, Mr. John Pillsbury','Snyder, Mrs. John Pillsbury (Nelle Stevenson)','Spedden, Master. Robert Douglas','Spedden, Mr. Frederic Oakley','Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)','Spencer, Mr. William Augustus','Spencer, Mrs. William Augustus (Marie Eugenie)','Stahelin-Maeglin, Dr. Max','Stead, Mr. William Thomas','Stengel, Mr. Charles Emil Henry','Stengel, Mrs. Charles Emil Henry (Annie May Morris)','Stephenson, Mrs. Walter Bertram (Martha Eustis)','Stewart, Mr. Albert A','Stone, Mrs. George Nelson (Martha Evelyn)','Straus, Mr. Isidor','Straus, Mrs. Isidor (Rosalie Ida Blun)','Sutton, Mr. Frederick','Swift, Mrs. Frederick Joel (Margaret Welles Barron)','Taussig, Miss. Ruth','Taussig, Mr. Emil','Taussig, Mrs. Emil (Tillie Mandelbaum)','Taylor, Mr. Elmer Zebley','Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)','Thayer, Mr. John Borland','Thayer, Mr. John Borland Jr','Thayer, Mrs. John Borland (Marian Longstreth Morris)','Thorne, Mrs. Gertrude Maybelle','Tucker, Mr. Gilbert Milligan Jr','Uruchurtu, Don. Manuel E','Van der hoef, Mr. Wyckoff','Walker, Mr. William Anderson','Ward, Miss. Anna','Warren, Mr. Frank Manley','Warren, Mrs. Frank Manley (Anna Sophia Atkinson)','Weir, Col. John','White, Mr. Percival Wayland','White, Mr. Richard Frasar','White, Mrs. John Stuart (Ella Holmes)','Wick, Miss. Mary Natalie','Wick, Mr. George Dennick','Wick, Mrs. George Dennick (Mary Hitchcock)','Widener, Mr. George Dunton','Widener, Mr. Harry Elkins','Widener, Mrs. George Dunton (Eleanor Elkins)','Willard, Miss. Constance','Williams, Mr. Charles Duane','Williams, Mr. Richard Norris II','Williams-Lambert, Mr. Fletcher Fellows','Wilson, Miss. Helen Alice','Woolner, Mr. Hugh','Wright, Mr. George','Young, Miss. Marie Grice','Abelson, Mr. Samuel','Abelson, Mrs. Samuel (Hannah Wizosky)','Aldworth, Mr. Charles Augustus','Andrew, Mr. Edgardo Samuel','Andrew, Mr. Frank Thomas','Angle, Mr. William A','Angle, Mrs. William A (Florence ?Mary? Agnes Hughes)','Ashby, Mr. John','Bailey, Mr. Percy Andrew','Baimbrigge, Mr. Charles Robert','Ball, Mrs. (Ada E Hall)','Banfield, Mr. Frederick James','Bateman, Rev. Robert James','Beane, Mr. Edward','Beane, Mrs. Edward (Ethel Clarke)','Beauchamp, Mr. Henry James','Becker, Master. Richard F','Becker, Miss. Marion Louise','Becker, Miss. Ruth Elizabeth','Becker, Mrs. Allen Oliver (Nellie E Baumgardner)','Beesley, Mr. Lawrence','Bentham, Miss. Lilian W','Berriman, Mr. William John','Botsford, Mr. William Hull','Bowenur, Mr. Solomon','Bracken, Mr. James H','Brown, Miss. Amelia ?Mildred?','Brown, Miss. Edith Eileen','Brown, Mr. Thomas William Solomon','Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)','Bryhl, Miss. Dagmar Jenny Ingeborg','Bryhl, Mr. Kurt Arnold Gottfrid','Buss, Miss. Kate','Butler, Mr. Reginald Fenton','Byles, Rev. Thomas Roussel Davids','Bystrom, Mrs. (Karolina)','Caldwell, Master. Alden Gates','Caldwell, Mr. Albert Francis','Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)','Cameron, Miss. Clear Annie','Campbell, Mr. William','Carbines, Mr. William','Carter, Mrs. Ernest Courtenay (Lilian Hughes)','Carter, Rev. Ernest Courtenay','Chapman, Mr. Charles Henry','Chapman, Mr. John Henry','Chapman, Mrs. John Henry (Sara Elizabeth Lawry)','Christy, Miss. Julie Rachel','Christy, Mrs. (Alice Frances)','Clarke, Mr. Charles Valentine','Clarke, Mrs. Charles V (Ada Maria Winfield)','Coleridge, Mr. Reginald Charles','Collander, Mr. Erik Gustaf','Collett, Mr. Sidney C Stuart','Collyer, Miss. Marjorie ?Lottie?','Collyer, Mr. Harvey','Collyer, Mrs. Harvey (Charlotte Annie Tate)','Cook, Mrs. (Selena Rogers)','Corbett, Mrs. Walter H (Irene Colvin)','Corey, Mrs. Percy C (Mary Phyllis Elizabeth Miller)','Cotterill, Mr. Henry ?Harry?','Cunningham, Mr. Alfred Fleming','Davies, Master. John Morgan Jr','Davies, Mr. Charles Henry','Davies, Mrs. John Morgan (Elizabeth Agnes Mary White)','Davis, Miss. Mary','de Brito, Mr. Jose Joaquim','Deacon, Mr. Percy William','del Carlo, Mr. Sebastiano','del Carlo, Mrs. Sebastiano (Argenia Genovesi)','Denbury, Mr. Herbert','Dibden, Mr. William','Doling, Miss. Elsie','Doling, Mrs. John T (Ada Julia Bone)','Downton, Mr. William James','Drew, Master. Marshall Brines','Drew, Mr. James Vivian','Drew, Mrs. James Vivian (Lulu Thorne Christian)','Duran y More, Miss. Asuncion','Duran y More, Miss. Florentina','Eitemiller, Mr. George Floyd','Enander, Mr. Ingvar','Fahlstrom, Mr. Arne Jonas','Faunthorpe, Mr. Harry','Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)','Fillbrook, Mr. Joseph Charles','Fox, Mr. Stanley Hubert','Frost, Mr. Anthony Wood ?Archie?','Funk, Miss. Annie Clemmer','Fynney, Mr. Joseph J','Gale, Mr. Harry','Gale, Mr. Shadrach','Garside, Miss. Ethel','Gaskell, Mr. Alfred','Gavey, Mr. Lawrence','Gilbert, Mr. William','Giles, Mr. Edgar','Giles, Mr. Frederick Edward','Giles, Mr. Ralph','Gill, Mr. John William','Gillespie, Mr. William Henry','Givard, Mr. Hans Kristensen','Greenberg, Mr. Samuel','Hale, Mr. Reginald','Hamalainen, Master. Viljo','Hamalainen, Mrs. William (Anna)','Harbeck, Mr. William H','Harper, Miss. Annie Jessie ?Nina?','Harper, Rev. John','Harris, Mr. George','Harris, Mr. Walter','Hart, Miss. Eva Miriam','Hart, Mr. Benjamin','Hart, Mrs. Benjamin (Esther Ada Bloomfield)','Herman, Miss. Alice','Herman, Miss. Kate','Herman, Mr. Samuel','Herman, Mrs. Samuel (Jane Laver)','Hewlett, Mrs. (Mary D Kingcome)','Hickman, Mr. Leonard Mark','Hickman, Mr. Lewis','Hickman, Mr. Stanley George','Hiltunen, Miss. Marta','Hocking, Miss. Ellen ?Nellie?','Hocking, Mr. Richard George','Hocking, Mr. Samuel James Metcalfe','Hocking, Mrs. Elizabeth (Eliza Needs)','Hodges, Mr. Henry Price','Hold, Mr. Stephen','Hold, Mrs. Stephen (Annie Margaret Hill)','Hood, Mr. Ambrose Jr','Hosono, Mr. Masabumi','Howard, Mr. Benjamin','Howard, Mrs. Benjamin (Ellen Truelove Arman)','Hunt, Mr. George Henry','Ilett, Miss. Bertha','Jacobsohn, Mr. Sidney Samuel','Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)','Jarvis, Mr. John Denzil','Jefferys, Mr. Clifford Thomas','Jefferys, Mr. Ernest Wilfred','Jenkin, Mr. Stephen Curnow','Jerwan, Mrs. Amin S (Marie Marthe Thuillard)','Kantor, Mr. Sinai','Kantor, Mrs. Sinai (Miriam Sternin)','Karnes, Mrs. J Frank (Claire Bennett)','Keane, Miss. Nora A','Keane, Mr. Daniel','Kelly, Mrs. Florence ?Fannie?','Kirkland, Rev. Charles Leonard','Knight, Mr. Robert J','Kvillner, Mr. Johan Henrik Johannesson','Lahtinen, Mrs. William (Anna Sylfven)','Lahtinen, Rev. William','Lamb, Mr. John Joseph','Laroche, Miss. Louise','Laroche, Miss. Simonne Marie Anne Andree','Laroche, Mr. Joseph Philippe Lemercier','Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)','Lehmann, Miss. Bertha','Leitch, Miss. Jessie Wills','Lemore, Mrs. (Amelia Milley)','Levy, Mr. Rene Jacques','Leyson, Mr. Robert William Norman','Lingane, Mr. John','Louch, Mr. Charles Alexander','Louch, Mrs. Charles Alexander (Alice Adelaide Slow)','Mack, Mrs. (Mary)','Malachard, Mr. Noel','Mallet, Master. Andre','Mallet, Mr. Albert','Mallet, Mrs. Albert (Antoinette Magnin)','Mangiavacchi, Mr. Serafino Emilio','Matthews, Mr. William John','Maybery, Mr. Frank Hubert','McCrae, Mr. Arthur Gordon','McCrie, Mr. James Matthew','McKane, Mr. Peter David','Mellinger, Miss. Madeleine Violet','Mellinger, Mrs. (Elizabeth Anne Maidment)','Mellors, Mr. William John','Meyer, Mr. August','Milling, Mr. Jacob Christian','Mitchell, Mr. Henry Michael','Montvila, Rev. Juozas','Moraweck, Dr. Ernest','Morley, Mr. Henry Samuel (?Mr Henry Marshall?)','Mudd, Mr. Thomas Charles','Myles, Mr. Thomas Francis','Nasser, Mr. Nicholas','Nasser, Mrs. Nicholas (Adele Achem)','Navratil, Master. Edmond Roger','Navratil, Master. Michel M','Navratil, Mr. Michel (?Louis M Hoffman?)','Nesson, Mr. Israel','Nicholls, Mr. Joseph Charles','Norman, Mr. Robert Douglas','Nourney, Mr. Alfred (?Baron von Drachstedt?)','Nye, Mrs. (Elizabeth Ramell)','Otter, Mr. Richard','Oxenham, Mr. Percy Thomas','Padro y Manent, Mr. Julian','Pain, Dr. Alfred','Pallas y Castello, Mr. Emilio','Parker, Mr. Clifford Richard','Parkes, Mr. Francis ?Frank?','Parrish, Mrs. (Lutie Davis)','Pengelly, Mr. Frederick William','Pernot, Mr. Rene','Peruschitz, Rev. Joseph Maria','Phillips, Miss. Alice Frances Louisa','Phillips, Miss. Kate Florence (?Mrs Kate Louise Phillips Marshall?)','Phillips, Mr. Escott Robert','Pinsky, Mrs. (Rosa)','Ponesell, Mr. Martin','Portaluppi, Mr. Emilio Ilario Giuseppe','Pulbaum, Mr. Franz','Quick, Miss. Phyllis May','Quick, Miss. Winifred Vera','Quick, Mrs. Frederick Charles (Jane Richards)','Reeves, Mr. David','Renouf, Mr. Peter Henry','Renouf, Mrs. Peter Henry (Lillian Jefferys)','Reynaldo, Ms. Encarnacion','Richard, Mr. Emile','Richards, Master. George Sibley','Richards, Master. William Rowe','Richards, Mrs. Sidney (Emily Hocking)','Ridsdale, Miss. Lucy','Rogers, Mr. Reginald Harry','Rugg, Miss. Emily','Schmidt, Mr. August','Sedgwick, Mr. Charles Frederick Waddington','Sharp, Mr. Percival James R','Shelley, Mrs. William (Imanita Parrish Hall)','Silven, Miss. Lyyli Karoliina','Sincock, Miss. Maude','Sinkkonen, Miss. Anna','Sjostedt, Mr. Ernst Adolf','Slayter, Miss. Hilda Mary','Slemen, Mr. Richard James','Smith, Miss. Marion Elsie','Sobey, Mr. Samuel James Hayden','Stanton, Mr. Samuel Ward','Stokes, Mr. Philip Joseph','Swane, Mr. George','Sweet, Mr. George Frederick','Toomey, Miss. Ellen','Troupiansky, Mr. Moses Aaron','Trout, Mrs. William H (Jessie L)','Troutt, Miss. Edwina Celia ?Winnie?','Turpin, Mr. William John Robert','Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)','Veal, Mr. James','Walcroft, Miss. Nellie','Ware, Mr. John James','Ware, Mr. William Jeffery','Ware, Mrs. John James (Florence Louise Long)','Watson, Mr. Ennis Hastings','Watt, Miss. Bertha J','Watt, Mrs. James (Elizabeth ?Bessie? Inglis Milne)','Webber, Miss. Susan','Weisz, Mr. Leopold','Weisz, Mrs. Leopold (Mathilde Francoise Pede)','Wells, Master. Ralph Lester','Wells, Miss. Joan','Wells, Mrs. Arthur Henry (?Addie? Dart Trevaskis)','West, Miss. Barbara J','West, Miss. Constance Mirium','West, Mr. Edwy Arthur','West, Mrs. Edwy Arthur (Ada Mary Worth)','Wheadon, Mr. Edward H','Wheeler, Mr. Edwin ?Frederick?','Wilhelms, Mr. Charles','Williams, Mr. Charles Eugene','Wright, Miss. Marion','Yrois, Miss. Henriette (?Mrs Harbeck?)','Abbing, Mr. Anthony','Abbott, Master. Eugene Joseph','Abbott, Mr. Rossmore Edward','Abbott, Mrs. Stanton (Rosa Hunt)','Abelseth, Miss. Karen Marie','Abelseth, Mr. Olaus Jorgensen','Abrahamsson, Mr. Abraham August Johannes','Abrahim, Mrs. Joseph (Sophie Halaut Easu)','Adahl, Mr. Mauritz Nils Martin','Adams, Mr. John','Ahlin, Mrs. Johan (Johanna Persdotter Larsson)','Aks, Master. Philip Frank','Aks, Mrs. Sam (Leah Rosen)','Albimona, Mr. Nassef Cassem','Alexander, Mr. William','Alhomaki, Mr. Ilmari Rudolf','Ali, Mr. Ahmed','Ali, Mr. William','Allen, Mr. William Henry','Allum, Mr. Owen George','Andersen, Mr. Albert Karvin','Andersen-Jensen, Miss. Carla Christine Nielsine','Andersson, Master. Sigvard Harald Elias','Andersson, Miss. Ebba Iris Alfrida','Andersson, Miss. Ellis Anna Maria','Andersson, Miss. Erna Alexandra','Andersson, Miss. Ida Augusta Margareta','Andersson, Miss. Ingeborg Constanzia','Andersson, Miss. Sigrid Elisabeth','Andersson, Mr. Anders Johan','Andersson, Mr. August Edvard (?Wennerstrom?)','Andersson, Mr. Johan Samuel','Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)','Andreasson, Mr. Paul Edvin','Angheloff, Mr. Minko','Arnold-Franchi, Mr. Josef','Arnold-Franchi, Mrs. Josef (Josefine Franchi)','Aronsson, Mr. Ernst Axel Algot','Asim, Mr. Adola','Asplund, Master. Carl Edgar','Asplund, Master. Clarence Gustaf Hugo','Asplund, Master. Edvin Rojj Felix','Asplund, Master. Filip Oscar','Asplund, Miss. Lillian Gertrud','Asplund, Mr. Carl Oscar Vilhelm Gustafsson','Asplund, Mr. Johan Charles','Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)','Assaf Khalil, Mrs. Mariana (?Miriam?)','Assaf, Mr. Gerios','Assam, Mr. Ali','Attalah, Miss. Malake','Attalah, Mr. Sleiman','Augustsson, Mr. Albert','Ayoub, Miss. Banoura','Baccos, Mr. Raffull','Backstrom, Mr. Karl Alfred','Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)','Baclini, Miss. Eugenie','Baclini, Miss. Helene Barbara','Baclini, Miss. Marie Catherine','Baclini, Mrs. Solomon (Latifa Qurban)','Badman, Miss. Emily Louisa','Badt, Mr. Mohamed','Balkic, Mr. Cerin','Barah, Mr. Hanna Assi','Barbara, Miss. Saiide','Barbara, Mrs. (Catherine David)','Barry, Miss. Julia','Barton, Mr. David John','Beavan, Mr. William Thomas','Bengtsson, Mr. John Viktor','Berglund, Mr. Karl Ivar Sven','Betros, Master. Seman','Betros, Mr. Tannous','Bing, Mr. Lee','Birkeland, Mr. Hans Martin Monsen','Bjorklund, Mr. Ernst Herbert','Bostandyeff, Mr. Guentcho','Boulos, Master. Akar','Boulos, Miss. Nourelain','Boulos, Mr. Hanna','Boulos, Mrs. Joseph (Sultana)','Bourke, Miss. Mary','Bourke, Mr. John','Bourke, Mrs. John (Catherine)','Bowen, Mr. David John ?Dai?','Bradley, Miss. Bridget Delia','Braf, Miss. Elin Ester Maria','Braund, Mr. Lewis Richard','Braund, Mr. Owen Harris','Brobeck, Mr. Karl Rudolf','Brocklebank, Mr. William Alfred','Buckley, Miss. Katherine','Buckley, Mr. Daniel','Burke, Mr. Jeremiah','Burns, Miss. Mary Delia','Cacic, Miss. Manda','Cacic, Miss. Marija','Cacic, Mr. Jego Grga','Cacic, Mr. Luka','Calic, Mr. Jovo','Calic, Mr. Petar','Canavan, Miss. Mary','Canavan, Mr. Patrick','Cann, Mr. Ernest Charles','Caram, Mr. Joseph','Caram, Mrs. Joseph (Maria Elias)','Carlsson, Mr. August Sigfrid','Carlsson, Mr. Carl Robert','Carr, Miss. Helen ?Ellen?','Carr, Miss. Jeannie','Carver, Mr. Alfred John','Celotti, Mr. Francesco','Charters, Mr. David','Chip, Mr. Chang','Christmann, Mr. Emil','Chronopoulos, Mr. Apostolos','Chronopoulos, Mr. Demetrios','Coelho, Mr. Domingos Fernandeo','Cohen, Mr. Gurshon ?Gus?','Colbert, Mr. Patrick','Coleff, Mr. Peju','Coleff, Mr. Satio','Conlon, Mr. Thomas Henry','Connaghton, Mr. Michael','Connolly, Miss. Kate','Connors, Mr. Patrick','Cook, Mr. Jacob','Cor, Mr. Bartol','Cor, Mr. Ivan','Cor, Mr. Liudevit','Corn, Mr. Harry','Coutts, Master. Eden Leslie ?Neville?','Coutts, Master. William Loch ?William?','Coutts, Mrs. William (Winnie ?Minnie? Treanor)','Coxon, Mr. Daniel','Crease, Mr. Ernest James','Cribb, Miss. Laura Alice','Cribb, Mr. John Hatfield','Culumovic, Mr. Jeso','Daher, Mr. Shedid','Dahl, Mr. Karl Edwart','Dahlberg, Miss. Gerda Ulrika','Dakic, Mr. Branko','Daly, Miss. Margaret Marcella ?Maggie?','Daly, Mr. Eugene Patrick','Danbom, Master. Gilbert Sigvard Emanuel','Danbom, Mr. Ernst Gilbert','Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)','Danoff, Mr. Yoto','Dantcheff, Mr. Ristiu','Davies, Mr. Alfred J','Davies, Mr. Evan','Davies, Mr. John Samuel','Davies, Mr. Joseph','Davison, Mr. Thomas Henry','Davison, Mrs. Thomas Henry (Mary E Finck)','de Messemaeker, Mr. Guillaume Joseph','de Messemaeker, Mrs. Guillaume Joseph (Emma)','de Mulder, Mr. Theodore','de Pelsmaeker, Mr. Alfons','Dean, Master. Bertram Vere','Dean, Miss. Elizabeth Gladys ?Millvina?','Dean, Mr. Bertram Frank','Dean, Mrs. Bertram (Eva Georgetta Light)','Delalic, Mr. Redjo','Demetri, Mr. Marinko','Denkoff, Mr. Mitto','Dennis, Mr. Samuel','Dennis, Mr. William','Devaney, Miss. Margaret Delia','Dika, Mr. Mirko','Dimic, Mr. Jovan','Dintcheff, Mr. Valtcho','Doharr, Mr. Tannous','Dooley, Mr. Patrick','Dorking, Mr. Edward Arthur','Dowdell, Miss. Elizabeth','Doyle, Miss. Elizabeth','Drapkin, Miss. Jennie','Drazenoic, Mr. Jozef','Duane, Mr. Frank','Duquemin, Mr. Joseph','Dyker, Mr. Adolf Fredrik','Dyker, Mrs. Adolf Fredrik (Anna Elisabeth Judith Andersson)','Edvardsson, Mr. Gustaf Hjalmar','Eklund, Mr. Hans Linus','Ekstrom, Mr. Johan','Elias, Mr. Dibo','Elias, Mr. Joseph','Elias, Mr. Joseph Jr','Elias, Mr. Tannous','Elsbury, Mr. William James','Emanuel, Miss. Virginia Ethel','Emir, Mr. Farred Chehab','Everett, Mr. Thomas James','Farrell, Mr. James','Finoli, Mr. Luigi','Fischer, Mr. Eberhard Thelander','Fleming, Miss. Honora','Flynn, Mr. James','Flynn, Mr. John','Foley, Mr. Joseph','Foley, Mr. William','Foo, Mr. Choong','Ford, Miss. Doolina Margaret ?Daisy?','Ford, Miss. Robina Maggie ?Ruby?','Ford, Mr. Arthur','Ford, Mr. Edward Watson','Ford, Mr. William Neal','Ford, Mrs. Edward (Margaret Ann Watson)','Fox, Mr. Patrick','Franklin, Mr. Charles (Charles Fardon)','Gallagher, Mr. Martin','Garfirth, Mr. John','Gheorgheff, Mr. Stanio','Gilinski, Mr. Eliezer','Gilnagh, Miss. Katherine ?Katie?','Glynn, Miss. Mary Agatha','Goldsmith, Master. Frank John William ?Frankie?','Goldsmith, Mr. Frank John','Goldsmith, Mr. Nathan','Goldsmith, Mrs. Frank John (Emily Alice Brown)','Goncalves, Mr. Manuel Estanslas','Goodwin, Master. Harold Victor','Goodwin, Master. Sidney Leonard','Goodwin, Master. William Frederick','Goodwin, Miss. Jessie Allis','Goodwin, Miss. Lillian Amy','Goodwin, Mr. Charles Edward','Goodwin, Mr. Charles Frederick','Goodwin, Mrs. Frederick (Augusta Tyler)','Green, Mr. George Henry','Gronnestad, Mr. Daniel Danielsen','Guest, Mr. Robert','Gustafsson, Mr. Alfred Ossian','Gustafsson, Mr. Anders Vilhelm','Gustafsson, Mr. Johan Birger','Gustafsson, Mr. Karl Gideon','Haas, Miss. Aloisia','Hagardon, Miss. Kate','Hagland, Mr. Ingvald Olai Olsen','Hagland, Mr. Konrad Mathias Reiersen','Hakkarainen, Mr. Pekka Pietari','Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)','Hampe, Mr. Leon','Hanna, Mr. Mansour','Hansen, Mr. Claus Peter','Hansen, Mr. Henrik Juul','Hansen, Mr. Henry Damsgaard','Hansen, Mrs. Claus Peter (Jennie L Howard)','Harknett, Miss. Alice Phoebe','Harmer, Mr. Abraham (David Lishin)','Hart, Mr. Henry','Hassan, Mr. Houssein G N','Healy, Miss. Hanora ?Nora?','Hedman, Mr. Oskar Arvid','Hee, Mr. Ling','Hegarty, Miss. Hanora ?Nora?','Heikkinen, Miss. Laina','Heininen, Miss. Wendla Maria','Hellstrom, Miss. Hilda Maria','Hendekovic, Mr. Ignjac','Henriksson, Miss. Jenny Lovisa','Henry, Miss. Delia','Hirvonen, Miss. Hildur E','Hirvonen, Mrs. Alexander (Helga E Lindqvist)','Holm, Mr. John Fredrik Alexander','Holthen, Mr. Johan Martin','Honkanen, Miss. Eliina','Horgan, Mr. John','Howard, Miss. May Elizabeth','Humblen, Mr. Adolf Mathias Nicolai Olsen','Hyman, Mr. Abraham','Ibrahim Shawah, Mr. Yousseff','Ilieff, Mr. Ylio','Ilmakangas, Miss. Ida Livija','Ilmakangas, Miss. Pieta Sofia','Ivanoff, Mr. Kanio','Jalsevac, Mr. Ivan','Jansson, Mr. Carl Olof','Jardin, Mr. Jose Neto','Jensen, Mr. Hans Peder','Jensen, Mr. Niels Peder','Jensen, Mr. Svend Lauritz','Jermyn, Miss. Annie','Johannesen-Bratthammer, Mr. Bernt','Johanson, Mr. Jakob Alfred','Johansson Palmquist, Mr. Oskar Leander','Johansson, Mr. Erik','Johansson, Mr. Gustaf Joel','Johansson, Mr. Karl Johan','Johansson, Mr. Nils','Johnson, Master. Harold Theodor','Johnson, Miss. Eleanor Ileen','Johnson, Mr. Alfred','Johnson, Mr. Malkolm Joackim','Johnson, Mr. William Cahoone Jr','Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)','Johnston, Master. William Arthur ?Willie?','Johnston, Miss. Catherine Helen ?Carrie?','Johnston, Mr. Andrew G','Johnston, Mrs. Andrew G (Elizabeth ?Lily? Watson)','Jonkoff, Mr. Lalio','Jonsson, Mr. Carl','Jonsson, Mr. Nils Hilding','Jussila, Miss. Katriina','Jussila, Miss. Mari Aina','Jussila, Mr. Eiriik','Kallio, Mr. Nikolai Erland','Kalvik, Mr. Johannes Halvorsen','Karaic, Mr. Milan','Karlsson, Mr. Einar Gervasius','Karlsson, Mr. Julius Konrad Eugen','Karlsson, Mr. Nils August','Karun, Miss. Manca','Karun, Mr. Franz','Kassem, Mr. Fared','Katavelas, Mr. Vassilios (?Catavelas Vassilios?)','Keane, Mr. Andrew ?Andy?','Keefe, Mr. Arthur','Kelly, Miss. Anna Katherine ?Annie Kate?','Kelly, Miss. Mary','Kelly, Mr. James','Kennedy, Mr. John','Khalil, Mr. Betros','Khalil, Mrs. Betros (Zahie ?Maria? Elias)','Kiernan, Mr. John','Kiernan, Mr. Philip','Kilgannon, Mr. Thomas J','Kink, Miss. Maria','Kink, Mr. Vincenz','Kink-Heilmann, Miss. Luise Gretchen','Kink-Heilmann, Mr. Anton','Kink-Heilmann, Mrs. Anton (Luise Heilmann)','Klasen, Miss. Gertrud Emilia','Klasen, Mr. Klas Albin','Klasen, Mrs. (Hulda Kristina Eugenia Lofqvist)','Kraeff, Mr. Theodor','Krekorian, Mr. Neshan','Lahoud, Mr. Sarkis','Laitinen, Miss. Kristina Sofia','Laleff, Mr. Kristo','Lam, Mr. Ali','Lam, Mr. Len','Landergren, Miss. Aurora Adelia','Lane, Mr. Patrick','Lang, Mr. Fang','Larsson, Mr. August Viktor','Larsson, Mr. Bengt Edvin','Larsson-Rondberg, Mr. Edvard A','Leeni, Mr. Fahim (?Philip Zenni?)','Lefebre, Master. Henry Forbes','Lefebre, Miss. Ida','Lefebre, Miss. Jeannie','Lefebre, Miss. Mathilde','Lefebre, Mrs. Frank (Frances)','Leinonen, Mr. Antti Gustaf','Lemberopolous, Mr. Peter L','Lennon, Miss. Mary','Lennon, Mr. Denis','Leonard, Mr. Lionel','Lester, Mr. James','Lievens, Mr. Rene Aime','Lindahl, Miss. Agda Thorilda Viktoria','Lindblom, Miss. Augusta Charlotta','Lindell, Mr. Edvard Bengtsson','Lindell, Mrs. Edvard Bengtsson (Elin Gerda Persson)','Lindqvist, Mr. Eino William','Linehan, Mr. Michael','Ling, Mr. Lee','Lithman, Mr. Simon','Lobb, Mr. William Arthur','Lobb, Mrs. William Arthur (Cordelia K Stanlick)','Lockyer, Mr. Edward','Lovell, Mr. John Hall (?Henry?)','Lulic, Mr. Nikola','Lundahl, Mr. Johan Svensson','Lundin, Miss. Olga Elida','Lundstrom, Mr. Thure Edvin','Lyntakoff, Mr. Stanko','MacKay, Mr. George William','Madigan, Miss. Margaret ?Maggie?','Madsen, Mr. Fridtjof Arne','Maenpaa, Mr. Matti Alexanteri','Mahon, Miss. Bridget Delia','Mahon, Mr. John','Maisner, Mr. Simon','Makinen, Mr. Kalle Edvard','Mamee, Mr. Hanna','Mangan, Miss. Mary','Mannion, Miss. Margareth','Mardirosian, Mr. Sarkis','Markoff, Mr. Marin','Markun, Mr. Johann','Masselmani, Mrs. Fatima','Matinoff, Mr. Nicola','McCarthy, Miss. Catherine ?Katie?','McCormack, Mr. Thomas Joseph','McCoy, Miss. Agnes','McCoy, Miss. Alicia','McCoy, Mr. Bernard','McDermott, Miss. Brigdet Delia','McEvoy, Mr. Michael','McGovern, Miss. Mary','McGowan, Miss. Anna ?Annie?','McGowan, Miss. Katherine','McMahon, Mr. Martin','McNamee, Mr. Neal','McNamee, Mrs. Neal (Eileen O?Leary)','McNeill, Miss. Bridget','Meanwell, Miss. (Marion Ogden)','Meek, Mrs. Thomas (Annie Louise Rowley)','Meo, Mr. Alfonzo','Mernagh, Mr. Robert','Midtsjo, Mr. Karl Albert','Miles, Mr. Frank','Mineff, Mr. Ivan','Minkoff, Mr. Lazar','Mionoff, Mr. Stoytcho','Mitkoff, Mr. Mito','Mockler, Miss. Helen Mary ?Ellie?','Moen, Mr. Sigurd Hansen','Moor, Master. Meier','Moor, Mrs. (Beila)','Moore, Mr. Leonard Charles','Moran, Miss. Bertha','Moran, Mr. Daniel J','Moran, Mr. James','Morley, Mr. William','Morrow, Mr. Thomas Rowan','Moss, Mr. Albert Johan','Moubarek, Master. Gerios','Moubarek, Master. Halim Gonios (?William George?)','Moubarek, Mrs. George (Omine ?Amenia? Alexander)','Moussa, Mrs. (Mantoura Boulos)','Moutal, Mr. Rahamin Haim','Mullens, Miss. Katherine ?Katie?','Mulvihill, Miss. Bertha E','Murdlin, Mr. Joseph','Murphy, Miss. Katherine ?Kate?','Murphy, Miss. Margaret Jane','Murphy, Miss. Nora','Myhrman, Mr. Pehr Fabian Oliver Malkolm','Naidenoff, Mr. Penko','Najib, Miss. Adele Kiamie ?Jane?','Nakid, Miss. Maria (?Mary?)','Nakid, Mr. Sahid','Nakid, Mrs. Said (Waika ?Mary? Mowad)','Nancarrow, Mr. William Henry','Nankoff, Mr. Minko','Nasr, Mr. Mustafa','Naughton, Miss. Hannah','Nenkoff, Mr. Christo','Nicola-Yarred, Master. Elias','Nicola-Yarred, Miss. Jamila','Nieminen, Miss. Manta Josefina','Niklasson, Mr. Samuel','Nilsson, Miss. Berta Olivia','Nilsson, Miss. Helmina Josefina','Nilsson, Mr. August Ferdinand','Nirva, Mr. Iisakki Antino Aijo','Niskanen, Mr. Juha','Nosworthy, Mr. Richard Cater','Novel, Mr. Mansouer','Nysten, Miss. Anna Sofia','Nysveen, Mr. Johan Hansen','O?Brien, Mr. Thomas','O?Brien, Mr. Timothy','O?Brien, Mrs. Thomas (Johanna ?Hannah? Godfrey)','O?Connell, Mr. Patrick D','O?Connor, Mr. Maurice','O?Connor, Mr. Patrick','Odahl, Mr. Nils Martin','O?Donoghue, Ms. Bridget','O?Driscoll, Miss. Bridget','O?Dwyer, Miss. Ellen ?Nellie?','Ohman, Miss. Velin','O?Keefe, Mr. Patrick','O?Leary, Miss. Hanora ?Norah?','Olsen, Master. Artur Karl','Olsen, Mr. Henry Margido','Olsen, Mr. Karl Siegwart Andreas','Olsen, Mr. Ole Martin','Olsson, Miss. Elina','Olsson, Mr. Nils Johan Goransson','Olsson, Mr. Oscar Wilhelm','Olsvigen, Mr. Thor Anderson','Oreskovic, Miss. Jelka','Oreskovic, Miss. Marija','Oreskovic, Mr. Luka','Osen, Mr. Olaf Elon','Osman, Mrs. Mara','O?Sullivan, Miss. Bridget Mary','Palsson, Master. Gosta Leonard','Palsson, Master. Paul Folke','Palsson, Miss. Stina Viola','Palsson, Miss. Torborg Danira','Palsson, Mrs. Nils (Alma Cornelia Berglund)','Panula, Master. Eino Viljami','Panula, Master. Juha Niilo','Panula, Master. Urho Abraham','Panula, Mr. Ernesti Arvid','Panula, Mr. Jaako Arnold','Panula, Mrs. Juha (Maria Emilia Ojala)','Pasic, Mr. Jakob','Patchett, Mr. George','Paulner, Mr. Uscher','Pavlovic, Mr. Stefo','Peacock, Master. Alfred Edward','Peacock, Miss. Treasteall','Peacock, Mrs. Benjamin (Edith Nile)','Pearce, Mr. Ernest','Pedersen, Mr. Olaf','Peduzzi, Mr. Joseph','Pekoniemi, Mr. Edvard','Peltomaki, Mr. Nikolai Johannes','Perkin, Mr. John Henry','Persson, Mr. Ernst Ulrik','Peter, Master. Michael J','Peter, Miss. Anna','Peter, Mrs. Catherine (Catherine Rizk)','Peters, Miss. Katie','Petersen, Mr. Marius','Petranec, Miss. Matilda','Petroff, Mr. Nedelio','Petroff, Mr. Pastcho (?Pentcho?)','Petterson, Mr. Johan Emil','Pettersson, Miss. Ellen Natalia','Pickard, Mr. Berk (Berk Trembisky)','Plotcharsky, Mr. Vasil','Pokrnic, Mr. Mate','Pokrnic, Mr. Tome','Radeff, Mr. Alexander','Rasmussen, Mrs. (Lena Jacobsen Solvang)','Razi, Mr. Raihed','Reed, Mr. James George','Rekic, Mr. Tido','Reynolds, Mr. Harold J','Rice, Master. Albert','Rice, Master. Arthur','Rice, Master. Eric','Rice, Master. Eugene','Rice, Master. George Hugh','Rice, Mrs. William (Margaret Norton)','Riihivouri, Miss. Susanna Juhantytar ?Sanni?','Rintamaki, Mr. Matti','Riordan, Miss. Johanna ?Hannah?','Risien, Mr. Samuel Beard','Risien, Mrs. Samuel (Emma)','Robins, Mr. Alexander A','Robins, Mrs. Alexander A (Grace Charity Laury)','Rogers, Mr. William John','Rommetvedt, Mr. Knud Paust','Rosblom, Miss. Salli Helena','Rosblom, Mr. Viktor Richard','Rosblom, Mrs. Viktor (Helena Wilhelmina)','Roth, Miss. Sarah A','Rouse, Mr. Richard Henry','Rush, Mr. Alfred George John','Ryan, Mr. Edward','Ryan, Mr. Patrick','Saad, Mr. Amin','Saad, Mr. Khalil','Saade, Mr. Jean Nassr','Sadlier, Mr. Matthew','Sadowitz, Mr. Harry','Saether, Mr. Simon Sivertsen','Sage, Master. Thomas Henry','Sage, Master. William Henry','Sage, Miss. Ada','Sage, Miss. Constance Gladys','Sage, Miss. Dorothy Edith ?Dolly?','Sage, Miss. Stella Anna','Sage, Mr. Douglas Bullen','Sage, Mr. Frederick','Sage, Mr. George John Jr','Sage, Mr. John George','Sage, Mrs. John (Annie Bullen)','Salander, Mr. Karl Johan','Salkjelsvik, Miss. Anna Kristine','Salonen, Mr. Johan Werner','Samaan, Mr. Elias','Samaan, Mr. Hanna','Samaan, Mr. Youssef','Sandstrom, Miss. Beatrice Irene','Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)','Sandstrom, Miss. Marguerite Rut','Sap, Mr. Julius','Saundercock, Mr. William Henry','Sawyer, Mr. Frederick Charles','Scanlan, Mr. James','Sdycoff, Mr. Todor','Shaughnessy, Mr. Patrick','Sheerlinck, Mr. Jan Baptist','Shellard, Mr. Frederick William','Shine, Miss. Ellen Natalia','Shorney, Mr. Charles Joseph','Simmons, Mr. John','Sirayanian, Mr. Orsen','Sirota, Mr. Maurice','Sivic, Mr. Husein','Sivola, Mr. Antti Wilhelm','Sjoblom, Miss. Anna Sofia','Skoog, Master. Harald','Skoog, Master. Karl Thorsten','Skoog, Miss. Mabel','Skoog, Miss. Margit Elizabeth','Skoog, Mr. Wilhelm','Skoog, Mrs. William (Anna Bernhardina Karlsson)','Slabenoff, Mr. Petco','Slocovski, Mr. Selman Francis','Smiljanic, Mr. Mile','Smith, Mr. Thomas','Smyth, Miss. Julia','Soholt, Mr. Peter Andreas Lauritz Andersen','Somerton, Mr. Francis William','Spector, Mr. Woolf','Spinner, Mr. Henry John','Staneff, Mr. Ivan','Stankovic, Mr. Ivan','Stanley, Miss. Amy Zillah Elsie','Stanley, Mr. Edward Roland','Storey, Mr. Thomas','Stoytcheff, Mr. Ilia','Strandberg, Miss. Ida Sofia','Stranden, Mr. Juho','Strilic, Mr. Ivan','Strom, Miss. Telma Matilda','Strom, Mrs. Wilhelm (Elna Matilda Persson)','Sunderland, Mr. Victor Francis','Sundman, Mr. Johan Julian','Sutehall, Mr. Henry Jr','Svensson, Mr. Johan','Svensson, Mr. Johan Cervin','Svensson, Mr. Olof','Tenglin, Mr. Gunnar Isidor','Theobald, Mr. Thomas Leonard','Thomas, Master. Assad Alexander','Thomas, Mr. Charles P','Thomas, Mr. John','Thomas, Mr. Tannous','Thomas, Mrs. Alexander (Thamine ?Thelma?)','Thomson, Mr. Alexander Morrison','Thorneycroft, Mr. Percival','Thorneycroft, Mrs. Percival (Florence Kate White)','Tikkanen, Mr. Juho','Tobin, Mr. Roger','Todoroff, Mr. Lalio','Tomlin, Mr. Ernest Portage','Torber, Mr. Ernst William','Torfa, Mr. Assad','Tornquist, Mr. William Henry','Toufik, Mr. Nakli','Touma, Master. Georges Youssef','Touma, Miss. Maria Youssef','Touma, Mrs. Darwis (Hanne Youssef Razi)','Turcin, Mr. Stjepan','Turja, Miss. Anna Sofia','Turkula, Mrs. (Hedwig)','van Billiard, Master. James William','van Billiard, Master. Walter John','van Billiard, Mr. Austin Blyler','Van Impe, Miss. Catharina','Van Impe, Mr. Jean Baptiste','Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)','van Melkebeke, Mr. Philemon','Vande Velde, Mr. Johannes Joseph','Vande Walle, Mr. Nestor Cyriel','Vanden Steen, Mr. Leo Peter','Vander Cruyssen, Mr. Victor','Vander Planke, Miss. Augusta Maria','Vander Planke, Mr. Julius','Vander Planke, Mr. Leo Edmondus','Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)','Vartanian, Mr. David','Vendel, Mr. Olof Edvin','Vestrom, Miss. Hulda Amanda Adolfina','Vovk, Mr. Janko','Waelens, Mr. Achille','Ware, Mr. Frederick','Warren, Mr. Charles William','Webber, Mr. James','Wenzel, Mr. Linhart','Whabee, Mrs. George Joseph (Shawneene Abi-Saab)','Widegren, Mr. Carl/Charles Peter','Wiklund, Mr. Jakob Alfred','Wiklund, Mr. Karl Johan','Wilkes, Mrs. James (Ellen Needs)','Willer, Mr. Aaron (?Abi Weller?)','Willey, Mr. Edward','Williams, Mr. Howard Hugh ?Harry?','Williams, Mr. Leslie','Windelov, Mr. Einar','Wirz, Mr. Albert','Wiseman, Mr. Phillippe','Wittevrongel, Mr. Camille','Yasbeck, Mr. Antoni','Yasbeck, Mrs. Antoni (Selini Alexander)','Youseff, Mr. Gerious','Yousif, Mr. Wazli','Yousseff, Mr. Gerious','Zabour, Miss. Hileni','Zabour, Miss. Thamine','Zakarian, Mr. Mapriededer','Zakarian, Mr. Ortin','Zimmerman, Mr. Leo'}
+@attribute 성별 {female,male}
+@attribute 나이 numeric
+@attribute 동승_배우자_형제수 numeric
+@attribute 동승_부모_자녀수 numeric
+@attribute ticket번호 {24160,113781,19952,13502,112050,11769,'PC 17609','PC 17757','PC 17477',19877,27042,'PC 17318','PC 17558',11813,13050,11751,111369,'PC 17483',13905,11967,'PC 17760',110564,113784,112277,36928,113783,110489,'PC 17608',113505,111427,113054,'PC 17591',112379,'PC 17610',16966,113050,113798,'PC 17476','PC 17606','PC 17755',695,113059,113760,19924,17770,'W.E.P. 5734',113806,110152,'PC 17594',112051,13508,110465,5727,'PC 17756',11770,113791,'WE/P 5735',112901,'PC 17599',113055,113804,'F.C. 12750',17474,33638,'PC 17761',11755,'PC 17485','PC 17580',11767,36947,'PC 17531','PC 17598',17421,'PC 17474',113051,19950,113778,'PC 17611',17765,13568,13567,112058,113803,111320,113503,112378,'PC 17593',17453,'PC 17754',113780,112053,'PC 17582','PC 17759',11765,'PC 17572',113796,36973,112059,16988,12749,113038,17463,680,111361,113789,111426,19943,'PC 17600',113572,'PC 17595',694,113044,11771,17464,11753,113028,17465,'PC 17612',17475,112377,'PC 17592',113501,113801,'PC 17569',110469,11774,113773,'PC 17482','PC 17473','PC 17604',13509,19928,13236,113787,'PC 17596',35273,11752,693,'PC 17758','F.C. 12998',113509,'PC 17562',112052,113043,113776,113786,19972,'PC 17607','PC 17590',111428,113767,'PC 17613','PC 17585',13049,'PC 17603',113790,19988,111163,113794,'PC 17475',13507,13213,113788,113792,17764,13695,113056,21228,13214,113514,11778,'PC 17605',36963,17466,110413,19996,2543,'PC 17601',111240,36967,110813,113800,35281,113795,'PC 17597',113510,19947,113807,'P/PP 3381',248744,231945,'C.A. 34050',226875,244346,29108,'C.A. 31030',28551,'C.A./SOTON 34068','S.O.P. 1166',2908,244358,230136,248698,28404,28425,237670,211535,220367,248733,29750,236853,27849,234686,244310,236852,248738,'F.C.C. 13528',239853,28424,244252,248731,'SC/AH 29037',237789,2003,'W./C. 14263',248740,28034,'C.A. 31921','W./C. 14266',237249,'F.C.C. 13534',29107,'C.A. 33112','S.O.C. 14879',237668,244360,'SC/PARIS 2167','C.A. 31029',231919,28403,28220,'SC/PARIS 2149','SC/PARIS 2148',29751,236854,236171,2926,'C.A. 15185',229236,239854,237671,239865,28664,243880,31028,'C.A. 30769',28133,28134,248726,233866,12233,250646,250647,250653,250649,248746,248727,'S.W./PP 752','W/C 14208','F.C.C. 13529',220845,248706,250650,29105,29104,242963,250643,26707,237798,24065,'SCO/W 1585','SO/C 14885',243847,237565,'C.A. 33111','SC/AH Basle 541',244367,226593,233734,223596,219533,239855,'C.A. 18723',250651,240261,'SC/Paris 2123','SC 1748','C.A. 34260','SC/Paris 2163','C.A. 29566',235509,'SC/AH 3085','S.O./P.P. 3',237735,'S.C./PARIS 2079','SC/A.3 2861',28228,239059,237216,233478,250644,'SW/PP 751',248723,234360,'C.A. 24580',211536,29011,250655,240276,237736,230080,244368,218629,'SC/PARIS 2166','C.A. 29395',28213,'W./C. 14260','SC/PARIS 2146',244278,'SC/PARIS 2147','SC 14888',230433,28665,'SC/PARIS 2131',237393,'S.O./P.P. 2',234604,'C.A. 34644','SC/PARIS 2168',26360,'C.A. 17248',31027,230434,'SC/PARIS 2133',29106,'W./C. 14258',28004,'C.A. 31026',248659,244361,250652,250648,237442,234818,28206,31418,'C.A. 29178',237734,'F.C.C. 13540',248734,'F.C.C. 13531',233639,240929,34218,11668,28221,'CA 31352',28666,239856,'C.A. 33595',27267,228414,29103,'C.A. 34651','C.A. 24579','SC/PARIS 2159',244270,244373,220844,248747,'C.A. 5547','C.A. 2673',348125,348122,'SOTON/O2 3101284',2657,'C 7076',341826,7546,392091,2699,3474,'SOTON/O2 3101287','SOTON/O.Q. 3101311','SOTON/O.Q. 3101312',373450,2223,'C 4001',350046,347082,3101281,347091,350043,347075,347466,349202,349237,349911,'SOTON/O.Q. 3101310',347077,350054,2696,2692,'SOTON/O.Q. 3101309',2627,2694,347468,2687,2679,3101278,2666,'A/4 31416',2623,349248,2663,2691,330844,324669,323951,347068,'PP 4348',2622,2648,1601,312992,347090,349224,2678,2664,364848,364849,54636,334914,347471,3460,'A/5 21171',350045,364512,329944,330920,365222,330963,315087,315084,315091,315089,315093,315086,364846,364858,'A./5. 2152',2689,350042,350409,367231,368364,392095,343275,'A/5. 13032',343276,2680,'SOTON/O.Q. 3101307','A/5 3540',371109,349210,349209,21332,335097,370373,330972,370369,'A/5 3536',349230,349229,349231,'SOTON/OQ 392090','C.A. 37671',364500,'S.P. 3464',371362,315090,2698,7598,7552,349228,382650,382651,347080,349219,349203,'A/4 48871','SC/A4 23568','A/4 48873',386525,345572,345774,345778,'C.A. 2315',349250,349238,349225,'A/5 21172','A/5 21175',330958,349232,315088,349226,2686,370376,'A/5. 10482',364516,368702,'SOTON/OQ 392083',349241,336439,'S.O./P.P. 752',347072,349912,347074,347061,2674,2675,2690,2695,'A/5 3902',2631,'C.A. 6212',367232,'SOTON/O.Q. 3101308',350036,364859,364851,368323,330910,365235,'W./C. 6608','A/5 1478',368573,'SOTON/O.Q. 3101314',36864,358585,349254,14973,35851,335677,363291,'SOTON/O.Q. 3101263','SOTON/O.Q. 3101306','CA 2144',21440,8471,376563,7534,3101276,3101277,347069,349236,'AQ/3. 30631',65303,65304,'STON/O2. 3101279',345769,2693,350026,350025,350029,'W./C. 6609',374887,394140,370375,347089,365226,'STON/O2. 3101282','STON/O2. 3101290',7548,349243,347086,382649,3101298,'C 7075','STON/O2. 3101283',370377,'A. 2. 39186',348121,3470,2685,349220,'STON/O2. 3101270','STON/O2. 3101271',349201,349240,350034,'SOTON/O.Q. 3101305',350050,350047,350048,14313,65306,3101264,347070,350052,7540,347063,347467,347742,LINE,347062,'W./C. 6607',349204,350417,350408,4136,4137,'STON/O 2. 3101286','STON/O 2. 3101274',8475,349246,350053,347465,350060,349256,2700,2682,12460,323592,9234,14312,330911,363592,368783,2660,367227,367229,36865,315152,315151,315153,350405,350404,349253,2654,2624,4135,349217,'C 7077',7935,7545,347067,347065,2620,4133,'STON/O 2. 3101292',2683,370371,345781,347071,347073,349910,'STON/O 2. 3101285',330971,'S.O./P.P. 251','A/5. 3336',1222,'A/5 21173',315098,347743,347469,350403,349235,'C.A. 42795',370370,'C 17369','STON/O 2. 3101275',330924,'AQ/4 3130','A/S 2816','STON/O 2. 3101268',2677,364850,36866,2655,349213,349257,2649,349255,383123,367228,367226,330932,36568,330931,330923,9232,370372,376566,370368,'SOTON/O.Q. 392087',343095,'A.5. 11206',368703,345501,359306,349233,349211,349207,349221,330980,348123,392096,'A4. 54510',371110,330877,364506,372622,312991,2661,2626,374746,35852,382653,'A./5. 3235',367230,347078,349206,2667,2653,'A./5. 3338',349218,2652,365237,349234,2651,3101297,363611,347066,347470,350410,'SOTON/O2 3101272','STON/O 2. 3101289','A/4. 39886',2697,347081,345364,370365,330979,334912,371060,366713,7267,364856,14311,330959,347085,368402,330919,'C 17368',4579,'Fa 265302',350407,347464,347079,6563,315085,315096,315094,349244,330909,349909,3101295,315097,3411,349242,'SOTON/O.Q. 3101315',343271,345498,'A/5 2817','STON/O 2. 3101294','STON/O 2. 3101291','A/5 21174',347083,2668,330935,342441,349245,349212,349215,347076,347087,'SOTON/O.Q. 392078',349227,315095,315092,349223,65305,2629,362316,349249,342684,382652,'STON/O 2. 3101273',334915,364498,'A/5. 3337','S.C./A.4. 23567',312993,370129,342712,'A/5 3594','A/4. 20589',383162,2671,2672,2676,367655,'LP 1588','SOTON/O.Q. 3101262','CA. 2343',7266,343120,3101296,2662,'PP 9549',345768,'A/5. 2151',342826,36209,349222,370374,345779,330968,374910,'SOTON/OQ 392082',2669,392092,349251,'STON/O 2. 3101280',3101265,347088,349214,'SOTON/OQ 392086',315037,384461,335432,348124,'A.5. 18509','A.5. 3236','STON/OQ. 369943',349208,349239,'CA. 2314','A/4 45380',3701,349205,7553,'STON/O 2. 3101288',315083,347054,'SOTON/OQ 392089','STON/O 2. 3101269','SOTON/OQ 392076',347060,7538,350035,350033,363294,2625,2621,2681,2684,32302,376564,'STON/O 2. 3101293',383121,349216,364499,364511,2673,2641,2650,349247,4138,4134,'A/5. 851',345773,345777,345780,345770,345783,345765,345764,345763,2658,350416,350406,349252,345767,359309,'C.A. 49867','SOTON/OQ 3101316',345775,2688,347064,3101267,3101266,363272,3410,'S.O./P.P. 751','A/5 2466','SOTON/OQ 3101317',315154,'A/4. 34244',345771,2659,2628,2647,2665,2656,2670,315082}
+@attribute 요금 numeric
+@attribute 탑승위치 {C,Q,S}
+@attribute 구명정번호 {2,11,3,10,D,4,9,6,B,8,A,5,7,C,14,'5 9',13,1,15,'5 7','8 10',12,16,'13 15 B','C D','15 16','13 15'}
+@attribute 구조여부 {사망,구조}
+
+@data
+1등급,'Allen, Miss. Elisabeth Walton',female,-0.061133,-0.478904,-0.444829,24160,3.439849,S,2,구조
+1등급,'Allison, Master. Hudson Trevor',male,-2.009535,0.481104,1.865813,113781,2.284729,S,11,구조
+1등급,'Allison, Miss. Helen Loraine',female,-1.934376,0.481104,1.865813,113781,2.284729,S,?,사망
+1등급,'Allison, Mr. Hudson Joshua Creighton',male,0.008247,0.481104,1.865813,113781,2.284729,S,?,사망
+1등급,'Allison, Mrs. Hudson J C (Bessie Waldo Daniels)',female,-0.33865,0.481104,1.865813,113781,2.284729,S,?,사망
+1등급,'Anderson, Mr. Harry',male,1.257076,-0.478904,-0.444829,19952,-0.130326,S,3,구조
+1등급,'Andrews, Miss. Kornelia Theodosia',female,2.297767,0.481104,-0.444829,13502,0.862905,S,10,구조
+1등급,'Andrews, Mr. Thomas Jr',male,0.632661,-0.478904,-0.444829,112050,-0.643283,S,?,사망
+1등급,'Appleton, Mrs. Edward Dale (Charlotte Lamson)',female,1.603973,1.441112,-0.444829,11769,0.351317,S,D,구조
+1등급,'Artagaveytia, Mr. Ramon',male,2.852802,-0.478904,-0.444829,'PC 17609',0.31316,C,?,사망
+1등급,'Astor, Col. John Jacob',male,1.187697,0.481104,-0.444829,'PC 17757',3.752599,C,?,사망
+1등급,'Astor, Mrs. John Jacob (Madeleine Talmadge Force)',female,-0.824306,0.481104,-0.444829,'PC 17757',3.752599,C,4,구조
+1등급,'Aubart, Mme. Leontine Pauline',female,-0.40803,-0.478904,-0.444829,'PC 17477',0.695623,C,9,구조
+1등급,'Barber, Miss. Ellen ?Nellie?',female,-0.269271,-0.478904,-0.444829,19877,0.880133,S,6,구조
+1등급,'Barkworth, Mr. Algernon Henry Wilson',male,3.477217,-0.478904,-0.444829,27042,-0.06367,S,B,구조
+1등급,'Baumann, Mr. John D',male,?,-0.478904,-0.444829,'PC 17318',-0.142401,S,?,사망
+1등급,'Baxter, Mr. Quigg Edmond',male,-0.40803,-0.478904,0.710492,'PC 17558',4.138926,C,?,사망
+1등급,'Baxter, Mrs. James (Helene DeLaudeniere Chaput)',female,1.395835,-0.478904,0.710492,'PC 17558',4.138926,C,6,구조
+1등급,'Bazzani, Miss. Albina',female,0.147006,-0.478904,-0.444829,11813,0.830706,C,8,구조
+1등급,'Beattie, Mr. Thomson',male,0.424523,-0.478904,-0.444829,13050,0.810419,C,A,사망
+1등급,'Beckwith, Mr. Richard Leonard',male,0.493903,0.481104,0.710492,11751,0.372087,S,5,구조
+1등급,'Beckwith, Mrs. Richard Leonard (Sallie Monypeny)',female,1.187697,0.481104,0.710492,11751,0.372087,S,5,구조
+1등급,'Behr, Mr. Karl Howell',male,-0.269271,-0.478904,-0.444829,111369,-0.06367,C,5,구조
+1등급,'Bidois, Miss. Rosalie',female,0.8408,-0.478904,-0.444829,'PC 17757',3.752599,C,4,구조
+1등급,'Bird, Miss. Ellen',female,-0.061133,-0.478904,-0.444829,'PC 17483',3.641588,S,8,구조
+1등급,'Birnbaum, Mr. Jakob',male,-0.33865,-0.478904,-0.444829,13905,-0.140952,C,?,사망
+1등급,'Bishop, Mr. Dickinson H',male,-0.33865,0.481104,-0.444829,11967,1.116407,C,7,구조
+1등급,'Bishop, Mrs. Dickinson H (Helen Walton)',female,-0.754927,0.481104,-0.444829,11967,1.116407,C,7,구조
+1등급,'Bissette, Miss. Amelia',female,0.355144,-0.478904,-0.444829,'PC 17760',1.977211,S,8,구조
+1등급,'Bjornstrom-Steffansson, Mr. Mauritz Hakan',male,-0.130512,-0.478904,-0.444829,110564,-0.130326,S,D,구조
+1등급,'Blackwell, Mr. Stephen Weart',male,1.048938,-0.478904,-0.444829,113784,0.042592,S,?,사망
+1등급,'Blank, Mr. Henry',male,0.702041,-0.478904,-0.444829,112277,-0.04435,C,7,구조
+1등급,'Bonnell, Miss. Caroline',female,0.008247,-0.478904,-0.444829,36928,2.542013,S,8,구조
+1등급,'Bonnell, Miss. Elizabeth',female,1.95087,-0.478904,-0.444829,113783,-0.130326,S,8,구조
+1등급,'Borebank, Mr. John James',male,0.8408,-0.478904,-0.444829,110489,-0.130326,S,?,사망
+1등급,'Bowen, Miss. Grace Scott',female,1.048938,-0.478904,-0.444829,'PC 17608',4.425916,C,4,구조
+1등급,'Bowerman, Miss. Elsie Edith',female,-0.546788,-0.478904,0.710492,113505,0.419341,S,6,구조
+1등급,'Bradley, Mr. George (?George Arthur Brayton?)',male,?,-0.478904,-0.444829,111427,-0.130326,S,9,구조
+1등급,'Brady, Mr. John Bertram',male,0.77142,-0.478904,-0.444829,113054,-0.05401,S,?,사망
+1등급,'Brandeis, Mr. Emil',male,1.257076,-0.478904,-0.444829,'PC 17591',0.332318,C,?,사망
+1등급,'Brewe, Dr. Arthur Jackson',male,?,-0.478904,-0.444829,112379,0.121806,C,?,사망
+1등급,'Brown, Mrs. James Joseph (Margaret Tobin)',female,0.979558,-0.478904,-0.444829,'PC 17610',-0.107705,C,6,구조
+1등급,'Brown, Mrs. John Murray (Caroline Lane Lamson)',female,2.020249,1.441112,-0.444829,11769,0.351317,S,D,구조
+1등급,'Bucknell, Mrs. William Robert (Emma Eliza Ward)',female,2.089629,-0.478904,-0.444829,11813,0.830706,C,8,구조
+1등급,'Burns, Miss. Elizabeth Margaret',female,0.77142,-0.478904,-0.444829,16966,1.955315,C,3,구조
+1등급,'Butt, Major. Archibald Willingham',male,1.048938,-0.478904,-0.444829,113050,-0.130326,S,?,사망
+1등급,'Cairns, Mr. Alexander',male,?,-0.478904,-0.444829,113798,-0.04435,S,?,사망
+1등급,'Calderhead, Mr. Edward Pennington',male,0.8408,-0.478904,-0.444829,'PC 17476',-0.135397,S,5,구조
+1등급,'Candee, Mrs. Edward (Helen Churchill Hungerford)',female,1.603973,-0.478904,-0.444829,'PC 17606',-0.113018,C,6,구조
+1등급,'Cardeza, Mr. Thomas Drake Martinez',male,0.424523,-0.478904,0.710492,'PC 17755',9.25514,C,3,구조
+1등급,'Cardeza, Mrs. James Warburton Martinez (Charlotte Wardle Drake)',female,1.95087,-0.478904,0.710492,'PC 17755',9.25514,C,3,구조
+1등급,'Carlsson, Mr. Frans Olof',male,0.216385,-0.478904,-0.444829,695,-0.546681,S,?,사망
+1등급,'Carrau, Mr. Francisco M',male,-0.130512,-0.478904,-0.444829,113059,0.266709,S,?,사망
+1등급,'Carrau, Mr. Jose Pedro',male,-0.893685,-0.478904,-0.444829,113059,0.266709,S,?,사망
+1등급,'Carter, Master. William Thornton II',male,-1.309962,0.481104,1.865813,113760,1.675169,S,4,구조
+1등급,'Carter, Miss. Lucile Polk',female,-1.101824,0.481104,1.865813,113760,1.675169,S,4,구조
+1등급,'Carter, Mr. William Ernest',male,0.424523,0.481104,1.865813,113760,1.675169,S,C,구조
+1등급,'Carter, Mrs. William Ernest (Lucile Polk)',female,0.424523,0.481104,1.865813,113760,1.675169,S,4,구조
+1등급,'Case, Mr. Howard Brown',male,1.326455,-0.478904,-0.444829,19924,-0.140952,S,?,사망
+1등급,'Cassebeer, Mrs. Henry Arthur Jr (Eleanor Genevieve Fosdick)',female,?,-0.478904,-0.444829,17770,-0.107705,C,5,구조
+1등급,'Cavendish, Mr. Tyrell William',male,0.424523,0.481104,-0.444829,19877,0.880133,S,?,사망
+1등급,'Cavendish, Mrs. Tyrell William (Julia Florence Siegel)',female,3.199699,0.481104,-0.444829,19877,0.880133,S,6,구조
+1등급,'Chaffee, Mr. Herbert Fuller',male,1.118317,0.481104,-0.444829,'W.E.P. 5734',0.538644,S,?,사망
+1등급,'Chaffee, Mrs. Herbert Fuller (Carrie Constance Toogood)',female,1.187697,0.481104,-0.444829,'W.E.P. 5734',0.538644,S,4,구조
+1등급,'Chambers, Mr. Norman Campbell',male,-0.199891,0.481104,-0.444829,113806,0.382632,S,5,구조
+1등급,'Chambers, Mrs. Norman Campbell (Bertha Griggs)',female,0.216385,0.481104,-0.444829,113806,0.382632,S,5,구조
+1등급,'Chaudanson, Miss. Victorine',female,0.424523,-0.478904,-0.444829,'PC 17608',4.425916,C,4,구조
+1등급,'Cherry, Miss. Gladys',female,0.008247,-0.478904,-0.444829,110152,1.027934,S,8,구조
+1등급,'Chevre, Mr. Paul Romaine',male,1.048938,-0.478904,-0.444829,'PC 17594',-0.069466,C,7,구조
+1등급,'Chibnall, Mrs. (Edith Martha Bowerman)',female,?,-0.478904,0.710492,113505,0.419341,S,6,구조
+1등급,'Chisholm, Mr. Roderick Robert Crispin',male,?,-0.478904,-0.444829,112051,-0.643283,S,?,사망
+1등급,'Clark, Mr. Walter Miller',male,-0.199891,0.481104,-0.444829,13508,1.999351,C,?,사망
+1등급,'Clark, Mrs. Walter Miller (Virginia McDowell)',female,-0.269271,0.481104,-0.444829,13508,1.999351,C,4,구조
+1등급,'Cleaver, Miss. Alice',female,-0.546788,-0.478904,-0.444829,113781,2.284729,S,11,구조
+1등급,'Clifford, Mr. George Quincy',male,?,-0.478904,-0.444829,110465,0.361379,S,?,사망
+1등급,'Colley, Mr. Edward Pomeroy',male,1.187697,-0.478904,-0.444829,5727,-0.148922,S,?,사망
+1등급,'Compton, Miss. Sara Rebecca',female,0.632661,0.481104,0.710492,'PC 17756',0.963371,C,14,구조
+1등급,'Compton, Mr. Alexander Taylor Jr',male,0.493903,0.481104,0.710492,'PC 17756',0.963371,C,?,사망
+1등급,'Compton, Mrs. Alexander Taylor (Mary Eliza Ingersoll)',female,2.367147,-0.478904,1.865813,'PC 17756',0.963371,C,14,구조
+1등급,'Cornell, Mrs. Robert Clifford (Malvina Helen Lamson)',female,1.742732,1.441112,-0.444829,11770,-0.146748,S,2,구조
+1등급,'Crafton, Mr. John Bertram',male,?,-0.478904,-0.444829,113791,-0.130326,S,?,사망
+1등급,'Crosby, Capt. Edward Gifford',male,2.783423,0.481104,0.710492,'WE/P 5735',0.728468,S,?,사망
+1등급,'Crosby, Miss. Harriet R',female,0.424523,-0.478904,1.865813,'WE/P 5735',0.728468,S,7,구조
+1등급,'Crosby, Mrs. Edward Gifford (Catherine Elizabeth Halstead)',female,2.367147,0.481104,0.710492,112901,-0.130326,S,7,구조
+1등급,'Cumings, Mr. John Bradley',male,0.632661,0.481104,-0.444829,'PC 17599',0.733941,C,?,사망
+1등급,'Cumings, Mrs. John Bradley (Florence Briggs Thayer)',female,0.563282,0.481104,-0.444829,'PC 17599',0.733941,C,4,구조
+1등급,'Daly, Mr. Peter Denis',male,1.465214,-0.478904,-0.444829,113055,-0.130326,S,'5 9',구조
+1등급,'Daniel, Mr. Robert Williams',male,-0.199891,-0.478904,-0.444829,113804,-0.05401,S,3,구조
+1등급,'Daniels, Miss. Sarah',female,0.216385,-0.478904,-0.444829,113781,2.284729,S,8,구조
+1등급,'Davidson, Mr. Thornton',male,0.077626,0.481104,-0.444829,'F.C. 12750',0.361379,S,?,사망
+1등급,'Davidson, Mrs. Thornton (Orian Hays)',female,-0.199891,0.481104,1.865813,'F.C. 12750',0.361379,S,3,구조
+1등급,'Dick, Mr. Albert Adrian',male,0.077626,0.481104,-0.444829,17474,0.457982,S,3,구조
+1등급,'Dick, Mrs. Albert Adrian (Vera Gillespie)',female,-0.893685,0.481104,-0.444829,17474,0.457982,S,3,구조
+1등급,'Dodge, Dr. Washington',male,1.603973,0.481104,0.710492,33638,0.938255,S,13,구조
+1등급,'Dodge, Master. Washington',male,-1.795618,-0.478904,1.865813,33638,0.938255,S,5,구조
+1등급,'Dodge, Mrs. Washington (Ruth Vidaver)',female,1.673352,0.481104,0.710492,33638,0.938255,S,5,구조
+1등급,'Douglas, Mr. Walter Donald',male,1.395835,0.481104,-0.444829,'PC 17761',1.412894,C,?,사망
+1등급,'Douglas, Mrs. Frederick Charles (Mary Helene Baxter)',female,-0.199891,0.481104,0.710492,'PC 17558',4.138926,C,6,구조
+1등급,'Douglas, Mrs. Walter Donald (Mahala Dutton)',female,1.257076,0.481104,-0.444829,'PC 17761',1.412894,C,2,구조
+1등급,'Duff Gordon, Lady. (Lucille Christiana Sutherland) (?Mrs Morgan?)',female,1.257076,0.481104,-0.444829,11755,0.121806,C,1,구조
+1등급,'Duff Gordon, Sir. Cosmo Edmund (?Mr Morgan?)',male,1.326455,0.481104,-0.444829,'PC 17485',0.456614,C,1,구조
+1등급,'Dulles, Mr. William Crothers',male,0.632661,-0.478904,-0.444829,'PC 17580',-0.069466,C,?,사망
+1등급,'Earnshaw, Mrs. Boulton (Olive Potter)',female,-0.477409,-0.478904,0.710492,11767,0.963371,C,7,구조
+1등급,'Endres, Miss. Caroline Louise',female,0.563282,-0.478904,-0.444829,'PC 17757',3.752599,C,4,구조
+1등급,'Eustis, Miss. Elizabeth Mussey',female,1.673352,0.481104,-0.444829,36947,0.868864,C,4,구조
+1등급,'Evans, Miss. Edith Corse',female,0.424523,-0.478904,-0.444829,'PC 17531',-0.031227,C,?,사망
+1등급,'Farthing, Mr. John',male,?,-0.478904,-0.444829,'PC 17483',3.641588,S,?,사망
+1등급,'Flegenheim, Mrs. Alfred (Antoinette)',female,?,-0.478904,-0.444829,'PC 17598',-0.031148,S,7,구조
+1등급,'Fleming, Miss. Margaret',female,?,-0.478904,-0.444829,17421,1.49903,C,4,구조
+1등급,'Flynn, Mr. John Irwin (?Irving?)',male,0.424523,-0.478904,-0.444829,'PC 17474',-0.133465,S,5,구조
+1등급,'Foreman, Mr. Benjamin Laventall',male,0.008247,-0.478904,-0.444829,113051,-0.107141,C,?,사망
+1등급,'Fortune, Miss. Alice Elizabeth',female,-0.40803,2.401119,1.865813,19950,4.437991,S,10,구조
+1등급,'Fortune, Miss. Ethel Flora',female,-0.130512,2.401119,1.865813,19950,4.437991,S,10,구조
+1등급,'Fortune, Miss. Mabel Helen',female,-0.477409,2.401119,1.865813,19950,4.437991,S,10,구조
+1등급,'Fortune, Mr. Charles Alexander',male,-0.754927,2.401119,1.865813,19950,4.437991,S,?,사망
+1등급,'Fortune, Mr. Mark',male,2.367147,0.481104,4.176455,19950,4.437991,S,?,사망
+1등급,'Fortune, Mrs. Mark (Mary McDougald)',female,2.089629,0.481104,4.176455,19950,4.437991,S,10,구조
+1등급,'Francatelli, Miss. Laura Mabel',female,0.008247,-0.478904,-0.444829,'PC 17485',0.456614,C,1,구조
+1등급,'Franklin, Mr. Thomas Parham',male,?,-0.478904,-0.444829,113778,-0.130326,S,?,사망
+1등급,'Frauenthal, Dr. Henry William',male,1.395835,1.441112,-0.444829,'PC 17611',1.938893,S,5,구조
+1등급,'Frauenthal, Mr. Isaac Gerald',male,0.910179,0.481104,-0.444829,17765,-0.107705,C,5,구조
+1등급,'Frauenthal, Mrs. Henry William (Clara Heinsheimer)',female,?,0.481104,-0.444829,'PC 17611',1.938893,S,5,구조
+1등급,'Frolicher, Miss. Hedwig Margaritha',female,-0.546788,-0.478904,1.865813,13568,0.313078,C,5,구조
+1등급,'Frolicher-Stehli, Mr. Maxmillian',male,2.089629,0.481104,0.710492,13567,0.886895,C,5,구조
+1등급,'Frolicher-Stehli, Mrs. Maxmillian (Margaretha Emerentia Stehli)',female,1.257076,0.481104,0.710492,13567,0.886895,C,5,구조
+1등급,'Fry, Mr. Richard',male,?,-0.478904,-0.444829,112058,-0.643283,S,?,사망
+1등급,'Futrelle, Mr. Jacques Heath',male,0.493903,0.481104,-0.444829,113803,0.382632,S,?,사망
+1등급,'Futrelle, Mrs. Jacques Heath (Lily May Peel)',female,0.355144,0.481104,-0.444829,113803,0.382632,S,D,구조
+1등급,'Gee, Mr. Arthur H',male,1.187697,-0.478904,-0.444829,111320,0.100554,S,?,사망
+1등급,'Geiger, Miss. Amalie',female,0.355144,-0.478904,-0.444829,113503,3.442989,C,4,구조
+1등급,'Gibson, Miss. Dorothy Winifred',female,-0.546788,-0.478904,0.710492,112378,0.504351,C,7,구조
+1등급,'Gibson, Mrs. Leonard (Pauline C Boeson)',female,1.048938,-0.478904,0.710492,112378,0.504351,C,7,구조
+1등급,'Giglio, Mr. Victor',male,-0.40803,-0.478904,-0.444829,'PC 17593',0.886895,C,?,사망
+1등급,'Goldenberg, Mr. Samuel L',male,1.326455,0.481104,-0.444829,17453,1.078249,C,5,구조
+1등급,'Goldenberg, Mrs. Samuel L (Edwiga Grabowska)',female,?,0.481104,-0.444829,17453,1.078249,C,5,구조
+1등급,'Goldschmidt, Mr. George B',male,2.852802,-0.478904,-0.444829,'PC 17754',0.026251,C,?,사망
+1등급,'Gracie, Col. Archibald IV',male,1.603973,-0.478904,-0.444829,113780,-0.092651,C,B,구조
+1등급,'Graham, Miss. Margaret Edith',female,-0.754927,-0.478904,-0.444829,112053,-0.06367,S,3,구조
+1등급,'Graham, Mr. George Edward',male,0.563282,-0.478904,0.710492,'PC 17582',2.321679,S,?,사망
+1등급,'Graham, Mrs. William Thompson (Edith Junkins)',female,1.95087,-0.478904,0.710492,'PC 17582',2.321679,S,3,구조
+1등급,'Greenfield, Mr. William Bertram',male,-0.477409,-0.478904,0.710492,'PC 17759',0.580827,C,7,구조
+1등급,'Greenfield, Mrs. Leo David (Blanche Strouse)',female,1.048938,-0.478904,0.710492,'PC 17759',0.580827,C,7,구조
+1등급,'Guggenheim, Mr. Benjamin',male,1.118317,-0.478904,-0.444829,'PC 17593',0.886895,C,?,사망
+1등급,'Harder, Mr. George Achilles',male,-0.33865,0.481104,-0.444829,11765,0.427875,C,5,구조
+1등급,'Harder, Mrs. George Achilles (Dorothy Annan)',female,-0.33865,0.481104,-0.444829,11765,0.427875,C,5,구조
+1등급,'Harper, Mr. Henry Sleeper',male,1.257076,0.481104,-0.444829,'PC 17572',0.839158,C,3,구조
+1등급,'Harper, Mrs. Henry Sleeper (Myna Haxtun)',female,1.326455,0.481104,-0.444829,'PC 17572',0.839158,C,3,구조
+1등급,'Harrington, Mr. Charles H',male,?,-0.478904,-0.444829,113796,0.175903,S,?,사망
+1등급,'Harris, Mr. Henry Birkhardt',male,1.048938,0.481104,-0.444829,36973,0.96949,S,?,사망
+1등급,'Harris, Mrs. Henry Birkhardt (Irene Wallach)',female,0.355144,0.481104,-0.444829,36973,0.96949,S,D,구조
+1등급,'Harrison, Mr. William',male,0.702041,-0.478904,-0.444829,112059,-0.643283,S,?,사망
+1등급,'Hassab, Mr. Hammad',male,-0.199891,-0.478904,-0.444829,'PC 17572',0.839158,C,3,구조
+1등급,'Hawksford, Mr. Walter James',male,?,-0.478904,-0.444829,16988,-0.06367,S,3,구조
+1등급,'Hays, Miss. Margaret Bechstein',female,-0.40803,-0.478904,-0.444829,11767,0.963371,C,7,구조
+1등급,'Hays, Mr. Charles Melville',male,1.742732,0.481104,0.710492,12749,1.163178,S,?,사망
+1등급,'Hays, Mrs. Charles Melville (Clara Jennings Gregg)',female,1.534594,0.481104,0.710492,12749,1.163178,S,3,구조
+1등급,'Head, Mr. Christopher',male,0.8408,-0.478904,-0.444829,113038,0.177835,S,?,사망
+1등급,'Hilliard, Mr. Herbert Henry',male,?,-0.478904,-0.444829,17463,0.358723,S,?,사망
+1등급,'Hipkins, Mr. William Edward',male,1.742732,-0.478904,-0.444829,680,0.322739,S,?,사망
+1등급,'Hippach, Miss. Jean Gertrude',female,-0.963065,-0.478904,0.710492,111361,0.4769,C,4,구조
+1등급,'Hippach, Mrs. Louis Albert (Ida Sophia Fischer)',female,0.979558,-0.478904,0.710492,111361,0.4769,C,4,구조
+1등급,'Hogeboom, Mrs. John C (Anna Andrews)',female,1.465214,0.481104,-0.444829,13502,0.862905,S,10,구조
+1등급,'Holverson, Mr. Alexander Oskar',male,0.8408,0.481104,-0.444829,113789,0.361379,S,?,사망
+1등급,'Holverson, Mrs. Alexander Oskar (Mary Aline Towner)',female,0.355144,0.481104,-0.444829,113789,0.361379,S,8,구조
+1등급,'Homer, Mr. Harry (?Mr E Haven?)',male,0.355144,-0.478904,-0.444829,111426,-0.130326,C,15,구조
+1등급,'Hoyt, Mr. Frederick Maxfield',male,0.563282,0.481104,-0.444829,19943,1.095556,S,D,구조
+1등급,'Hoyt, Mr. William Fisher',male,?,-0.478904,-0.444829,'PC 17600',-0.050227,C,14,사망
+1등급,'Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)',female,0.355144,0.481104,-0.444829,19943,1.095556,S,D,구조
+1등급,'Icard, Miss. Amelie',female,0.563282,-0.478904,-0.444829,113572,0.902352,?,6,구조
+1등급,'Isham, Miss. Ann Elizabeth',female,1.395835,-0.478904,-0.444829,'PC 17595',-0.088545,C,?,사망
+1등급,'Ismay, Mr. Joseph Bruce',male,1.326455,-0.478904,-0.444829,112058,-0.643283,S,C,구조
+1등급,'Jones, Mr. Charles Cresson',male,1.118317,-0.478904,-0.444829,694,-0.140952,S,?,사망
+1등급,'Julian, Mr. Henry Forbes',male,1.395835,-0.478904,-0.444829,113044,-0.140952,S,?,사망
+1등급,'Keeping, Mr. Edwin',male,0.181695,-0.478904,-0.444829,113503,3.442989,C,?,사망
+1등급,'Kent, Mr. Edward Austin',male,1.95087,-0.478904,-0.444829,11771,-0.069466,C,?,사망
+1등급,'Kenyon, Mr. Frederick R',male,0.77142,0.481104,-0.444829,17464,0.358723,S,?,사망
+1등급,'Kenyon, Mrs. Frederick R (Marion)',female,?,0.481104,-0.444829,17464,0.358723,S,8,구조
+1등급,'Kimball, Mr. Edwin Nelson Jr',male,0.8408,0.481104,-0.444829,11753,0.372087,S,5,구조
+1등급,'Kimball, Mrs. Edwin Nelson Jr (Gertrude Parsons)',female,1.048938,0.481104,-0.444829,11753,0.372087,S,5,구조
+1등급,'Klaber, Mr. Herman',male,?,-0.478904,-0.444829,113028,-0.130326,S,?,사망
+1등급,'Kreuchen, Miss. Emilie',female,0.632661,-0.478904,-0.444829,24160,3.439849,S,2,구조
+1등급,'Leader, Dr. Alice (Farnham)',female,1.326455,-0.478904,-0.444829,17465,-0.14232,S,8,구조
+1등급,'LeRoy, Miss. Bertha',female,0.008247,-0.478904,-0.444829,'PC 17761',1.412894,C,2,구조
+1등급,'Lesurer, Mr. Gustave J',male,0.355144,-0.478904,-0.444829,'PC 17755',9.25514,C,3,구조
+1등급,'Lewy, Mr. Ervin G',male,?,-0.478904,-0.444829,'PC 17612',-0.107705,C,?,사망
+1등급,'Lindeberg-Lind, Mr. Erik Gustaf (?Mr Edward Lingrey?)',male,0.8408,-0.478904,-0.444829,17475,-0.130326,S,?,사망
+1등급,'Lindstrom, Mrs. Carl Johan (Sigrid Posse)',female,1.742732,-0.478904,-0.444829,112377,-0.107705,C,6,구조
+1등급,'Lines, Miss. Mary Conover',female,-0.963065,-0.478904,0.710492,'PC 17592',0.117942,S,9,구조
+1등급,'Lines, Mrs. Ernest H (Elizabeth Lindsey James)',female,1.465214,-0.478904,0.710492,'PC 17592',0.117942,S,9,구조
+1등급,'Long, Mr. Milton Clyde',male,-0.061133,-0.478904,-0.444829,113501,-0.06367,S,?,사망
+1등급,'Longley, Miss. Gretchen Fiske',female,-0.616168,-0.478904,-0.444829,13502,0.862905,S,10,구조
+1등급,'Loring, Mr. Joseph Holland',male,0.008247,-0.478904,-0.444829,113801,0.235797,S,?,사망
+1등급,'Lurette, Miss. Elise',female,1.95087,-0.478904,-0.444829,'PC 17569',2.187562,C,?,구조
+1등급,'Madill, Miss. Georgette Alexandra',female,-1.032444,-0.478904,0.710492,24160,3.439849,S,2,구조
+1등급,'Maguire, Mr. John Edward',male,0.008247,-0.478904,-0.444829,110469,-0.140952,S,?,사망
+1등급,'Maioni, Miss. Roberta',female,-0.963065,-0.478904,-0.444829,110152,1.027934,S,8,구조
+1등급,'Marechal, Mr. Pierre',male,?,-0.478904,-0.444829,11774,-0.069466,C,7,구조
+1등급,'Marvin, Mr. Daniel Warner',male,-0.754927,0.481104,-0.444829,113773,0.382632,S,?,사망
+1등급,'Marvin, Mrs. Daniel Warner (Mary Graham Carmichael Farquarson)',female,-0.824306,0.481104,-0.444829,113773,0.382632,S,10,구조
+1등급,'Mayne, Mlle. Berthe Antonine (?Mrs de Villiers?)',female,-0.40803,-0.478904,-0.444829,'PC 17482',0.31316,C,6,구조
+1등급,'McCaffry, Mr. Thomas Francis',male,1.118317,-0.478904,-0.444829,13050,0.810419,C,?,사망
+1등급,'McCarthy, Mr. Timothy J',male,1.673352,-0.478904,-0.444829,17463,0.358723,S,?,사망
+1등급,'McGough, Mr. James Robert',male,0.424523,-0.478904,-0.444829,'PC 17473',-0.135397,S,7,구조
+1등급,'Meyer, Mr. Edgar Joseph',male,-0.130512,0.481104,-0.444829,'PC 17604',0.944292,C,?,사망
+1등급,'Meyer, Mrs. Edgar Joseph (Leila Saks)',female,?,0.481104,-0.444829,'PC 17604',0.944292,C,6,구조
+1등급,'Millet, Mr. Francis Davis',male,2.436526,-0.478904,-0.444829,13509,-0.130326,S,?,사망
+1등급,'Minahan, Dr. William Edward',male,0.979558,1.441112,-0.444829,19928,1.095556,Q,?,사망
+1등급,'Minahan, Miss. Daisy E',female,0.216385,0.481104,-0.444829,19928,1.095556,Q,14,구조
+1등급,'Minahan, Mrs. William Edward (Lillian E Thorpe)',female,0.493903,0.481104,-0.444829,19928,1.095556,Q,14,구조
+1등급,'Mock, Mr. Philipp Edmund',male,0.008247,0.481104,-0.444829,13236,0.472472,C,11,구조
+1등급,'Molson, Mr. Harry Markland',male,1.742732,-0.478904,-0.444829,113787,-0.05401,S,?,사망
+1등급,'Moore, Mr. Clarence Bloomfield',male,1.187697,-0.478904,-0.444829,113796,0.175903,S,?,사망
+1등급,'Natsch, Mr. Charles H',male,0.493903,-0.478904,0.710492,'PC 17596',-0.069466,C,?,사망
+1등급,'Newell, Miss. Madeleine',female,0.077626,0.481104,-0.444829,35273,1.545239,C,6,구조
+1등급,'Newell, Miss. Marjorie',female,-0.477409,0.481104,-0.444829,35273,1.545239,C,6,구조
+1등급,'Newell, Mr. Arthur Webster',male,1.95087,-0.478904,1.865813,35273,1.545239,C,?,사망
+1등급,'Newsom, Miss. Helen Monypeny',female,-0.754927,-0.478904,1.865813,11752,-0.135478,S,5,구조
+1등급,'Nicholson, Mr. Arthur Ernest',male,2.367147,-0.478904,-0.444829,693,-0.140952,S,?,사망
+1등급,'Oliva y Ocana, Dona. Fermina',female,0.632661,-0.478904,-0.444829,'PC 17758',1.460712,C,8,구조
+1등급,'Omont, Mr. Alfred Fernand',male,?,-0.478904,-0.444829,'F.C. 12998',-0.145942,C,7,구조
+1등급,'Ostby, Miss. Helene Ragnhild',female,-0.546788,-0.478904,0.710492,113509,0.554182,C,5,구조
+1등급,'Ostby, Mr. Engelhart Cornelius',male,2.436526,-0.478904,0.710492,113509,0.554182,C,?,사망
+1등급,'Ovies y Rodriguez, Mr. Servando',male,-0.095822,-0.478904,-0.444829,'PC 17562',-0.107705,C,?,사망
+1등급,'Parr, Mr. William Henry Marsh',male,?,-0.478904,-0.444829,112052,-0.643283,S,?,사망
+1등급,'Partner, Mr. Austen',male,1.083628,-0.478904,-0.444829,113043,-0.092651,S,?,사망
+1등급,'Payne, Mr. Vivian Ponsonby',male,-0.477409,-0.478904,-0.444829,12749,1.163178,S,?,사망
+1등급,'Pears, Mr. Thomas Clinton',male,-0.061133,0.481104,-0.444829,113776,0.643458,S,?,사망
+1등급,'Pears, Mrs. Thomas (Edith Wearne)',female,-0.546788,0.481104,-0.444829,113776,0.643458,S,8,구조
+1등급,'Penasco y Castellana, Mr. Victor de Satode',male,-0.824306,0.481104,-0.444829,'PC 17758',1.460712,C,?,사망
+1등급,'Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)',female,-0.893685,0.481104,-0.444829,'PC 17758',1.460712,C,8,구조
+1등급,'Perreault, Miss. Anne',female,0.008247,-0.478904,-0.444829,12749,1.163178,S,3,구조
+1등급,'Peuchen, Major. Arthur Godfrey',male,1.534594,-0.478904,-0.444829,113786,-0.05401,S,6,구조
+1등급,'Porter, Mr. Walter Chamberlain',male,1.187697,-0.478904,-0.444829,110465,0.361379,S,?,사망
+1등급,'Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)',female,1.812111,-0.478904,0.710492,11767,0.963371,C,7,구조
+1등급,'Reuchlin, Jonkheer. John George',male,0.563282,-0.478904,-0.444829,19972,-0.643283,S,?,사망
+1등급,'Rheims, Mr. George Alexander Lucien',male,?,-0.478904,-0.444829,'PC 17607',0.121806,S,A,구조
+1등급,'Ringhini, Mr. Sante',male,-0.546788,-0.478904,-0.444829,'PC 17760',1.977211,C,?,사망
+1등급,'Robbins, Mr. Victor',male,?,-0.478904,-0.444829,'PC 17757',3.752599,C,?,사망
+1등급,'Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)',female,0.910179,-0.478904,0.710492,24160,3.439849,S,2,구조
+1등급,'Roebling, Mr. Washington Augustus II',male,0.077626,-0.478904,-0.444829,'PC 17590',0.332318,S,?,사망
+1등급,'Romaine, Mr. Charles Hallace (?Mr C Rolmane?)',male,1.048938,-0.478904,-0.444829,111428,-0.130326,S,9,구조
+1등급,'Rood, Mr. Hugh Roscoe',male,?,-0.478904,-0.444829,113767,0.322739,S,?,사망
+1등급,'Rosenbaum, Miss. Edith Louise',female,0.216385,-0.478904,-0.444829,'PC 17613',-0.107705,C,11,구조
+1등급,'Rosenshine, Mr. George (?Mr George Thorne?)',male,1.118317,-0.478904,-0.444829,'PC 17585',0.886895,C,?,사망
+1등급,'Ross, Mr. John Hugo',male,0.424523,-0.478904,-0.444829,13049,0.131949,C,?,사망
+1등급,'Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)',female,0.216385,-0.478904,-0.444829,110152,1.027934,S,8,구조
+1등급,'Rothschild, Mr. Martin',male,1.742732,0.481104,-0.444829,'PC 17603',0.504351,C,?,사망
+1등급,'Rothschild, Mrs. Martin (Elizabeth L. Barrett)',female,1.673352,0.481104,-0.444829,'PC 17603',0.504351,C,6,구조
+1등급,'Rowe, Mr. Alfred G',male,0.216385,-0.478904,-0.444829,113790,-0.130326,S,?,사망
+1등급,'Ryerson, Master. John Borie',male,-1.171203,1.441112,1.865813,'PC 17608',4.425916,C,4,구조
+1등급,'Ryerson, Miss. Emily Borie',female,-0.824306,1.441112,1.865813,'PC 17608',4.425916,C,4,구조
+1등급,'Ryerson, Miss. Susan Parker ?Suzette?',female,-0.616168,1.441112,1.865813,'PC 17608',4.425916,C,4,구조
+1등급,'Ryerson, Mr. Arthur Larned',male,2.159008,0.481104,3.021134,'PC 17608',4.425916,C,?,사망
+1등급,'Ryerson, Mrs. Arthur Larned (Emily Maria Borie)',female,1.257076,0.481104,3.021134,'PC 17608',4.425916,C,4,구조
+1등급,'Saalfeld, Mr. Adolphe',male,?,-0.478904,-0.444829,19988,-0.05401,S,3,구조
+1등급,'Sagesser, Mlle. Emma',female,-0.40803,-0.478904,-0.444829,'PC 17477',0.695623,C,9,구조
+1등급,'Salomon, Mr. Abraham L',male,?,-0.478904,-0.444829,111163,-0.140952,S,1,구조
+1등급,'Schabert, Mrs. Paul (Emma Mock)',female,0.355144,0.481104,-0.444829,13236,0.472472,C,11,구조
+1등급,'Serepeca, Miss. Augusta',female,0.008247,-0.478904,-0.444829,113798,-0.04435,C,4,구조
+1등급,'Seward, Mr. Frederic Kimber',male,0.285764,-0.478904,-0.444829,113794,-0.130326,S,7,구조
+1등급,'Shutes, Miss. Elizabeth W',female,0.702041,-0.478904,-0.444829,'PC 17582',2.321679,S,3,구조
+1등급,'Silverthorne, Mr. Spencer Victor',male,0.355144,-0.478904,-0.444829,'PC 17475',-0.135397,S,5,구조
+1등급,'Silvey, Mr. William Baird',male,1.395835,0.481104,-0.444829,13507,0.436729,S,?,사망
+1등급,'Silvey, Mrs. William Baird (Alice Munger)',female,0.632661,0.481104,-0.444829,13507,0.436729,S,11,구조
+1등급,'Simonius-Blumer, Col. Oberst Alfons',male,1.812111,-0.478904,-0.444829,13213,0.042592,C,3,구조
+1등급,'Sloper, Mr. William Thompson',male,-0.130512,-0.478904,-0.444829,113788,0.042592,S,7,구조
+1등급,'Smart, Mr. John Montgomery',male,1.812111,-0.478904,-0.444829,113792,-0.130326,S,?,사망
+1등급,'Smith, Mr. James Clinch',male,1.812111,-0.478904,-0.444829,17764,-0.050227,C,?,사망
+1등급,'Smith, Mr. Lucien Philip',male,-0.40803,0.481104,-0.444829,13695,0.515943,S,?,사망
+1등급,'Smith, Mr. Richard William',male,?,-0.478904,-0.444829,113056,-0.140952,S,?,사망
+1등급,'Smith, Mrs. Lucien Philip (Mary Eloise Hughes)',female,-0.824306,0.481104,-0.444829,13695,0.515943,S,6,구조
+1등급,'Snyder, Mr. John Pillsbury',male,-0.40803,0.481104,-0.444829,21228,0.946145,S,7,구조
+1등급,'Snyder, Mrs. John Pillsbury (Nelle Stevenson)',female,-0.477409,0.481104,-0.444829,21228,0.946145,S,7,구조
+1등급,'Spedden, Master. Robert Douglas',male,-1.656859,-0.478904,1.865813,16966,1.955315,C,3,구조
+1등급,'Spedden, Mr. Frederic Oakley',male,1.048938,0.481104,0.710492,16966,1.955315,C,3,구조
+1등급,'Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)',female,0.702041,0.481104,0.710492,16966,1.955315,C,3,구조
+1등급,'Spencer, Mr. William Augustus',male,1.881491,0.481104,-0.444829,'PC 17569',2.187562,C,?,사망
+1등급,'Spencer, Mrs. William Augustus (Marie Eugenie)',female,?,0.481104,-0.444829,'PC 17569',2.187562,C,6,구조
+1등급,'Stahelin-Maeglin, Dr. Max',male,0.147006,-0.478904,-0.444829,13214,-0.05401,C,3,구조
+1등급,'Stead, Mr. William Thomas',male,2.228388,-0.478904,-0.444829,113514,-0.130326,S,?,사망
+1등급,'Stengel, Mr. Charles Emil Henry',male,1.673352,0.481104,-0.444829,11778,0.427875,C,1,구조
+1등급,'Stengel, Mrs. Charles Emil Henry (Annie May Morris)',female,0.910179,0.481104,-0.444829,11778,0.427875,C,5,구조
+1등급,'Stephenson, Mrs. Walter Bertram (Martha Eustis)',female,1.534594,0.481104,-0.444829,36947,0.868864,C,4,구조
+1등급,'Stewart, Mr. Albert A',male,?,-0.478904,-0.444829,'PC 17605',-0.107705,C,?,사망
+1등급,'Stone, Mrs. George Nelson (Martha Evelyn)',female,2.228388,-0.478904,-0.444829,113572,0.902352,?,6,구조
+1등급,'Straus, Mr. Isidor',male,2.575285,0.481104,-0.444829,'PC 17483',3.641588,S,?,사망
+1등급,'Straus, Mrs. Isidor (Rosalie Ida Blun)',female,2.297767,0.481104,-0.444829,'PC 17483',3.641588,S,?,사망
+1등급,'Sutton, Mr. Frederick',male,2.159008,-0.478904,-0.444829,36963,-0.018831,S,?,사망
+1등급,'Swift, Mrs. Frederick Joel (Margaret Welles Barron)',female,1.257076,-0.478904,-0.444829,17466,-0.14232,S,8,구조
+1등급,'Taussig, Miss. Ruth',female,-0.824306,-0.478904,1.865813,110413,0.89559,S,8,구조
+1등급,'Taussig, Mr. Emil',male,1.534594,0.481104,0.710492,110413,0.89559,S,?,사망
+1등급,'Taussig, Mrs. Emil (Tillie Mandelbaum)',female,0.632661,0.481104,0.710492,110413,0.89559,S,8,구조
+1등급,'Taylor, Mr. Elmer Zebley',male,1.257076,0.481104,-0.444829,19996,0.361379,S,'5 7',구조
+1등급,'Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)',female,?,0.481104,-0.444829,19996,0.361379,S,'5 7',구조
+1등급,'Thayer, Mr. John Borland',male,1.326455,0.481104,0.710492,17421,1.49903,C,?,사망
+1등급,'Thayer, Mr. John Borland Jr',male,-0.893685,-0.478904,1.865813,17421,1.49903,C,B,구조
+1등급,'Thayer, Mrs. John Borland (Marian Longstreth Morris)',female,0.632661,0.481104,0.710492,17421,1.49903,C,4,구조
+1등급,'Thorne, Mrs. Gertrude Maybelle',female,?,-0.478904,-0.444829,'PC 17585',0.886895,C,D,구조
+1등급,'Tucker, Mr. Gilbert Milligan Jr',male,0.077626,-0.478904,-0.444829,2543,-0.091926,C,7,구조
+1등급,'Uruchurtu, Don. Manuel E',male,0.702041,-0.478904,-0.444829,'PC 17601',-0.107705,C,?,사망
+1등급,'Van der hoef, Mr. Wyckoff',male,2.159008,-0.478904,-0.444829,111240,0.003951,S,?,사망
+1등급,'Walker, Mr. William Anderson',male,1.187697,-0.478904,-0.444829,36967,0.014014,S,?,사망
+1등급,'Ward, Miss. Anna',female,0.355144,-0.478904,-0.444829,'PC 17755',9.25514,C,3,구조
+1등급,'Warren, Mr. Frank Manley',male,2.367147,0.481104,-0.444829,110813,0.81058,C,?,사망
+1등급,'Warren, Mrs. Frank Manley (Anna Sophia Atkinson)',female,2.089629,0.481104,-0.444829,110813,0.81058,C,5,구조
+1등급,'Weir, Col. John',male,2.089629,-0.478904,-0.444829,113800,-0.130326,S,?,사망
+1등급,'White, Mr. Percival Wayland',male,1.673352,-0.478904,0.710492,35281,0.849945,S,?,사망
+1등급,'White, Mr. Richard Frasar',male,-0.616168,-0.478904,0.710492,35281,0.849945,S,?,사망
+1등급,'White, Mrs. John Stuart (Ella Holmes)',female,1.742732,-0.478904,-0.444829,'PC 17760',1.977211,C,8,구조
+1등급,'Wick, Miss. Mary Natalie',female,0.077626,-0.478904,1.865813,36928,2.542013,S,8,구조
+1등급,'Wick, Mr. George Dennick',male,1.881491,0.481104,0.710492,36928,2.542013,S,?,사망
+1등급,'Wick, Mrs. George Dennick (Mary Hitchcock)',female,1.048938,0.481104,0.710492,36928,2.542013,S,8,구조
+1등급,'Widener, Mr. George Dunton',male,1.395835,0.481104,0.710492,113503,3.442989,C,?,사망
+1등급,'Widener, Mr. Harry Elkins',male,-0.199891,-0.478904,1.865813,113503,3.442989,C,?,사망
+1등급,'Widener, Mrs. George Dunton (Eleanor Elkins)',female,1.395835,0.481104,0.710492,113503,3.442989,C,4,구조
+1등급,'Willard, Miss. Constance',female,-0.616168,-0.478904,-0.444829,113795,-0.130326,S,'8 10',구조
+1등급,'Williams, Mr. Charles Duane',male,1.465214,-0.478904,0.710492,'PC 17597',0.54259,C,?,사망
+1등급,'Williams, Mr. Richard Norris II',male,-0.616168,-0.478904,0.710492,'PC 17597',0.54259,C,A,구조
+1등급,'Williams-Lambert, Mr. Fletcher Fellows',male,?,-0.478904,-0.444829,113510,0.032932,S,?,사망
+1등급,'Wilson, Miss. Helen Alice',female,0.077626,-0.478904,-0.444829,16966,1.955315,C,3,구조
+1등급,'Woolner, Mr. Hugh',male,?,-0.478904,-0.444829,19947,0.042592,S,D,구조
+1등급,'Wright, Mr. George',male,2.228388,-0.478904,-0.444829,113807,-0.130326,S,?,사망
+1등급,'Young, Miss. Marie Grice',female,0.424523,-0.478904,-0.444829,'PC 17760',1.977211,C,8,구조
+2등급,'Abelson, Mr. Samuel',male,0.008247,0.481104,-0.444829,'P/PP 3381',-0.179593,C,?,사망
+2등급,'Abelson, Mrs. Samuel (Hannah Wizosky)',female,-0.130512,0.481104,-0.444829,'P/PP 3381',-0.179593,C,10,구조
+2등급,'Aldworth, Mr. Charles Augustus',male,0.008247,-0.478904,-0.444829,248744,-0.392117,S,?,사망
+2등급,'Andrew, Mr. Edgardo Samuel',male,-0.824306,-0.478904,-0.444829,231945,-0.421098,S,?,사망
+2등급,'Andrew, Mr. Frank Thomas',male,-0.33865,-0.478904,-0.444829,'C.A. 34050',-0.440419,S,?,사망
+2등급,'Angle, Mr. William A',male,0.285764,0.481104,-0.444829,226875,-0.140952,S,?,사망
+2등급,'Angle, Mrs. William A (Florence ?Mary? Agnes Hughes)',female,0.424523,0.481104,-0.444829,226875,-0.140952,S,11,구조
+2등급,'Ashby, Mr. John',male,1.881491,-0.478904,-0.444829,244346,-0.392117,S,?,사망
+2등급,'Bailey, Mr. Percy Andrew',male,-0.824306,-0.478904,-0.444829,29108,-0.421098,S,?,사망
+2등급,'Baimbrigge, Mr. Charles Robert',male,-0.477409,-0.478904,-0.444829,'C.A. 31030',-0.440419,S,?,사망
+2등급,'Ball, Mrs. (Ada E Hall)',female,0.424523,-0.478904,-0.444829,28551,-0.392117,S,10,구조
+2등급,'Banfield, Mr. Frederick James',male,-0.130512,-0.478904,-0.444829,'C.A./SOTON 34068',-0.440419,S,?,사망
+2등급,'Bateman, Rev. Robert James',male,1.465214,-0.478904,-0.444829,'S.O.P. 1166',-0.401295,S,?,사망
+2등급,'Beane, Mr. Edward',male,0.147006,0.481104,-0.444829,2908,-0.140952,S,13,구조
+2등급,'Beane, Mrs. Edward (Ethel Clarke)',female,-0.754927,0.481104,-0.444829,2908,-0.140952,S,13,구조
+2등급,'Beauchamp, Mr. Henry James',male,-0.130512,-0.478904,-0.444829,244358,-0.140952,S,?,사망
+2등급,'Becker, Master. Richard F',male,-2.003756,1.441112,0.710492,230136,0.110214,S,11,구조
+2등급,'Becker, Miss. Marion Louise',female,-1.795618,1.441112,0.710492,230136,0.110214,S,11,구조
+2등급,'Becker, Miss. Ruth Elizabeth',female,-1.240582,1.441112,0.710492,230136,0.110214,S,13,구조
+2등급,'Becker, Mrs. Allen Oliver (Nellie E Baumgardner)',female,0.424523,-0.478904,3.021134,230136,0.110214,S,11,구조
+2등급,'Beesley, Mr. Lawrence',male,0.285764,-0.478904,-0.444829,248698,-0.392117,S,13,구조
+2등급,'Bentham, Miss. Lilian W',female,-0.754927,-0.478904,-0.444829,28404,-0.392117,S,12,구조
+2등급,'Berriman, Mr. William John',male,-0.477409,-0.478904,-0.444829,28425,-0.392117,S,?,사망
+2등급,'Botsford, Mr. William Hull',male,-0.269271,-0.478904,-0.444829,237670,-0.392117,S,?,사망
+2등급,'Bowenur, Mr. Solomon',male,0.8408,-0.478904,-0.444829,211535,-0.392117,S,?,사망
+2등급,'Bracken, Mr. James H',male,-0.199891,-0.478904,-0.444829,220367,-0.392117,S,?,사망
+2등급,'Brown, Miss. Amelia ?Mildred?',female,-0.40803,-0.478904,-0.444829,248733,-0.392117,S,11,구조
+2등급,'Brown, Miss. Edith Eileen',female,-1.032444,-0.478904,1.865813,29750,0.110214,S,14,구조
+2등급,'Brown, Mr. Thomas William Solomon',male,2.089629,0.481104,0.710492,29750,0.110214,S,?,사망
+2등급,'Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)',female,0.702041,0.481104,0.710492,29750,0.110214,S,14,구조
+2등급,'Bryhl, Miss. Dagmar Jenny Ingeborg',female,-0.685547,0.481104,-0.444829,236853,-0.140952,S,12,구조
+2등급,'Bryhl, Mr. Kurt Arnold Gottfrid',male,-0.33865,0.481104,-0.444829,236853,-0.140952,S,?,사망
+2등급,'Buss, Miss. Kate',female,0.424523,-0.478904,-0.444829,27849,-0.392117,S,9,구조
+2등급,'Butler, Mr. Reginald Fenton',male,-0.33865,-0.478904,-0.444829,234686,-0.392117,S,?,사망
+2등급,'Byles, Rev. Thomas Roussel Davids',male,0.8408,-0.478904,-0.444829,244310,-0.392117,S,?,사망
+2등급,'Bystrom, Mrs. (Karolina)',female,0.8408,-0.478904,-0.444829,236852,-0.392117,S,?,구조
+2등급,'Caldwell, Master. Alden Gates',male,-2.015321,-0.478904,1.865813,248738,-0.082991,S,13,구조
+2등급,'Caldwell, Mr. Albert Francis',male,-0.269271,0.481104,0.710492,248738,-0.082991,S,13,구조
+2등급,'Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)',female,-0.546788,0.481104,0.710492,248738,-0.082991,S,13,구조
+2등급,'Cameron, Miss. Clear Annie',female,0.355144,-0.478904,-0.444829,'F.C.C. 13528',-0.237554,S,14,구조
+2등급,'Campbell, Mr. William',male,?,-0.478904,-0.444829,239853,-0.643283,S,?,사망
+2등급,'Carbines, Mr. William',male,-0.754927,-0.478904,-0.444829,28424,-0.392117,S,?,사망
+2등급,'Carter, Mrs. Ernest Courtenay (Lilian Hughes)',female,0.979558,0.481104,-0.444829,244252,-0.140952,S,?,사망
+2등급,'Carter, Rev. Ernest Courtenay',male,1.673352,0.481104,-0.444829,244252,-0.140952,S,?,사망
+2등급,'Chapman, Mr. Charles Henry',male,1.534594,-0.478904,-0.444829,248731,-0.382457,S,?,사망
+2등급,'Chapman, Mr. John Henry',male,0.493903,0.481104,-0.444829,'SC/AH 29037',-0.140952,S,?,사망
+2등급,'Chapman, Mrs. John Henry (Sara Elizabeth Lawry)',female,-0.061133,0.481104,-0.444829,'SC/AH 29037',-0.140952,S,?,사망
+2등급,'Christy, Miss. Julie Rachel',female,-0.33865,0.481104,0.710492,237789,-0.06367,S,12,구조
+2등급,'Christy, Mrs. (Alice Frances)',female,1.048938,-0.478904,1.865813,237789,-0.06367,S,12,구조
+2등급,'Clarke, Mr. Charles Valentine',male,-0.061133,0.481104,-0.444829,2003,-0.140952,S,?,사망
+2등급,'Clarke, Mrs. Charles V (Ada Maria Winfield)',female,-0.130512,0.481104,-0.444829,2003,-0.140952,S,14,구조
+2등급,'Coleridge, Mr. Reginald Charles',male,-0.061133,-0.478904,-0.444829,'W./C. 14263',-0.440419,S,?,사망
+2등급,'Collander, Mr. Erik Gustaf',male,-0.130512,-0.478904,-0.444829,248740,-0.392117,S,?,사망
+2등급,'Collett, Mr. Sidney C Stuart',male,-0.40803,-0.478904,-0.444829,28034,-0.440419,S,9,구조
+2등급,'Collyer, Miss. Marjorie ?Lottie?',female,-1.5181,-0.478904,1.865813,'C.A. 31921',-0.136122,S,14,구조
+2등급,'Collyer, Mr. Harvey',male,0.077626,0.481104,0.710492,'C.A. 31921',-0.136122,S,?,사망
+2등급,'Collyer, Mrs. Harvey (Charlotte Annie Tate)',female,0.077626,0.481104,0.710492,'C.A. 31921',-0.136122,S,14,구조
+2등급,'Cook, Mrs. (Selena Rogers)',female,-0.546788,-0.478904,-0.444829,'W./C. 14266',-0.440419,S,14,구조
+2등급,'Corbett, Mrs. Walter H (Irene Colvin)',female,0.008247,-0.478904,-0.444829,237249,-0.392117,S,?,사망
+2등급,'Corey, Mrs. Percy C (Mary Phyllis Elizabeth Miller)',female,?,-0.478904,-0.444829,'F.C.C. 13534',-0.237554,S,?,사망
+2등급,'Cotterill, Mr. Henry ?Harry?',male,-0.616168,-0.478904,-0.444829,29107,-0.421098,S,?,사망
+2등급,'Cunningham, Mr. Alfred Fleming',male,?,-0.478904,-0.444829,239853,-0.643283,S,?,사망
+2등급,'Davies, Master. John Morgan Jr',male,-1.5181,0.481104,0.710492,'C.A. 33112',0.066743,S,14,구조
+2등급,'Davies, Mr. Charles Henry',male,-0.824306,-0.478904,-0.444829,'S.O.C. 14879',0.776769,S,?,사망
+2등급,'Davies, Mrs. John Morgan (Elizabeth Agnes Mary White)',female,1.257076,-0.478904,1.865813,'C.A. 33112',0.066743,S,14,구조
+2등급,'Davis, Miss. Mary',female,-0.130512,-0.478904,-0.444829,237668,-0.392117,S,13,구조
+2등급,'de Brito, Mr. Jose Joaquim',male,0.147006,-0.478904,-0.444829,244360,-0.392117,S,?,사망
+2등급,'Deacon, Mr. Percy William',male,-0.893685,-0.478904,-0.444829,'S.O.C. 14879',0.776769,S,?,사망
+2등급,'del Carlo, Mr. Sebastiano',male,-0.061133,0.481104,-0.444829,'SC/PARIS 2167',-0.107705,C,?,사망
+2등급,'del Carlo, Mrs. Sebastiano (Argenia Genovesi)',female,-0.40803,0.481104,-0.444829,'SC/PARIS 2167',-0.107705,C,12,구조
+2등급,'Denbury, Mr. Herbert',male,-0.33865,-0.478904,-0.444829,'C.A. 31029',-0.034689,S,?,사망
+2등급,'Dibden, Mr. William',male,-0.824306,-0.478904,-0.444829,'S.O.C. 14879',0.776769,S,?,사망
+2등급,'Doling, Miss. Elsie',female,-0.824306,-0.478904,0.710492,231919,-0.198913,S,?,구조
+2등급,'Doling, Mrs. John T (Ada Julia Bone)',female,0.285764,-0.478904,0.710492,231919,-0.198913,S,?,구조
+2등급,'Downton, Mr. William James',male,1.673352,-0.478904,-0.444829,28403,-0.140952,S,?,사망
+2등급,'Drew, Master. Marshall Brines',male,-1.5181,-0.478904,1.865813,28220,-0.015369,S,10,구조
+2등급,'Drew, Mr. James Vivian',male,0.8408,0.481104,0.710492,28220,-0.015369,S,?,사망
+2등급,'Drew, Mrs. James Vivian (Lulu Thorne Christian)',female,0.285764,0.481104,0.710492,28220,-0.015369,S,10,구조
+2등급,'Duran y More, Miss. Asuncion',female,-0.199891,0.481104,-0.444829,'SC/PARIS 2149',-0.375535,C,12,구조
+2등급,'Duran y More, Miss. Florentina',female,0.008247,0.481104,-0.444829,'SC/PARIS 2148',-0.375535,C,12,구조
+2등급,'Eitemiller, Mr. George Floyd',male,-0.477409,-0.478904,-0.444829,29751,-0.392117,S,?,사망
+2등급,'Enander, Mr. Ingvar',male,-0.616168,-0.478904,-0.444829,236854,-0.392117,S,?,사망
+2등급,'Fahlstrom, Mr. Arne Jonas',male,-0.824306,-0.478904,-0.444829,236171,-0.392117,S,?,사망
+2등급,'Faunthorpe, Mr. Harry',male,0.702041,0.481104,-0.444829,2926,-0.140952,S,?,사망
+2등급,'Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)',female,-0.061133,0.481104,-0.444829,2926,-0.140952,S,16,구조
+2등급,'Fillbrook, Mr. Joseph Charles',male,-0.824306,-0.478904,-0.444829,'C.A. 15185',-0.440419,S,?,사망
+2등급,'Fox, Mr. Stanley Hubert',male,0.424523,-0.478904,-0.444829,229236,-0.392117,S,?,사망
+2등급,'Frost, Mr. Anthony Wood ?Archie?',male,?,-0.478904,-0.444829,239854,-0.643283,S,?,사망
+2등급,'Funk, Miss. Annie Clemmer',female,0.563282,-0.478904,-0.444829,237671,-0.392117,S,?,사망
+2등급,'Fynney, Mr. Joseph J',male,0.355144,-0.478904,-0.444829,239865,-0.140952,S,?,사망
+2등급,'Gale, Mr. Harry',male,0.563282,0.481104,-0.444829,28664,-0.237554,S,?,사망
+2등급,'Gale, Mr. Shadrach',male,0.285764,0.481104,-0.444829,28664,-0.237554,S,?,사망
+2등급,'Garside, Miss. Ethel',female,0.285764,-0.478904,-0.444829,243880,-0.392117,S,12,구조
+2등급,'Gaskell, Mr. Alfred',male,-0.963065,-0.478904,-0.444829,239865,-0.140952,S,?,사망
+2등급,'Gavey, Mr. Lawrence',male,-0.269271,-0.478904,-0.444829,31028,-0.440419,S,?,사망
+2등급,'Gilbert, Mr. William',male,1.187697,-0.478904,-0.444829,'C.A. 30769',-0.440419,S,?,사망
+2등급,'Giles, Mr. Edgar',male,-0.616168,0.481104,-0.444829,28133,-0.421098,S,?,사망
+2등급,'Giles, Mr. Frederick Edward',male,-0.616168,0.481104,-0.444829,28134,-0.421098,S,?,사망
+2등급,'Giles, Mr. Ralph',male,-0.40803,-0.478904,-0.444829,248726,-0.382457,S,?,사망
+2등급,'Gill, Mr. John William',male,-0.40803,-0.478904,-0.444829,233866,-0.392117,S,?,사망
+2등급,'Gillespie, Mr. William Henry',male,0.285764,-0.478904,-0.444829,12233,-0.392117,S,?,사망
+2등급,'Givard, Mr. Hans Kristensen',male,0.008247,-0.478904,-0.444829,250646,-0.392117,S,?,사망
+2등급,'Greenberg, Mr. Samuel',male,1.534594,-0.478904,-0.444829,250647,-0.392117,S,?,사망
+2등급,'Hale, Mr. Reginald',male,0.008247,-0.478904,-0.444829,250653,-0.392117,S,?,사망
+2등급,'Hamalainen, Master. Viljo',male,-2.02688,0.481104,0.710492,250649,-0.363137,S,4,구조
+2등급,'Hamalainen, Mrs. William (Anna)',female,-0.40803,-0.478904,1.865813,250649,-0.363137,S,4,구조
+2등급,'Harbeck, Mr. William H',male,0.979558,-0.478904,-0.444829,248746,-0.392117,S,?,사망
+2등급,'Harper, Miss. Annie Jessie ?Nina?',female,-1.656859,-0.478904,0.710492,248727,-0.005709,S,11,구조
+2등급,'Harper, Rev. John',male,-0.130512,-0.478904,0.710492,248727,-0.005709,S,?,사망
+2등급,'Harris, Mr. George',male,2.228388,-0.478904,-0.444829,'S.W./PP 752',-0.440419,S,15,구조
+2등급,'Harris, Mr. Walter',male,0.008247,-0.478904,-0.444829,'W/C 14208',-0.440419,S,?,사망
+2등급,'Hart, Miss. Eva Miriam',female,-1.587479,-0.478904,1.865813,'F.C.C. 13529',-0.136122,S,14,구조
+2등급,'Hart, Mr. Benjamin',male,0.910179,0.481104,0.710492,'F.C.C. 13529',-0.136122,S,?,사망
+2등급,'Hart, Mrs. Benjamin (Esther Ada Bloomfield)',female,1.048938,0.481104,0.710492,'F.C.C. 13529',-0.136122,S,14,구조
+2등급,'Herman, Miss. Alice',female,-0.40803,0.481104,1.865813,220845,0.612545,S,9,구조
+2등급,'Herman, Miss. Kate',female,-0.40803,0.481104,1.865813,220845,0.612545,S,9,구조
+2등급,'Herman, Mr. Samuel',male,1.326455,0.481104,1.865813,220845,0.612545,S,?,사망
+2등급,'Herman, Mrs. Samuel (Jane Laver)',female,1.257076,0.481104,1.865813,220845,0.612545,S,9,구조
+2등급,'Hewlett, Mrs. (Mary D Kingcome)',female,1.742732,-0.478904,-0.444829,248706,-0.334156,S,13,구조
+2등급,'Hickman, Mr. Leonard Mark',male,-0.40803,1.441112,-0.444829,'S.O.C. 14879',0.776769,S,?,사망
+2등급,'Hickman, Mr. Lewis',male,0.147006,1.441112,-0.444829,'S.O.C. 14879',0.776769,S,?,사망
+2등급,'Hickman, Mr. Stanley George',male,-0.616168,1.441112,-0.444829,'S.O.C. 14879',0.776769,S,?,사망
+2등급,'Hiltunen, Miss. Marta',female,-0.824306,0.481104,0.710492,250650,-0.392117,S,?,사망
+2등급,'Hocking, Miss. Ellen ?Nellie?',female,-0.685547,1.441112,0.710492,29105,-0.198913,S,4,구조
+2등급,'Hocking, Mr. Richard George',male,-0.477409,1.441112,0.710492,29104,-0.421098,S,?,사망
+2등급,'Hocking, Mr. Samuel James Metcalfe',male,0.424523,-0.478904,-0.444829,242963,-0.392117,S,?,사망
+2등급,'Hocking, Mrs. Elizabeth (Eliza Needs)',female,1.673352,0.481104,3.021134,29105,-0.198913,S,4,구조
+2등급,'Hodges, Mr. Henry Price',male,1.395835,-0.478904,-0.444829,250643,-0.392117,S,?,사망
+2등급,'Hold, Mr. Stephen',male,0.979558,0.481104,-0.444829,26707,-0.140952,S,?,사망
+2등급,'Hold, Mrs. Stephen (Annie Margaret Hill)',female,-0.061133,0.481104,-0.444829,26707,-0.140952,S,10,구조
+2등급,'Hood, Mr. Ambrose Jr',male,-0.616168,-0.478904,-0.444829,'S.O.C. 14879',0.776769,S,?,사망
+2등급,'Hosono, Mr. Masabumi',male,0.8408,-0.478904,-0.444829,237798,-0.392117,S,10,구조
+2등급,'Howard, Mr. Benjamin',male,2.297767,0.481104,-0.444829,24065,-0.140952,S,?,사망
+2등급,'Howard, Mrs. Benjamin (Ellen Truelove Arman)',female,2.089629,0.481104,-0.444829,24065,-0.140952,S,?,사망
+2등급,'Hunt, Mr. George Henry',male,0.216385,-0.478904,-0.444829,'SCO/W 1585',-0.406125,S,?,사망
+2등급,'Ilett, Miss. Bertha',female,-0.893685,-0.478904,-0.444829,'SO/C 14885',-0.440419,S,?,구조
+2등급,'Jacobsohn, Mr. Sidney Samuel',male,0.8408,0.481104,-0.444829,243847,-0.121631,S,?,사망
+2등급,'Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)',female,-0.40803,1.441112,0.710492,243847,-0.121631,S,12,구조
+2등급,'Jarvis, Mr. John Denzil',male,1.187697,-0.478904,-0.444829,237565,-0.353477,S,?,사망
+2등급,'Jefferys, Mr. Clifford Thomas',male,-0.40803,1.441112,-0.444829,'C.A. 31029',-0.034689,S,?,사망
+2등급,'Jefferys, Mr. Ernest Wilfred',male,-0.546788,1.441112,-0.444829,'C.A. 31029',-0.034689,S,?,사망
+2등급,'Jenkin, Mr. Stephen Curnow',male,0.147006,-0.478904,-0.444829,'C.A. 33111',-0.440419,S,?,사망
+2등급,'Jerwan, Mrs. Amin S (Marie Marthe Thuillard)',female,-0.477409,-0.478904,-0.444829,'SC/AH Basle 541',-0.376822,C,11,구조
+2등급,'Kantor, Mr. Sinai',male,0.285764,0.481104,-0.444829,244367,-0.140952,S,?,사망
+2등급,'Kantor, Mrs. Sinai (Miriam Sternin)',female,-0.40803,0.481104,-0.444829,244367,-0.140952,S,12,구조
+2등급,'Karnes, Mrs. J Frank (Claire Bennett)',female,-0.546788,-0.478904,-0.444829,'F.C.C. 13534',-0.237554,S,?,사망
+2등급,'Keane, Miss. Nora A',female,?,-0.478904,-0.444829,226593,-0.404676,Q,10,구조
+2등급,'Keane, Mr. Daniel',male,0.355144,-0.478904,-0.444829,233734,-0.404676,Q,?,사망
+2등급,'Kelly, Mrs. Florence ?Fannie?',female,1.048938,-0.478904,-0.444829,223596,-0.382457,S,9,구조
+2등급,'Kirkland, Rev. Charles Leonard',male,1.881491,-0.478904,-0.444829,219533,-0.404676,Q,?,사망
+2등급,'Knight, Mr. Robert J',male,?,-0.478904,-0.444829,239855,-0.643283,S,?,사망
+2등급,'Kvillner, Mr. Johan Henrik Johannesson',male,0.077626,-0.478904,-0.444829,'C.A. 18723',-0.440419,S,?,사망
+2등급,'Lahtinen, Mrs. William (Anna Sylfven)',female,-0.269271,0.481104,0.710492,250651,-0.140952,S,?,사망
+2등급,'Lahtinen, Rev. William',male,0.008247,0.481104,0.710492,250651,-0.140952,S,?,사망
+2등급,'Lamb, Mr. John Joseph',male,?,-0.478904,-0.444829,240261,-0.436394,Q,?,사망
+2등급,'Laroche, Miss. Louise',female,-2.003756,0.481104,1.865813,'SC/Paris 2123',0.160045,C,14,구조
+2등급,'Laroche, Miss. Simonne Marie Anne Andree',female,-1.864997,0.481104,1.865813,'SC/Paris 2123',0.160045,C,14,구조
+2등급,'Laroche, Mr. Joseph Philippe Lemercier',male,-0.33865,0.481104,1.865813,'SC/Paris 2123',0.160045,C,?,사망
+2등급,'Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)',female,-0.546788,0.481104,1.865813,'SC/Paris 2123',0.160045,C,14,구조
+2등급,'Lehmann, Miss. Bertha',female,-0.893685,-0.478904,-0.444829,'SC 1748',-0.411438,C,12,구조
+2등급,'Leitch, Miss. Jessie Wills',female,?,-0.478904,-0.444829,248727,-0.005709,S,11,구조
+2등급,'Lemore, Mrs. (Amelia Milley)',female,0.285764,-0.478904,-0.444829,'C.A. 34260',-0.440419,S,14,구조
+2등급,'Levy, Mr. Rene Jacques',male,0.424523,-0.478904,-0.444829,'SC/Paris 2163',-0.394533,C,?,사망
+2등급,'Leyson, Mr. Robert William Norman',male,-0.40803,-0.478904,-0.444829,'C.A. 29566',-0.440419,S,?,사망
+2등급,'Lingane, Mr. John',male,2.159008,-0.478904,-0.444829,235509,-0.404676,Q,?,사망
+2등급,'Louch, Mr. Charles Alexander',male,1.395835,0.481104,-0.444829,'SC/AH 3085',-0.140952,S,?,사망
+2등급,'Louch, Mrs. Charles Alexander (Alice Adelaide Slow)',female,0.8408,0.481104,-0.444829,'SC/AH 3085',-0.140952,S,?,구조
+2등급,'Mack, Mrs. (Mary)',female,1.881491,-0.478904,-0.444829,'S.O./P.P. 3',-0.440419,S,?,사망
+2등급,'Malachard, Mr. Noel',male,?,-0.478904,-0.444829,237735,-0.352592,C,?,사망
+2등급,'Mallet, Master. Andre',male,-2.003756,-0.478904,1.865813,'S.C./PARIS 2079',0.071654,C,10,구조
+2등급,'Mallet, Mr. Albert',male,0.077626,0.481104,0.710492,'S.C./PARIS 2079',0.071654,C,?,사망
+2등급,'Mallet, Mrs. Albert (Antoinette Magnin)',female,-0.40803,0.481104,0.710492,'S.C./PARIS 2079',0.071654,C,10,구조
+2등급,'Mangiavacchi, Mr. Serafino Emilio',male,?,-0.478904,-0.444829,'SC/A.3 2861',-0.342286,C,?,사망
+2등급,'Matthews, Mr. William John',male,0.008247,-0.478904,-0.444829,28228,-0.392117,S,?,사망
+2등급,'Maybery, Mr. Frank Hubert',male,0.702041,-0.478904,-0.444829,239059,-0.334156,S,?,사망
+2등급,'McCrae, Mr. Arthur Gordon',male,0.147006,-0.478904,-0.444829,237216,-0.382457,S,?,사망
+2등급,'McCrie, Mr. James Matthew',male,0.008247,-0.478904,-0.444829,233478,-0.392117,S,?,사망
+2등급,'McKane, Mr. Peter David',male,1.118317,-0.478904,-0.444829,28403,-0.140952,S,?,사망
+2등급,'Mellinger, Miss. Madeleine Violet',female,-1.171203,-0.478904,0.710492,250644,-0.266535,S,14,구조
+2등급,'Mellinger, Mrs. (Elizabeth Anne Maidment)',female,0.77142,-0.478904,0.710492,250644,-0.266535,S,14,구조
+2등급,'Mellors, Mr. William John',male,-0.754927,-0.478904,-0.444829,'SW/PP 751',-0.440419,S,B,구조
+2등급,'Meyer, Mr. August',male,0.632661,-0.478904,-0.444829,248723,-0.392117,S,?,사망
+2등급,'Milling, Mr. Jacob Christian',male,1.257076,-0.478904,-0.444829,234360,-0.392117,S,?,사망
+2등급,'Mitchell, Mr. Henry Michael',male,2.783423,-0.478904,-0.444829,'C.A. 24580',-0.440419,S,?,사망
+2등급,'Montvila, Rev. Juozas',male,-0.199891,-0.478904,-0.444829,211536,-0.392117,S,?,사망
+2등급,'Moraweck, Dr. Ernest',male,1.673352,-0.478904,-0.444829,29011,-0.372797,S,?,사망
+2등급,'Morley, Mr. Henry Samuel (?Mr Henry Marshall?)',male,0.632661,-0.478904,-0.444829,250655,-0.140952,S,?,사망
+2등급,'Mudd, Mr. Thomas Charles',male,-0.963065,-0.478904,-0.444829,'S.O./P.P. 3',-0.440419,S,?,사망
+2등급,'Myles, Mr. Thomas Francis',male,2.228388,-0.478904,-0.444829,240276,-0.456116,Q,?,사망
+2등급,'Nasser, Mr. Nicholas',male,0.181695,0.481104,-0.444829,237736,-0.062302,C,?,사망
+2등급,'Nasser, Mrs. Nicholas (Adele Achem)',female,-1.101824,0.481104,-0.444829,237736,-0.062302,C,?,구조
+2등급,'Navratil, Master. Edmond Roger',male,-1.934376,0.481104,0.710492,230080,-0.140952,S,D,구조
+2등급,'Navratil, Master. Michel M',male,-1.864997,0.481104,0.710492,230080,-0.140952,S,D,구조
+2등급,'Navratil, Mr. Michel (?Louis M Hoffman?)',male,0.459213,-0.478904,1.865813,230080,-0.140952,S,?,사망
+2등급,'Nesson, Mr. Israel',male,-0.269271,-0.478904,-0.444829,244368,-0.392117,S,?,사망
+2등급,'Nicholls, Mr. Joseph Charles',male,-0.754927,0.481104,0.710492,'C.A. 33112',0.066743,S,?,사망
+2등급,'Norman, Mr. Robert Douglas',male,-0.130512,-0.478904,-0.444829,218629,-0.382457,S,?,사망
+2등급,'Nourney, Mr. Alfred (?Baron von Drachstedt?)',male,-0.685547,-0.478904,-0.444829,'SC/PARIS 2166',-0.375454,C,7,구조
+2등급,'Nye, Mrs. (Elizabeth Ramell)',female,-0.061133,-0.478904,-0.444829,'C.A. 29395',-0.440419,S,11,구조
+2등급,'Otter, Mr. Richard',male,0.632661,-0.478904,-0.444829,28213,-0.392117,S,?,사망
+2등급,'Oxenham, Mr. Percy Thomas',male,-0.546788,-0.478904,-0.444829,'W./C. 14260',-0.440419,S,13,구조
+2등급,'Padro y Manent, Mr. Julian',male,?,-0.478904,-0.444829,'SC/PARIS 2146',-0.375454,C,9,구조
+2등급,'Pain, Dr. Alfred',male,-0.477409,-0.478904,-0.444829,244278,-0.440419,S,?,사망
+2등급,'Pallas y Castello, Mr. Emilio',male,-0.061133,-0.478904,-0.444829,'SC/PARIS 2147',-0.375535,C,9,구조
+2등급,'Parker, Mr. Clifford Richard',male,-0.130512,-0.478904,-0.444829,'SC 14888',-0.440419,S,?,사망
+2등급,'Parkes, Mr. Francis ?Frank?',male,?,-0.478904,-0.444829,239853,-0.643283,S,?,사망
+2등급,'Parrish, Mrs. (Lutie Davis)',female,1.395835,-0.478904,0.710492,230433,-0.140952,S,12,구조
+2등급,'Pengelly, Mr. Frederick William',male,-0.754927,-0.478904,-0.444829,28665,-0.440419,S,?,사망
+2등급,'Pernot, Mr. Rene',male,?,-0.478904,-0.444829,'SC/PARIS 2131',-0.352511,C,?,사망
+2등급,'Peruschitz, Rev. Joseph Maria',male,0.77142,-0.478904,-0.444829,237393,-0.392117,S,?,사망
+2등급,'Phillips, Miss. Alice Frances Louisa',female,-0.616168,-0.478904,0.710492,'S.O./P.P. 2',-0.237554,S,12,구조
+2등급,'Phillips, Miss. Kate Florence (?Mrs Kate Louise Phillips Marshall?)',female,-0.754927,-0.478904,-0.444829,250655,-0.140952,S,11,구조
+2등급,'Phillips, Mr. Escott Robert',male,0.910179,-0.478904,0.710492,'S.O./P.P. 2',-0.237554,S,?,사망
+2등급,'Pinsky, Mrs. (Rosa)',female,0.147006,-0.478904,-0.444829,234604,-0.392117,S,9,구조
+2등급,'Ponesell, Mr. Martin',male,0.285764,-0.478904,-0.444829,250647,-0.392117,S,?,사망
+2등급,'Portaluppi, Mr. Emilio Ilario Giuseppe',male,0.008247,-0.478904,-0.444829,'C.A. 34644',-0.397189,C,14,구조
+2등급,'Pulbaum, Mr. Franz',male,-0.199891,-0.478904,-0.444829,'SC/PARIS 2168',-0.352833,C,?,사망
+2등급,'Quick, Miss. Phyllis May',female,-1.934376,0.481104,0.710492,26360,-0.140952,S,11,구조
+2등급,'Quick, Miss. Winifred Vera',female,-1.5181,0.481104,0.710492,26360,-0.140952,S,11,구조
+2등급,'Quick, Mrs. Frederick Charles (Jane Richards)',female,0.216385,-0.478904,1.865813,26360,-0.140952,S,11,구조
+2등급,'Reeves, Mr. David',male,0.424523,-0.478904,-0.444829,'C.A. 17248',-0.440419,S,?,사망
+2등급,'Renouf, Mr. Peter Henry',male,0.285764,0.481104,-0.444829,31027,-0.237554,S,12,사망
+2등급,'Renouf, Mrs. Peter Henry (Lillian Jefferys)',female,0.008247,2.401119,-0.444829,31027,-0.237554,S,?,구조
+2등급,'Reynaldo, Ms. Encarnacion',female,-0.130512,-0.478904,-0.444829,230434,-0.392117,S,9,구조
+2등급,'Richard, Mr. Emile',male,-0.477409,-0.478904,-0.444829,'SC/PARIS 2133',-0.352592,C,?,사망
+2등급,'Richards, Master. George Sibley',male,-2.015321,0.481104,0.710492,29106,-0.281025,S,4,구조
+2등급,'Richards, Master. William Rowe',male,-1.864997,0.481104,0.710492,29106,-0.281025,S,4,구조
+2등급,'Richards, Mrs. Sidney (Emily Hocking)',female,-0.40803,1.441112,3.021134,29106,-0.281025,S,4,구조
+2등급,'Ridsdale, Miss. Lucy',female,1.395835,-0.478904,-0.444829,'W./C. 14258',-0.440419,S,13,구조
+2등급,'Rogers, Mr. Reginald Harry',male,-0.754927,-0.478904,-0.444829,28004,-0.440419,S,?,사망
+2등급,'Rugg, Miss. Emily',female,-0.616168,-0.478904,-0.444829,'C.A. 31026',-0.440419,S,12,구조
+2등급,'Schmidt, Mr. August',male,-0.269271,-0.478904,-0.444829,248659,-0.392117,S,?,사망
+2등급,'Sedgwick, Mr. Charles Frederick Waddington',male,-0.33865,-0.478904,-0.444829,244361,-0.392117,S,?,사망
+2등급,'Sharp, Mr. Percival James R',male,-0.199891,-0.478904,-0.444829,244358,-0.140952,S,?,사망
+2등급,'Shelley, Mrs. William (Imanita Parrish Hall)',female,-0.33865,-0.478904,0.710492,230433,-0.140952,S,12,구조
+2등급,'Silven, Miss. Lyyli Karoliina',female,-0.824306,-0.478904,1.865813,250652,-0.392117,S,16,구조
+2등급,'Sincock, Miss. Maude',female,-0.685547,-0.478904,-0.444829,'C.A. 33112',0.066743,S,11,구조
+2등급,'Sinkkonen, Miss. Anna',female,0.008247,-0.478904,-0.444829,250648,-0.392117,S,10,구조
+2등급,'Sjostedt, Mr. Ernst Adolf',male,2.020249,-0.478904,-0.444829,237442,-0.382457,S,?,사망
+2등급,'Slayter, Miss. Hilda Mary',female,0.008247,-0.478904,-0.444829,234818,-0.404676,Q,13,구조
+2등급,'Slemen, Mr. Richard James',male,0.355144,-0.478904,-0.444829,28206,-0.440419,S,?,사망
+2등급,'Smith, Miss. Marion Elsie',female,0.702041,-0.478904,-0.444829,31418,-0.392117,S,9,구조
+2등급,'Sobey, Mr. Samuel James Hayden',male,-0.33865,-0.478904,-0.444829,'C.A. 29178',-0.392117,S,?,사망
+2등급,'Stanton, Mr. Samuel Ward',male,0.77142,-0.478904,-0.444829,237734,-0.352592,C,?,사망
+2등급,'Stokes, Mr. Philip Joseph',male,-0.33865,-0.478904,-0.444829,'F.C.C. 13540',-0.440419,S,?,사망
+2등급,'Swane, Mr. George',male,-0.789616,-0.478904,-0.444829,248734,-0.392117,S,?,사망
+2등급,'Sweet, Mr. George Frederick',male,-1.101824,-0.478904,-0.444829,220845,0.612545,S,?,사망
+2등급,'Toomey, Miss. Ellen',female,1.395835,-0.478904,-0.444829,'F.C.C. 13531',-0.440419,S,9,구조
+2등급,'Troupiansky, Mr. Moses Aaron',male,-0.477409,-0.478904,-0.444829,233639,-0.392117,S,?,사망
+2등급,'Trout, Mrs. William H (Jessie L)',female,-0.130512,-0.478904,-0.444829,240929,-0.39888,S,?,구조
+2등급,'Troutt, Miss. Edwina Celia ?Winnie?',female,-0.199891,-0.478904,-0.444829,34218,-0.440419,S,16,구조
+2등급,'Turpin, Mr. William John Robert',male,-0.061133,0.481104,-0.444829,11668,-0.237554,S,?,사망
+2등급,'Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)',female,-0.199891,0.481104,-0.444829,11668,-0.237554,S,?,사망
+2등급,'Veal, Mr. James',male,0.702041,-0.478904,-0.444829,28221,-0.392117,S,?,사망
+2등급,'Walcroft, Miss. Nellie',female,0.077626,-0.478904,-0.444829,'F.C.C. 13528',-0.237554,S,14,구조
+2등급,'Ware, Mr. John James',male,0.008247,0.481104,-0.444829,'CA 31352',-0.237554,S,?,사망
+2등급,'Ware, Mr. William Jeffery',male,-0.477409,0.481104,-0.444829,28666,-0.440419,S,?,사망
+2등급,'Ware, Mrs. John James (Florence Louise Long)',female,0.077626,-0.478904,-0.444829,'CA 31352',-0.237554,S,10,구조
+2등급,'Watson, Mr. Ennis Hastings',male,?,-0.478904,-0.444829,239856,-0.643283,S,?,사망
+2등급,'Watt, Miss. Bertha J',female,-1.240582,-0.478904,-0.444829,'C.A. 33595',-0.338986,S,9,구조
+2등급,'Watt, Mrs. James (Elizabeth ?Bessie? Inglis Milne)',female,0.702041,-0.478904,-0.444829,'C.A. 33595',-0.338986,S,9,구조
+2등급,'Webber, Miss. Susan',female,0.181695,-0.478904,-0.444829,27267,-0.392117,S,12,구조
+2등급,'Weisz, Mr. Leopold',male,-0.199891,0.481104,-0.444829,228414,-0.140952,S,?,사망
+2등급,'Weisz, Mrs. Leopold (Mathilde Francoise Pede)',female,-0.061133,0.481104,-0.444829,228414,-0.140952,S,10,구조
+2등급,'Wells, Master. Ralph Lester',male,-1.934376,0.481104,0.710492,29103,-0.198913,S,14,구조
+2등급,'Wells, Miss. Joan',female,-1.795618,0.481104,0.710492,29103,-0.198913,S,14,구조
+2등급,'Wells, Mrs. Arthur Henry (?Addie? Dart Trevaskis)',female,-0.061133,-0.478904,1.865813,29103,-0.198913,S,14,구조
+2등급,'West, Miss. Barbara J',female,-2.009535,0.481104,1.865813,'C.A. 34651',-0.107141,S,10,구조
+2등급,'West, Miss. Constance Mirium',female,-1.726238,0.481104,1.865813,'C.A. 34651',-0.107141,S,10,구조
+2등급,'West, Mr. Edwy Arthur',male,0.424523,0.481104,1.865813,'C.A. 34651',-0.107141,S,?,사망
+2등급,'West, Mrs. Edwy Arthur (Ada Mary Worth)',female,0.216385,0.481104,1.865813,'C.A. 34651',-0.107141,S,10,구조
+2등급,'Wheadon, Mr. Edward H',male,2.505905,-0.478904,-0.444829,'C.A. 24579',-0.440419,S,?,사망
+2등급,'Wheeler, Mr. Edwin ?Frederick?',male,?,-0.478904,-0.444829,'SC/PARIS 2159',-0.394533,S,?,사망
+2등급,'Wilhelms, Mr. Charles',male,0.077626,-0.478904,-0.444829,244270,-0.392117,S,9,구조
+2등급,'Williams, Mr. Charles Eugene',male,?,-0.478904,-0.444829,244373,-0.392117,S,14,구조
+2등급,'Wright, Miss. Marion',female,-0.269271,-0.478904,-0.444829,220844,-0.382457,S,9,구조
+2등급,'Yrois, Miss. Henriette (?Mrs Harbeck?)',female,-0.40803,-0.478904,-0.444829,248747,-0.392117,S,?,사망
+3등급,'Abbing, Mr. Anthony',male,0.8408,-0.478904,-0.444829,'C.A. 5547',-0.497414,S,?,사망
+3등급,'Abbott, Master. Eugene Joseph',male,-1.171203,-0.478904,1.865813,'C.A. 2673',-0.252044,S,?,사망
+3등급,'Abbott, Mr. Rossmore Edward',male,-0.963065,0.481104,0.710492,'C.A. 2673',-0.252044,S,?,사망
+3등급,'Abbott, Mrs. Stanton (Rosa Hunt)',female,0.355144,0.481104,0.710492,'C.A. 2673',-0.252044,S,A,구조
+3등급,'Abelseth, Miss. Karen Marie',female,-0.963065,-0.478904,-0.444829,348125,-0.495482,S,16,구조
+3등급,'Abelseth, Mr. Olaus Jorgensen',male,-0.33865,-0.478904,-0.444829,348122,-0.495482,S,A,구조
+3등급,'Abrahamsson, Mr. Abraham August Johannes',male,-0.685547,-0.478904,-0.444829,'SOTON/O2 3101284',-0.490169,S,15,구조
+3등급,'Abrahim, Mrs. Joseph (Sophie Halaut Easu)',female,-0.824306,-0.478904,-0.444829,2657,-0.503612,C,C,구조
+3등급,'Adahl, Mr. Mauritz Nils Martin',male,0.008247,-0.478904,-0.444829,'C 7076',-0.50321,S,?,사망
+3등급,'Adams, Mr. John',male,-0.269271,-0.478904,-0.444829,341826,-0.487754,S,?,사망
+3등급,'Ahlin, Mrs. Johan (Johanna Persdotter Larsson)',female,0.702041,0.481104,-0.444829,7546,-0.460222,S,?,사망
+3등급,'Aks, Master. Philip Frank',male,-2.015321,-0.478904,0.710492,392091,-0.462637,S,11,구조
+3등급,'Aks, Mrs. Sam (Leah Rosen)',female,-0.824306,-0.478904,0.710492,392091,-0.462637,S,13,구조
+3등급,'Albimona, Mr. Nassef Cassem',male,-0.269271,-0.478904,-0.444829,2699,-0.2803,C,15,구조
+3등급,'Alexander, Mr. William',male,-0.269271,-0.478904,-0.444829,3474,-0.490893,S,?,사망
+3등급,'Alhomaki, Mr. Ilmari Rudolf',male,-0.685547,-0.478904,-0.444829,'SOTON/O2 3101287',-0.490169,S,?,사망
+3등급,'Ali, Mr. Ahmed',male,-0.40803,-0.478904,-0.444829,'SOTON/O.Q. 3101311',-0.507074,S,?,사망
+3등급,'Ali, Mr. William',male,-0.33865,-0.478904,-0.444829,'SOTON/O.Q. 3101312',-0.507074,S,?,사망
+3등급,'Allen, Mr. William Henry',male,0.355144,-0.478904,-0.444829,373450,-0.487754,S,?,사망
+3등급,'Allum, Mr. Owen George',male,-0.824306,-0.478904,-0.444829,2223,-0.482924,S,?,사망
+3등급,'Andersen, Mr. Albert Karvin',male,0.147006,-0.478904,-0.444829,'C 4001',-0.20809,S,?,사망
+3등급,'Andersen-Jensen, Miss. Carla Christine Nielsine',female,-0.754927,0.481104,-0.444829,350046,-0.491537,S,16,구조
+3등급,'Andersson, Master. Sigvard Harald Elias',male,-1.795618,3.361127,1.865813,347082,-0.039037,S,?,사망
+3등급,'Andersson, Miss. Ebba Iris Alfrida',female,-1.656859,3.361127,1.865813,347082,-0.039037,S,?,사망
+3등급,'Andersson, Miss. Ellis Anna Maria',female,-1.934376,3.361127,1.865813,347082,-0.039037,S,?,사망
+3등급,'Andersson, Miss. Erna Alexandra',female,-0.893685,3.361127,1.865813,3101281,-0.490169,S,D,구조
+3등급,'Andersson, Miss. Ida Augusta Margareta',female,0.563282,3.361127,1.865813,347091,-0.493067,S,?,사망
+3등급,'Andersson, Miss. Ingeborg Constanzia',female,-1.448721,3.361127,1.865813,347082,-0.039037,S,?,사망
+3등급,'Andersson, Miss. Sigrid Elisabeth',female,-1.309962,3.361127,1.865813,347082,-0.039037,S,?,사망
+3등급,'Andersson, Mr. Anders Johan',male,0.632661,0.481104,5.331776,347082,-0.039037,S,?,사망
+3등급,'Andersson, Mr. August Edvard (?Wennerstrom?)',male,-0.199891,-0.478904,-0.444829,350043,-0.492665,S,A,구조
+3등급,'Andersson, Mr. Johan Samuel',male,-0.269271,-0.478904,-0.444829,347075,-0.493067,S,?,사망
+3등급,'Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)',female,0.632661,0.481104,5.331776,347082,-0.039037,S,?,사망
+3등급,'Andreasson, Mr. Paul Edvin',male,-0.685547,-0.478904,-0.444829,347466,-0.491537,S,?,사망
+3등급,'Angheloff, Mr. Minko',male,-0.269271,-0.478904,-0.444829,349202,-0.490733,S,?,사망
+3등급,'Arnold-Franchi, Mr. Josef',male,-0.33865,0.481104,-0.444829,349237,-0.299379,S,?,사망
+3등급,'Arnold-Franchi, Mrs. Josef (Josefine Franchi)',female,-0.824306,0.481104,-0.444829,349237,-0.299379,S,?,사망
+3등급,'Aronsson, Mr. Ernst Axel Algot',male,-0.40803,-0.478904,-0.444829,349911,-0.493067,S,?,사망
+3등급,'Asim, Mr. Adola',male,0.355144,-0.478904,-0.444829,'SOTON/O.Q. 3101310',-0.507074,S,?,사망
+3등급,'Asplund, Master. Carl Edgar',male,-1.726238,3.361127,1.865813,347077,-0.036863,S,?,사망
+3등급,'Asplund, Master. Clarence Gustaf Hugo',male,-1.448721,3.361127,1.865813,347077,-0.036863,S,?,사망
+3등급,'Asplund, Master. Edvin Rojj Felix',male,-1.864997,3.361127,1.865813,347077,-0.036863,S,15,구조
+3등급,'Asplund, Master. Filip Oscar',male,-1.171203,3.361127,1.865813,347077,-0.036863,S,?,사망
+3등급,'Asplund, Miss. Lillian Gertrud',female,-1.726238,3.361127,1.865813,347077,-0.036863,S,15,구조
+3등급,'Asplund, Mr. Carl Oscar Vilhelm Gustafsson',male,0.702041,0.481104,5.331776,347077,-0.036863,S,?,사망
+3등급,'Asplund, Mr. Johan Charles',male,-0.477409,-0.478904,-0.444829,350054,-0.492665,S,13,구조
+3등급,'Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)',female,0.563282,0.481104,5.331776,347077,-0.036863,S,15,구조
+3등급,'Assaf Khalil, Mrs. Mariana (?Miriam?)',female,1.048938,-0.478904,-0.444829,2696,-0.503693,C,C,구조
+3등급,'Assaf, Mr. Gerios',male,-0.616168,-0.478904,-0.444829,2692,-0.503693,C,?,사망
+3등급,'Assam, Mr. Ali',male,-0.477409,-0.478904,-0.444829,'SOTON/O.Q. 3101309',-0.507074,S,?,사망
+3등급,'Attalah, Miss. Malake',female,-0.893685,-0.478904,-0.444829,2627,-0.363943,C,?,사망
+3등급,'Attalah, Mr. Sleiman',male,0.008247,-0.478904,-0.444829,2694,-0.503693,C,?,사망
+3등급,'Augustsson, Mr. Albert',male,-0.477409,-0.478904,-0.444829,347468,-0.491537,S,?,사망
+3등급,'Ayoub, Miss. Banoura',female,-1.171203,-0.478904,-0.444829,2687,-0.503612,C,C,구조
+3등급,'Baccos, Mr. Raffull',male,-0.685547,-0.478904,-0.444829,2679,-0.503693,C,?,사망
+3등급,'Backstrom, Mr. Karl Alfred',male,0.147006,0.481104,-0.444829,3101278,-0.337054,S,D,사망
+3등급,'Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)',female,0.216385,2.401119,-0.444829,3101278,-0.337054,S,?,구조
+3등급,'Baclini, Miss. Eugenie',female,-2.021101,1.441112,0.710492,2666,-0.271204,C,C,구조
+3등급,'Baclini, Miss. Helene Barbara',female,-2.021101,1.441112,0.710492,2666,-0.271204,C,C,구조
+3등급,'Baclini, Miss. Marie Catherine',female,-1.726238,1.441112,0.710492,2666,-0.271204,C,C,구조
+3등급,'Baclini, Mrs. Solomon (Latifa Qurban)',female,-0.40803,-0.478904,3.021134,2666,-0.271204,C,C,구조
+3등급,'Badman, Miss. Emily Louisa',female,-0.824306,-0.478904,-0.444829,'A/4 31416',-0.487754,S,C,구조
+3등급,'Badt, Mr. Mohamed',male,0.702041,-0.478904,-0.444829,2623,-0.503693,C,?,사망
+3등급,'Balkic, Mr. Cerin',male,-0.269271,-0.478904,-0.444829,349248,-0.490733,S,?,사망
+3등급,'Barah, Mr. Hanna Assi',male,-0.685547,-0.478904,-0.444829,2663,-0.503612,C,15,구조
+3등급,'Barbara, Miss. Saiide',female,-0.824306,-0.478904,0.710492,2691,-0.364022,C,?,사망
+3등급,'Barbara, Mrs. (Catherine David)',female,1.048938,-0.478904,0.710492,2691,-0.364022,C,?,사망
+3등급,'Barry, Miss. Julia',female,-0.199891,-0.478904,-0.444829,330844,-0.491054,Q,?,사망
+3등급,'Barton, Mr. David John',male,-0.546788,-0.478904,-0.444829,324669,-0.487754,S,?,사망
+3등급,'Beavan, Mr. William Thomas',male,-0.754927,-0.478904,-0.444829,323951,-0.487754,S,?,사망
+3등급,'Bengtsson, Mr. John Viktor',male,-0.269271,-0.478904,-0.444829,347068,-0.493067,S,?,사망
+3등급,'Berglund, Mr. Karl Ivar Sven',male,-0.546788,-0.478904,-0.444829,'PP 4348',-0.462637,S,?,사망
+3등급,'Betros, Master. Seman',male,?,-0.478904,-0.444829,2622,-0.503612,C,?,사망
+3등급,'Betros, Mr. Tannous',male,-0.685547,-0.478904,-0.444829,2648,-0.56576,C,?,사망
+3등급,'Bing, Mr. Lee',male,0.147006,-0.478904,-0.444829,1601,0.44824,S,C,구조
+3등급,'Birkeland, Mr. Hans Martin Monsen',male,-0.616168,-0.478904,-0.444829,312992,-0.493067,S,?,사망
+3등급,'Bjorklund, Mr. Ernst Herbert',male,-0.824306,-0.478904,-0.444829,347090,-0.49355,S,?,사망
+3등급,'Bostandyeff, Mr. Guentcho',male,-0.269271,-0.478904,-0.444829,349224,-0.490733,S,?,사망
+3등급,'Boulos, Master. Akar',male,-1.656859,0.481104,0.710492,2678,-0.348728,C,?,사망
+3등급,'Boulos, Miss. Nourelain',female,-1.448721,0.481104,0.710492,2678,-0.348728,C,?,사망
+3등급,'Boulos, Mr. Hanna',male,?,-0.478904,-0.444829,2664,-0.503693,C,?,사망
+3등급,'Boulos, Mrs. Joseph (Sultana)',female,?,-0.478904,1.865813,2678,-0.348728,C,?,사망
+3등급,'Bourke, Miss. Mary',female,?,-0.478904,1.865813,364848,-0.49355,Q,?,사망
+3등급,'Bourke, Mr. John',male,0.702041,0.481104,0.710492,364849,-0.343816,Q,?,사망
+3등급,'Bourke, Mrs. John (Catherine)',female,0.147006,0.481104,0.710492,364849,-0.343816,Q,?,사망
+3등급,'Bowen, Mr. David John ?Dai?',male,-0.616168,-0.478904,-0.444829,54636,-0.332224,S,?,사망
+3등급,'Bradley, Miss. Bridget Delia',female,-0.546788,-0.478904,-0.444829,334914,-0.494033,Q,13,구조
+3등급,'Braf, Miss. Elin Ester Maria',female,-0.685547,-0.478904,-0.444829,347471,-0.491537,S,?,사망
+3등급,'Braund, Mr. Lewis Richard',male,-0.061133,0.481104,-0.444829,3460,-0.507155,S,?,사망
+3등급,'Braund, Mr. Owen Harris',male,-0.546788,0.481104,-0.444829,'A/5 21171',-0.50321,S,?,사망
+3등급,'Brobeck, Mr. Karl Rudolf',male,-0.546788,-0.478904,-0.444829,350045,-0.492665,S,?,사망
+3등급,'Brocklebank, Mr. William Alfred',male,0.355144,-0.478904,-0.444829,364512,-0.487754,S,?,사망
+3등급,'Buckley, Miss. Katherine',female,-0.789616,-0.478904,-0.444829,329944,-0.502567,Q,?,사망
+3등급,'Buckley, Mr. Daniel',male,-0.616168,-0.478904,-0.444829,330920,-0.492182,Q,13,구조
+3등급,'Burke, Mr. Jeremiah',male,-0.754927,-0.478904,-0.444829,365222,-0.51287,Q,?,사망
+3등급,'Burns, Miss. Mary Delia',female,-0.824306,-0.478904,-0.444829,330963,-0.491054,Q,?,사망
+3등급,'Cacic, Miss. Manda',female,-0.616168,-0.478904,-0.444829,315087,-0.47592,S,?,사망
+3등급,'Cacic, Miss. Marija',female,0.008247,-0.478904,-0.444829,315084,-0.47592,S,?,사망
+3등급,'Cacic, Mr. Jego Grga',male,-0.824306,-0.478904,-0.444829,315091,-0.47592,S,?,사망
+3등급,'Cacic, Mr. Luka',male,0.563282,-0.478904,-0.444829,315089,-0.47592,S,?,사망
+3등급,'Calic, Mr. Jovo',male,-0.893685,-0.478904,-0.444829,315093,-0.47592,S,?,사망
+3등급,'Calic, Mr. Petar',male,-0.893685,-0.478904,-0.444829,315086,-0.47592,S,?,사망
+3등급,'Canavan, Miss. Mary',female,-0.616168,-0.478904,-0.444829,364846,-0.49355,Q,?,사망
+3등급,'Canavan, Mr. Patrick',male,-0.616168,-0.478904,-0.444829,364858,-0.49355,Q,?,사망
+3등급,'Cann, Mr. Ernest Charles',male,-0.616168,-0.478904,-0.444829,'A./5. 2152',-0.487754,S,?,사망
+3등급,'Caram, Mr. Joseph',male,?,0.481104,-0.444829,2689,-0.363943,C,?,사망
+3등급,'Caram, Mrs. Joseph (Maria Elias)',female,?,0.481104,-0.444829,2689,-0.363943,C,?,사망
+3등급,'Carlsson, Mr. August Sigfrid',male,-0.130512,-0.478904,-0.444829,350042,-0.492665,S,?,사망
+3등급,'Carlsson, Mr. Carl Robert',male,-0.40803,-0.478904,-0.444829,350409,-0.491537,S,?,사망
+3등급,'Carr, Miss. Helen ?Ellen?',female,-0.963065,-0.478904,-0.444829,367231,-0.49355,Q,16,구조
+3등급,'Carr, Miss. Jeannie',female,0.493903,-0.478904,-0.444829,368364,-0.49355,Q,?,사망
+3등급,'Carver, Mr. Alfred John',male,-0.130512,-0.478904,-0.444829,392095,-0.50321,S,?,사망
+3등급,'Celotti, Mr. Francesco',male,-0.40803,-0.478904,-0.444829,343275,-0.487754,S,?,사망
+3등급,'Charters, Mr. David',male,-0.616168,-0.478904,-0.444829,'A/5. 13032',-0.493872,Q,?,사망
+3등급,'Chip, Mr. Chang',male,0.147006,-0.478904,-0.444829,1601,0.44824,S,C,구조
+3등급,'Christmann, Mr. Emil',male,-0.061133,-0.478904,-0.444829,343276,-0.487754,S,?,사망
+3등급,'Chronopoulos, Mr. Apostolos',male,-0.269271,0.481104,-0.444829,2680,-0.364022,C,?,사망
+3등급,'Chronopoulos, Mr. Demetrios',male,-0.824306,0.481104,-0.444829,2680,-0.364022,C,?,사망
+3등급,'Coelho, Mr. Domingos Fernandeo',male,-0.685547,-0.478904,-0.444829,'SOTON/O.Q. 3101307',-0.507074,S,?,사망
+3등급,'Cohen, Mr. Gurshon ?Gus?',male,-0.824306,-0.478904,-0.444829,'A/5 3540',-0.487754,S,12,구조
+3등급,'Colbert, Mr. Patrick',male,-0.40803,-0.478904,-0.444829,371109,-0.50321,Q,?,사망
+3등급,'Coleff, Mr. Peju',male,0.424523,-0.478904,-0.444829,349210,-0.498461,S,?,사망
+3등급,'Coleff, Mr. Satio',male,-0.40803,-0.478904,-0.444829,349209,-0.498461,S,?,사망
+3등급,'Conlon, Mr. Thomas Henry',male,0.077626,-0.478904,-0.444829,21332,-0.493872,Q,?,사망
+3등급,'Connaghton, Mr. Michael',male,0.077626,-0.478904,-0.444829,335097,-0.49355,Q,?,사망
+3등급,'Connolly, Miss. Kate',female,-0.546788,-0.478904,-0.444829,370373,-0.49355,Q,13,구조
+3등급,'Connolly, Miss. Kate',female,0.008247,-0.478904,-0.444829,330972,-0.495884,Q,?,사망
+3등급,'Connors, Mr. Patrick',male,2.818113,-0.478904,-0.444829,370369,-0.49355,Q,?,사망
+3등급,'Cook, Mr. Jacob',male,0.910179,-0.478904,-0.444829,'A/5 3536',-0.487754,S,?,사망
+3등급,'Cor, Mr. Bartol',male,0.355144,-0.478904,-0.444829,349230,-0.490733,S,?,사망
+3등급,'Cor, Mr. Ivan',male,-0.199891,-0.478904,-0.444829,349229,-0.490733,S,?,사망
+3등급,'Cor, Mr. Liudevit',male,-0.754927,-0.478904,-0.444829,349231,-0.490733,S,?,사망
+3등급,'Corn, Mr. Harry',male,0.008247,-0.478904,-0.444829,'SOTON/OQ 392090',-0.487754,S,?,사망
+3등급,'Coutts, Master. Eden Leslie ?Neville?',male,-1.448721,0.481104,0.710492,'C.A. 37671',-0.336088,S,2,구조
+3등급,'Coutts, Master. William Loch ?William?',male,-1.864997,0.481104,0.710492,'C.A. 37671',-0.336088,S,2,구조
+3등급,'Coutts, Mrs. William (Winnie ?Minnie? Treanor)',female,0.424523,-0.478904,1.865813,'C.A. 37671',-0.336088,S,2,구조
+3등급,'Coxon, Mr. Daniel',male,2.020249,-0.478904,-0.444829,364500,-0.50321,S,?,사망
+3등급,'Crease, Mr. Ernest James',male,-0.754927,-0.478904,-0.444829,'S.P. 3464',-0.485661,S,?,사망
+3등급,'Cribb, Miss. Laura Alice',female,-0.893685,-0.478904,0.710492,371362,-0.332224,S,12,구조
+3등급,'Cribb, Mr. John Hatfield',male,0.979558,-0.478904,0.710492,371362,-0.332224,S,?,사망
+3등급,'Culumovic, Mr. Jeso',male,-0.893685,-0.478904,-0.444829,315090,-0.47592,S,?,사망
+3등급,'Daher, Mr. Shedid',male,-0.512099,-0.478904,-0.444829,2698,-0.503693,C,?,사망
+3등급,'Dahl, Mr. Karl Edwart',male,1.048938,-0.478904,-0.444829,7598,-0.487754,S,15,구조
+3등급,'Dahlberg, Miss. Gerda Ulrika',female,-0.546788,-0.478904,-0.444829,7552,-0.440096,S,?,사망
+3등급,'Dakic, Mr. Branko',male,-0.754927,-0.478904,-0.444829,349228,-0.446779,S,?,사망
+3등급,'Daly, Miss. Margaret Marcella ?Maggie?',female,0.008247,-0.478904,-0.444829,382650,-0.509006,Q,15,구조
+3등급,'Daly, Mr. Eugene Patrick',male,-0.061133,-0.478904,-0.444829,382651,-0.49355,Q,'13 15 B',구조
+3등급,'Danbom, Master. Gilbert Sigvard Emanuel',male,-2.050011,-0.478904,1.865813,347080,-0.365069,S,?,사망
+3등급,'Danbom, Mr. Ernst Gilbert',male,0.285764,0.481104,0.710492,347080,-0.365069,S,?,사망
+3등급,'Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)',female,-0.130512,0.481104,0.710492,347080,-0.365069,S,?,사망
+3등급,'Danoff, Mr. Yoto',male,-0.199891,-0.478904,-0.444829,349219,-0.490733,S,?,사망
+3등급,'Dantcheff, Mr. Ristiu',male,-0.33865,-0.478904,-0.444829,349203,-0.490733,S,?,사망
+3등급,'Davies, Mr. Alfred J',male,-0.40803,1.441112,-0.444829,'A/4 48871',-0.176695,S,?,사망
+3등급,'Davies, Mr. Evan',male,-0.546788,-0.478904,-0.444829,'SC/A4 23568',-0.487754,S,?,사망
+3등급,'Davies, Mr. John Samuel',male,-0.616168,1.441112,-0.444829,'A/4 48871',-0.176695,S,?,사망
+3등급,'Davies, Mr. Joseph',male,-0.893685,1.441112,-0.444829,'A/4 48873',-0.487754,S,?,사망
+3등급,'Davison, Mr. Thomas Henry',male,?,0.481104,-0.444829,386525,-0.332224,S,?,사망
+3등급,'Davison, Mrs. Thomas Henry (Mary E Finck)',female,?,0.481104,-0.444829,386525,-0.332224,S,16,구조
+3등급,'de Messemaeker, Mr. Guillaume Joseph',male,0.459213,0.481104,-0.444829,345572,-0.307108,S,15,구조
+3등급,'de Messemaeker, Mrs. Guillaume Joseph (Emma)',female,0.424523,0.481104,-0.444829,345572,-0.307108,S,13,구조
+3등급,'de Mulder, Mr. Theodore',male,0.008247,-0.478904,-0.444829,345774,-0.459739,S,11,구조
+3등급,'de Pelsmaeker, Mr. Alfons',male,-0.963065,-0.478904,-0.444829,345778,-0.459739,S,?,사망
+3등급,'Dean, Master. Bertram Vere',male,-2.003756,0.481104,1.865813,'C.A. 2315',-0.245765,S,10,구조
+3등급,'Dean, Miss. Elizabeth Gladys ?Millvina?',female,-2.06157,0.481104,1.865813,'C.A. 2315',-0.245765,S,10,구조
+3등급,'Dean, Mr. Bertram Frank',male,-0.269271,0.481104,1.865813,'C.A. 2315',-0.245765,S,?,사망
+3등급,'Dean, Mrs. Bertram (Eva Georgetta Light)',female,0.216385,0.481104,1.865813,'C.A. 2315',-0.245765,S,10,구조
+3등급,'Delalic, Mr. Redjo',male,-0.33865,-0.478904,-0.444829,349250,-0.490733,S,?,사망
+3등급,'Demetri, Mr. Marinko',male,?,-0.478904,-0.444829,349238,-0.490733,S,?,사망
+3등급,'Denkoff, Mr. Mitto',male,?,-0.478904,-0.444829,349225,-0.490733,S,?,사망
+3등급,'Dennis, Mr. Samuel',male,-0.546788,-0.478904,-0.444829,'A/5 21172',-0.50321,S,?,사망
+3등급,'Dennis, Mr. William',male,0.424523,-0.478904,-0.444829,'A/5 21175',-0.50321,S,?,사망
+3등급,'Devaney, Miss. Margaret Delia',female,-0.754927,-0.478904,-0.444829,330958,-0.491054,Q,C,구조
+3등급,'Dika, Mr. Mirko',male,-0.893685,-0.478904,-0.444829,349232,-0.490733,S,?,사망
+3등급,'Dimic, Mr. Jovan',male,0.8408,-0.478904,-0.444829,315088,-0.47592,S,?,사망
+3등급,'Dintcheff, Mr. Valtcho',male,0.910179,-0.478904,-0.444829,349226,-0.490733,S,?,사망
+3등급,'Doharr, Mr. Tannous',male,?,-0.478904,-0.444829,2686,-0.503612,C,?,사망
+3등급,'Dooley, Mr. Patrick',male,0.147006,-0.478904,-0.444829,370376,-0.49355,Q,?,사망
+3등급,'Dorking, Mr. Edward Arthur',male,-0.754927,-0.478904,-0.444829,'A/5. 10482',-0.487754,S,B,구조
+3등급,'Dowdell, Miss. Elizabeth',female,0.008247,-0.478904,-0.444829,364516,-0.402261,S,13,구조
+3등급,'Doyle, Miss. Elizabeth',female,-0.40803,-0.478904,-0.444829,368702,-0.49355,Q,?,사망
+3등급,'Drapkin, Miss. Jennie',female,-0.477409,-0.478904,-0.444829,'SOTON/OQ 392083',-0.487754,S,?,구조
+3등급,'Drazenoic, Mr. Jozef',male,0.216385,-0.478904,-0.444829,349241,-0.490733,C,?,사망
+3등급,'Duane, Mr. Frank',male,2.436526,-0.478904,-0.444829,336439,-0.49355,Q,?,사망
+3등급,'Duquemin, Mr. Joseph',male,-0.40803,-0.478904,-0.444829,'S.O./P.P. 752',-0.497414,S,D,구조
+3등급,'Dyker, Mr. Adolf Fredrik',male,-0.477409,0.481104,-0.444829,347072,-0.374729,S,?,사망
+3등급,'Dyker, Mrs. Adolf Fredrik (Anna Elisabeth Judith Andersson)',female,-0.546788,0.481104,-0.444829,347072,-0.374729,S,16,구조
+3등급,'Edvardsson, Mr. Gustaf Hjalmar',male,-0.824306,-0.478904,-0.444829,349912,-0.493067,S,?,사망
+3등급,'Eklund, Mr. Hans Linus',male,-0.963065,-0.478904,-0.444829,347074,-0.493067,S,?,사망
+3등급,'Ekstrom, Mr. Johan',male,1.048938,-0.478904,-0.444829,347061,-0.508523,S,?,사망
+3등급,'Elias, Mr. Dibo',male,?,-0.478904,-0.444829,2674,-0.503693,C,?,사망
+3등급,'Elias, Mr. Joseph',male,0.632661,-0.478904,1.865813,2675,-0.503612,C,?,사망
+3등급,'Elias, Mr. Joseph Jr',male,-0.893685,0.481104,0.710492,2690,-0.503612,C,?,사망
+3등급,'Elias, Mr. Tannous',male,-1.032444,0.481104,0.710492,2695,-0.503612,C,?,사망
+3등급,'Elsbury, Mr. William James',male,1.187697,-0.478904,-0.444829,'A/5 3902',-0.50321,S,?,사망
+3등급,'Emanuel, Miss. Virginia Ethel',female,-1.726238,-0.478904,-0.444829,364516,-0.402261,S,13,구조
+3등급,'Emir, Mr. Farred Chehab',male,?,-0.478904,-0.444829,2631,-0.503693,C,?,사망
+3등급,'Everett, Mr. Thomas James',male,0.736731,-0.478904,-0.444829,'C.A. 6212',-0.351545,S,?,사망
+3등급,'Farrell, Mr. James',male,0.736731,-0.478904,-0.444829,367232,-0.49355,Q,?,사망
+3등급,'Finoli, Mr. Luigi',male,?,-0.478904,-0.444829,'SOTON/O.Q. 3101308',-0.507074,S,15,구조
+3등급,'Fischer, Mr. Eberhard Thelander',male,-0.824306,-0.478904,-0.444829,350036,-0.492665,S,?,사망
+3등급,'Fleming, Miss. Honora',female,?,-0.478904,-0.444829,364859,-0.49355,Q,?,사망
+3등급,'Flynn, Mr. James',male,?,-0.478904,-0.444829,364851,-0.49355,Q,?,사망
+3등급,'Flynn, Mr. John',male,?,-0.478904,-0.444829,368323,-0.509006,Q,?,사망
+3등급,'Foley, Mr. Joseph',male,-0.269271,-0.478904,-0.444829,330910,-0.491054,Q,?,사망
+3등급,'Foley, Mr. William',male,?,-0.478904,-0.444829,365235,-0.49355,Q,?,사망
+3등급,'Foo, Mr. Choong',male,?,-0.478904,-0.444829,1601,0.44824,S,13,구조
+3등급,'Ford, Miss. Doolina Margaret ?Daisy?',female,-0.616168,1.441112,1.865813,'W./C. 6608',0.020857,S,?,사망
+3등급,'Ford, Miss. Robina Maggie ?Ruby?',female,-1.448721,1.441112,1.865813,'W./C. 6608',0.020857,S,?,사망
+3등급,'Ford, Mr. Arthur',male,?,-0.478904,-0.444829,'A/5 1478',-0.487754,S,?,사망
+3등급,'Ford, Mr. Edward Watson',male,-0.824306,1.441112,1.865813,'W./C. 6608',0.020857,S,?,사망
+3등급,'Ford, Mr. William Neal',male,-0.963065,0.481104,3.021134,'W./C. 6608',0.020857,S,?,사망
+3등급,'Ford, Mrs. Edward (Margaret Ann Watson)',female,1.257076,0.481104,3.021134,'W./C. 6608',0.020857,S,?,사망
+3등급,'Fox, Mr. Patrick',male,?,-0.478904,-0.444829,368573,-0.49355,Q,?,사망
+3등급,'Franklin, Mr. Charles (Charles Fardon)',male,?,-0.478904,-0.444829,'SOTON/O.Q. 3101314',-0.50321,S,?,사망
+3등급,'Gallagher, Mr. Martin',male,-0.33865,-0.478904,-0.444829,36864,-0.49371,Q,?,사망
+3등급,'Garfirth, Mr. John',male,?,-0.478904,-0.444829,358585,-0.363137,S,?,사망
+3등급,'Gheorgheff, Mr. Stanio',male,?,-0.478904,-0.444829,349254,-0.490733,C,?,사망
+3등급,'Gilinski, Mr. Eliezer',male,-0.546788,-0.478904,-0.444829,14973,-0.487754,S,?,사망
+3등급,'Gilnagh, Miss. Katherine ?Katie?',female,-0.963065,-0.478904,-0.444829,35851,-0.493872,Q,16,구조
+3등급,'Glynn, Miss. Mary Agatha',female,?,-0.478904,-0.444829,335677,-0.49355,Q,13,구조
+3등급,'Goldsmith, Master. Frank John William ?Frankie?',male,-1.448721,-0.478904,1.865813,363291,-0.246731,S,'C D',구조
+3등급,'Goldsmith, Mr. Frank John',male,0.216385,0.481104,0.710492,363291,-0.246731,S,?,사망
+3등급,'Goldsmith, Mr. Nathan',male,0.77142,-0.478904,-0.444829,'SOTON/O.Q. 3101263',-0.491618,S,?,사망
+3등급,'Goldsmith, Mrs. Frank John (Emily Alice Brown)',female,0.077626,0.481104,0.710492,363291,-0.246731,S,'C D',구조
+3등급,'Goncalves, Mr. Manuel Estanslas',male,0.563282,-0.478904,-0.444829,'SOTON/O.Q. 3101306',-0.507074,S,?,사망
+3등급,'Goodwin, Master. Harold Victor',male,-1.448721,4.321134,1.865813,'CA 2144',0.262845,S,?,사망
+3등급,'Goodwin, Master. Sidney Leonard',male,-2.003756,4.321134,1.865813,'CA 2144',0.262845,S,?,사망
+3등급,'Goodwin, Master. William Frederick',male,-1.309962,4.321134,1.865813,'CA 2144',0.262845,S,?,사망
+3등급,'Goodwin, Miss. Jessie Allis',female,-1.379341,4.321134,1.865813,'CA 2144',0.262845,S,?,사망
+3등급,'Goodwin, Miss. Lillian Amy',female,-0.963065,4.321134,1.865813,'CA 2144',0.262845,S,?,사망
+3등급,'Goodwin, Mr. Charles Edward',male,-1.101824,4.321134,1.865813,'CA 2144',0.262845,S,?,사망
+3등급,'Goodwin, Mr. Charles Frederick',male,0.702041,0.481104,6.487097,'CA 2144',0.262845,S,?,사망
+3등급,'Goodwin, Mrs. Frederick (Augusta Tyler)',female,0.910179,0.481104,6.487097,'CA 2144',0.262845,S,?,사망
+3등급,'Green, Mr. George Henry',male,1.465214,-0.478904,-0.444829,21440,-0.487754,S,?,사망
+3등급,'Gronnestad, Mr. Daniel Danielsen',male,0.147006,-0.478904,-0.444829,8471,-0.481716,S,?,사망
+3등급,'Guest, Mr. Robert',male,?,-0.478904,-0.444829,376563,-0.487754,S,?,사망
+3등급,'Gustafsson, Mr. Alfred Ossian',male,-0.685547,-0.478904,-0.444829,7534,-0.453058,S,?,사망
+3등급,'Gustafsson, Mr. Anders Vilhelm',male,0.493903,1.441112,-0.444829,3101276,-0.490169,S,?,사망
+3등급,'Gustafsson, Mr. Johan Birger',male,-0.130512,1.441112,-0.444829,3101277,-0.490169,S,?,사망
+3등급,'Gustafsson, Mr. Karl Gideon',male,-0.754927,-0.478904,-0.444829,347069,-0.493067,S,?,사망
+3등급,'Haas, Miss. Aloisia',female,-0.40803,-0.478904,-0.444829,349236,-0.472297,S,?,사망
+3등급,'Hagardon, Miss. Kate',female,-0.893685,-0.478904,-0.444829,'AQ/3. 30631',-0.493872,Q,?,사망
+3등급,'Hagland, Mr. Ingvald Olai Olsen',male,?,0.481104,-0.444829,65303,-0.257518,S,?,사망
+3등급,'Hagland, Mr. Konrad Mathias Reiersen',male,?,0.481104,-0.444829,65304,-0.257518,S,?,사망
+3등급,'Hakkarainen, Mr. Pekka Pietari',male,-0.130512,0.481104,-0.444829,'STON/O2. 3101279',-0.337054,S,?,사망
+3등급,'Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)',female,-0.40803,0.481104,-0.444829,'STON/O2. 3101279',-0.337054,S,15,구조
+3등급,'Hampe, Mr. Leon',male,-0.685547,-0.478904,-0.444829,345769,-0.459739,S,?,사망
+3등급,'Hanna, Mr. Mansour',male,-0.442719,-0.478904,-0.444829,2693,-0.503612,C,?,사망
+3등급,'Hansen, Mr. Claus Peter',male,0.77142,1.441112,-0.444829,350026,-0.370705,S,?,사망
+3등급,'Hansen, Mr. Henrik Juul',male,-0.269271,0.481104,-0.444829,350025,-0.491537,S,?,사망
+3등급,'Hansen, Mr. Henry Damsgaard',male,-0.616168,-0.478904,-0.444829,350029,-0.491537,S,?,사망
+3등급,'Hansen, Mrs. Claus Peter (Jennie L Howard)',female,1.048938,0.481104,-0.444829,350026,-0.370705,S,11,구조
+3등급,'Harknett, Miss. Alice Phoebe',female,?,-0.478904,-0.444829,'W./C. 6609',-0.497414,S,?,사망
+3등급,'Harmer, Mr. Abraham (David Lishin)',male,-0.33865,-0.478904,-0.444829,374887,-0.50321,S,B,사망
+3등급,'Hart, Mr. Henry',male,?,-0.478904,-0.444829,394140,-0.510778,Q,?,사망
+3등급,'Hassan, Mr. Houssein G N',male,-1.309962,-0.478904,-0.444829,2699,-0.2803,C,?,사망
+3등급,'Healy, Miss. Hanora ?Nora?',female,?,-0.478904,-0.444829,370375,-0.49355,Q,16,구조
+3등급,'Hedman, Mr. Oskar Arvid',male,-0.199891,-0.478904,-0.444829,347089,-0.508523,S,15,구조
+3등급,'Hee, Mr. Ling',male,?,-0.478904,-0.444829,1601,0.44824,S,C,구조
+3등급,'Hegarty, Miss. Hanora ?Nora?',female,-0.824306,-0.478904,-0.444829,365226,-0.51287,Q,?,사망
+3등급,'Heikkinen, Miss. Laina',female,-0.269271,-0.478904,-0.444829,'STON/O2. 3101282',-0.490169,S,?,구조
+3등급,'Heininen, Miss. Wendla Maria',female,-0.477409,-0.478904,-0.444829,'STON/O2. 3101290',-0.490169,S,?,사망
+3등급,'Hellstrom, Miss. Hilda Maria',female,-0.546788,-0.478904,-0.444829,7548,-0.470124,S,C,구조
+3등급,'Hendekovic, Mr. Ignjac',male,-0.130512,-0.478904,-0.444829,349243,-0.490733,S,?,사망
+3등급,'Henriksson, Miss. Jenny Lovisa',female,-0.130512,-0.478904,-0.444829,347086,-0.493067,S,?,사망
+3등급,'Henry, Miss. Delia',female,?,-0.478904,-0.444829,382649,-0.49355,Q,?,사망
+3등급,'Hirvonen, Miss. Hildur E',female,-1.934376,-0.478904,0.710492,3101298,-0.405883,S,15,구조
+3등급,'Hirvonen, Mrs. Alexander (Helga E Lindqvist)',female,-0.546788,0.481104,0.710492,3101298,-0.405883,S,15,구조
+3등급,'Holm, Mr. John Fredrik Alexander',male,0.910179,-0.478904,-0.444829,'C 7075',-0.518666,S,?,사망
+3등급,'Holthen, Mr. Johan Martin',male,-0.130512,-0.478904,-0.444829,'C 4001',-0.20809,S,?,사망
+3등급,'Honkanen, Miss. Eliina',female,-0.199891,-0.478904,-0.444829,'STON/O2. 3101283',-0.490169,S,?,구조
+3등급,'Horgan, Mr. John',male,?,-0.478904,-0.444829,370377,-0.49355,Q,?,사망
+3등급,'Howard, Miss. May Elizabeth',female,?,-0.478904,-0.444829,'A. 2. 39186',-0.487754,S,C,구조
+3등급,'Humblen, Mr. Adolf Mathias Nicolai Olsen',male,0.8408,-0.478904,-0.444829,348121,-0.495482,S,?,사망
+3등급,'Hyman, Mr. Abraham',male,?,-0.478904,-0.444829,3470,-0.490893,S,C,구조
+3등급,'Ibrahim Shawah, Mr. Yousseff',male,0.008247,-0.478904,-0.444829,2685,-0.503612,C,?,사망
+3등급,'Ilieff, Mr. Ylio',male,?,-0.478904,-0.444829,349220,-0.490733,S,?,사망
+3등급,'Ilmakangas, Miss. Ida Livija',female,-0.199891,0.481104,-0.444829,'STON/O2. 3101270',-0.490169,S,?,사망
+3등급,'Ilmakangas, Miss. Pieta Sofia',female,-0.33865,0.481104,-0.444829,'STON/O2. 3101271',-0.490169,S,?,사망
+3등급,'Ivanoff, Mr. Kanio',male,?,-0.478904,-0.444829,349201,-0.490733,S,?,사망
+3등급,'Jalsevac, Mr. Ivan',male,-0.061133,-0.478904,-0.444829,349240,-0.490733,C,15,구조
+3등급,'Jansson, Mr. Carl Olof',male,-0.616168,-0.478904,-0.444829,350034,-0.492665,S,A,구조
+3등급,'Jardin, Mr. Jose Neto',male,?,-0.478904,-0.444829,'SOTON/O.Q. 3101305',-0.507074,S,?,사망
+3등급,'Jensen, Mr. Hans Peder',male,-0.685547,-0.478904,-0.444829,350050,-0.491537,S,?,사망
+3등급,'Jensen, Mr. Niels Peder',male,1.257076,-0.478904,-0.444829,350047,-0.491537,S,?,사망
+3등급,'Jensen, Mr. Svend Lauritz',male,-0.893685,0.481104,-0.444829,350048,-0.506993,S,?,사망
+3등급,'Jermyn, Miss. Annie',female,?,-0.478904,-0.444829,14313,-0.49355,Q,D,구조
+3등급,'Johannesen-Bratthammer, Mr. Bernt',male,?,-0.478904,-0.444829,65306,-0.486546,S,13,구조
+3등급,'Johanson, Mr. Jakob Alfred',male,0.285764,-0.478904,-0.444829,3101264,-0.517781,S,?,사망
+3등급,'Johansson Palmquist, Mr. Oskar Leander',male,-0.269271,-0.478904,-0.444829,347070,-0.493067,S,15,구조
+3등급,'Johansson, Mr. Erik',male,-0.546788,-0.478904,-0.444829,350052,-0.492665,S,?,사망
+3등급,'Johansson, Mr. Gustaf Joel',male,0.216385,-0.478904,-0.444829,7540,-0.47608,S,?,사망
+3등급,'Johansson, Mr. Karl Johan',male,0.077626,-0.478904,-0.444829,347063,-0.493067,S,?,사망
+3등급,'Johansson, Mr. Nils',male,-0.061133,-0.478904,-0.444829,347467,-0.491537,S,?,사망
+3등급,'Johnson, Master. Harold Theodor',male,-1.795618,0.481104,0.710492,347742,-0.428183,S,15,구조
+3등급,'Johnson, Miss. Eleanor Ileen',female,-2.003756,0.481104,0.710492,347742,-0.428183,S,15,구조
+3등급,'Johnson, Mr. Alfred',male,1.326455,-0.478904,-0.444829,LINE,-0.643283,S,?,사망
+3등급,'Johnson, Mr. Malkolm Joackim',male,0.216385,-0.478904,-0.444829,347062,-0.493067,S,?,사망
+3등급,'Johnson, Mr. William Cahoone Jr',male,-0.754927,-0.478904,-0.444829,LINE,-0.643283,S,?,사망
+3등급,'Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)',female,-0.199891,-0.478904,1.865813,347742,-0.428183,S,15,구조
+3등급,'Johnston, Master. William Arthur ?Willie?',male,?,0.481104,1.865813,'W./C. 6607',-0.190219,S,?,사망
+3등급,'Johnston, Miss. Catherine Helen ?Carrie?',female,?,0.481104,1.865813,'W./C. 6607',-0.190219,S,?,사망
+3등급,'Johnston, Mr. Andrew G',male,?,0.481104,1.865813,'W./C. 6607',-0.190219,S,?,사망
+3등급,'Johnston, Mrs. Andrew G (Elizabeth ?Lily? Watson)',female,?,0.481104,1.865813,'W./C. 6607',-0.190219,S,?,사망
+3등급,'Jonkoff, Mr. Lalio',male,-0.477409,-0.478904,-0.444829,349204,-0.490733,S,?,사망
+3등급,'Jonsson, Mr. Carl',male,0.147006,-0.478904,-0.444829,350417,-0.491537,S,15,구조
+3등급,'Jonsson, Mr. Nils Hilding',male,-0.199891,-0.478904,-0.444829,350408,-0.491537,S,?,사망
+3등급,'Jussila, Miss. Katriina',female,-0.685547,0.481104,-0.444829,4136,-0.45346,S,?,사망
+3등급,'Jussila, Miss. Mari Aina',female,-0.616168,0.481104,-0.444829,4137,-0.45346,S,?,사망
+3등급,'Jussila, Mr. Eiriik',male,0.147006,-0.478904,-0.444829,'STON/O 2. 3101286',-0.490169,S,15,구조
+3등급,'Kallio, Mr. Nikolai Erland',male,-0.893685,-0.478904,-0.444829,'STON/O 2. 3101274',-0.505625,S,?,사망
+3등급,'Kalvik, Mr. Johannes Halvorsen',male,-0.616168,-0.478904,-0.444829,8475,-0.480348,S,?,사망
+3등급,'Karaic, Mr. Milan',male,0.008247,-0.478904,-0.444829,349246,-0.490733,S,?,사망
+3등급,'Karlsson, Mr. Einar Gervasius',male,-0.616168,-0.478904,-0.444829,350053,-0.492665,S,13,구조
+3등급,'Karlsson, Mr. Julius Konrad Eugen',male,0.216385,-0.478904,-0.444829,347465,-0.491537,S,?,사망
+3등급,'Karlsson, Mr. Nils August',male,-0.546788,-0.478904,-0.444829,350060,-0.497978,S,?,사망
+3등급,'Karun, Miss. Manca',female,-1.795618,-0.478904,0.710492,349256,-0.384067,C,15,구조
+3등급,'Karun, Mr. Franz',male,0.632661,-0.478904,0.710492,349256,-0.384067,C,15,구조
+3등급,'Kassem, Mr. Fared',male,?,-0.478904,-0.444829,2700,-0.503612,C,?,사망
+3등급,'Katavelas, Mr. Vassilios (?Catavelas Vassilios?)',male,-0.789616,-0.478904,-0.444829,2682,-0.503612,C,?,사망
+3등급,'Keane, Mr. Andrew ?Andy?',male,?,-0.478904,-0.444829,12460,-0.49355,Q,?,사망
+3등급,'Keefe, Mr. Arthur',male,?,-0.478904,-0.444829,323592,-0.50321,S,A,사망
+3등급,'Kelly, Miss. Anna Katherine ?Annie Kate?',female,?,-0.478904,-0.444829,9234,-0.49355,Q,16,구조
+3등급,'Kelly, Miss. Mary',female,?,-0.478904,-0.444829,14312,-0.49355,Q,D,구조
+3등급,'Kelly, Mr. James',male,0.320454,-0.478904,-0.444829,330911,-0.49202,Q,?,사망
+3등급,'Kelly, Mr. James',male,0.979558,-0.478904,-0.444829,363592,-0.487754,S,?,사망
+3등급,'Kennedy, Mr. John',male,?,-0.478904,-0.444829,368783,-0.49355,Q,?,구조
+3등급,'Khalil, Mr. Betros',male,?,0.481104,-0.444829,2660,-0.364022,C,?,사망
+3등급,'Khalil, Mrs. Betros (Zahie ?Maria? Elias)',female,?,0.481104,-0.444829,2660,-0.364022,C,?,사망
+3등급,'Kiernan, Mr. John',male,?,0.481104,-0.444829,367227,-0.49355,Q,?,사망
+3등급,'Kiernan, Mr. Philip',male,?,0.481104,-0.444829,367229,-0.49355,Q,?,사망
+3등급,'Kilgannon, Mr. Thomas J',male,?,-0.478904,-0.444829,36865,-0.493791,Q,?,사망
+3등급,'Kink, Miss. Maria',female,-0.546788,1.441112,-0.444829,315152,-0.47592,S,?,사망
+3등급,'Kink, Mr. Vincenz',male,-0.269271,1.441112,-0.444829,315151,-0.47592,S,?,사망
+3등급,'Kink-Heilmann, Miss. Luise Gretchen',female,-1.795618,-0.478904,1.865813,315153,-0.217751,S,2,구조
+3등급,'Kink-Heilmann, Mr. Anton',male,-0.061133,2.401119,0.710492,315153,-0.217751,S,2,구조
+3등급,'Kink-Heilmann, Mrs. Anton (Luise Heilmann)',female,-0.269271,0.481104,0.710492,315153,-0.217751,S,2,구조
+3등급,'Klasen, Miss. Gertrud Emilia',female,-2.003756,0.481104,0.710492,350405,-0.407896,S,?,사망
+3등급,'Klasen, Mr. Klas Albin',male,-0.824306,0.481104,0.710492,350404,-0.491537,S,?,사망
+3등급,'Klasen, Mrs. (Hulda Kristina Eugenia Lofqvist)',female,0.424523,-0.478904,1.865813,350405,-0.407896,S,?,사망
+3등급,'Kraeff, Mr. Theodor',male,?,-0.478904,-0.444829,349253,-0.490733,C,?,사망
+3등급,'Krekorian, Mr. Neshan',male,-0.33865,-0.478904,-0.444829,2654,-0.503612,C,10,구조
+3등급,'Lahoud, Mr. Sarkis',male,?,-0.478904,-0.444829,2624,-0.503693,C,?,사망
+3등급,'Laitinen, Miss. Kristina Sofia',female,0.493903,-0.478904,-0.444829,4135,-0.458048,S,?,사망
+3등급,'Laleff, Mr. Kristo',male,?,-0.478904,-0.444829,349217,-0.490733,S,?,사망
+3등급,'Lam, Mr. Ali',male,?,-0.478904,-0.444829,1601,0.44824,S,C,구조
+3등급,'Lam, Mr. Len',male,?,-0.478904,-0.444829,1601,0.44824,S,?,사망
+3등급,'Landergren, Miss. Aurora Adelia',female,-0.546788,-0.478904,-0.444829,'C 7077',-0.50321,S,13,구조
+3등급,'Lane, Mr. Patrick',male,?,-0.478904,-0.444829,7935,-0.49355,Q,?,사망
+3등급,'Lang, Mr. Fang',male,-0.269271,-0.478904,-0.444829,1601,0.44824,S,14,구조
+3등급,'Larsson, Mr. August Viktor',male,-0.061133,-0.478904,-0.444829,7545,-0.460062,S,?,사망
+3등급,'Larsson, Mr. Bengt Edvin',male,-0.061133,-0.478904,-0.444829,347067,-0.493067,S,?,사망
+3등급,'Larsson-Rondberg, Mr. Edvard A',male,-0.546788,-0.478904,-0.444829,347065,-0.493067,S,?,사망
+3등급,'Leeni, Mr. Fahim (?Philip Zenni?)',male,-0.546788,-0.478904,-0.444829,2620,-0.503693,C,6,구조
+3등급,'Lefebre, Master. Henry Forbes',male,?,2.401119,0.710492,4133,-0.151255,S,?,사망
+3등급,'Lefebre, Miss. Ida',female,?,2.401119,0.710492,4133,-0.151255,S,?,사망
+3등급,'Lefebre, Miss. Jeannie',female,?,2.401119,0.710492,4133,-0.151255,S,?,사망
+3등급,'Lefebre, Miss. Mathilde',female,?,2.401119,0.710492,4133,-0.151255,S,?,사망
+3등급,'Lefebre, Mrs. Frank (Frances)',female,?,-0.478904,4.176455,4133,-0.151255,S,?,사망
+3등급,'Leinonen, Mr. Antti Gustaf',male,0.147006,-0.478904,-0.444829,'STON/O 2. 3101292',-0.490169,S,?,사망
+3등급,'Lemberopolous, Mr. Peter L',male,0.320454,-0.478904,-0.444829,2683,-0.518908,C,?,사망
+3등급,'Lennon, Miss. Mary',female,?,0.481104,-0.444829,370371,-0.343816,Q,?,사망
+3등급,'Lennon, Mr. Denis',male,?,0.481104,-0.444829,370371,-0.343816,Q,?,사망
+3등급,'Leonard, Mr. Lionel',male,0.424523,-0.478904,-0.444829,LINE,-0.643283,S,?,사망
+3등급,'Lester, Mr. James',male,0.632661,-0.478904,-0.444829,'A/4 48871',-0.176695,S,?,사망
+3등급,'Lievens, Mr. Rene Aime',male,-0.40803,-0.478904,-0.444829,345781,-0.459739,S,?,사망
+3등급,'Lindahl, Miss. Agda Thorilda Viktoria',female,-0.33865,-0.478904,-0.444829,347071,-0.493067,S,?,사망
+3등급,'Lindblom, Miss. Augusta Charlotta',female,1.048938,-0.478904,-0.444829,347073,-0.49355,S,?,사망
+3등급,'Lindell, Mr. Edvard Bengtsson',male,0.424523,0.481104,-0.444829,349910,-0.34285,S,A,사망
+3등급,'Lindell, Mrs. Edvard Bengtsson (Elin Gerda Persson)',female,0.008247,0.481104,-0.444829,349910,-0.34285,S,A,사망
+3등급,'Lindqvist, Mr. Eino William',male,-0.685547,0.481104,-0.444829,'STON/O 2. 3101285',-0.490169,S,15,구조
+3등급,'Linehan, Mr. Michael',male,?,-0.478904,-0.444829,330971,-0.491054,Q,?,사망
+3등급,'Ling, Mr. Lee',male,-0.130512,-0.478904,-0.444829,1601,0.44824,S,?,사망
+3등급,'Lithman, Mr. Simon',male,?,-0.478904,-0.444829,'S.O./P.P. 251',-0.497414,S,?,사망
+3등급,'Lobb, Mr. William Arthur',male,0.008247,0.481104,-0.444829,'A/5. 3336',-0.332224,S,?,사망
+3등급,'Lobb, Mrs. William Arthur (Cordelia K Stanlick)',female,-0.269271,0.481104,-0.444829,'A/5. 3336',-0.332224,S,?,사망
+3등급,'Lockyer, Mr. Edward',male,?,-0.478904,-0.444829,1222,-0.491054,S,?,사망
+3등급,'Lovell, Mr. John Hall (?Henry?)',male,-0.650858,-0.478904,-0.444829,'A/5 21173',-0.50321,S,?,사망
+3등급,'Lulic, Mr. Nikola',male,-0.199891,-0.478904,-0.444829,315098,-0.47592,S,15,구조
+3등급,'Lundahl, Mr. Johan Svensson',male,1.465214,-0.478904,-0.444829,347743,-0.506993,S,?,사망
+3등급,'Lundin, Miss. Olga Elida',female,-0.477409,-0.478904,-0.444829,347469,-0.491537,S,10,구조
+3등급,'Lundstrom, Mr. Thure Edvin',male,0.147006,-0.478904,-0.444829,350403,-0.49685,S,15,구조
+3등급,'Lyntakoff, Mr. Stanko',male,?,-0.478904,-0.444829,349235,-0.490733,S,?,사망
+3등급,'MacKay, Mr. George William',male,?,-0.478904,-0.444829,'C.A. 42795',-0.497414,S,?,사망
+3등급,'Madigan, Miss. Margaret ?Maggie?',female,?,-0.478904,-0.444829,370370,-0.49355,Q,15,구조
+3등급,'Madsen, Mr. Fridtjof Arne',male,-0.40803,-0.478904,-0.444829,'C 17369',-0.505302,S,13,구조
+3등급,'Maenpaa, Mr. Matti Alexanteri',male,-0.546788,-0.478904,-0.444829,'STON/O 2. 3101275',-0.505625,S,?,사망
+3등급,'Mahon, Miss. Bridget Delia',female,?,-0.478904,-0.444829,330924,-0.491054,Q,?,사망
+3등급,'Mahon, Mr. John',male,?,-0.478904,-0.444829,'AQ/4 3130',-0.49355,Q,?,사망
+3등급,'Maisner, Mr. Simon',male,?,-0.478904,-0.444829,'A/S 2816',-0.487754,S,?,사망
+3등급,'Makinen, Mr. Kalle Edvard',male,-0.061133,-0.478904,-0.444829,'STON/O 2. 3101268',-0.490169,S,?,사망
+3등급,'Mamee, Mr. Hanna',male,?,-0.478904,-0.444829,2677,-0.503612,C,15,구조
+3등급,'Mangan, Miss. Mary',female,0.042937,-0.478904,-0.444829,364850,-0.49355,Q,?,사망
+3등급,'Mannion, Miss. Margareth',female,?,-0.478904,-0.444829,36866,-0.493791,Q,16,구조
+3등급,'Mardirosian, Mr. Sarkis',male,?,-0.478904,-0.444829,2655,-0.503612,C,?,사망
+3등급,'Markoff, Mr. Marin',male,0.355144,-0.478904,-0.444829,349213,-0.490733,C,?,사망
+3등급,'Markun, Mr. Johann',male,0.216385,-0.478904,-0.444829,349257,-0.490733,S,?,사망
+3등급,'Masselmani, Mrs. Fatima',female,?,-0.478904,-0.444829,2649,-0.503693,C,C,구조
+3등급,'Matinoff, Mr. Nicola',male,?,-0.478904,-0.444829,349255,-0.490733,C,?,사망
+3등급,'McCarthy, Miss. Catherine ?Katie?',female,?,-0.478904,-0.444829,383123,-0.49355,Q,'15 16',구조
+3등급,'McCormack, Mr. Thomas Joseph',male,?,-0.478904,-0.444829,367228,-0.49355,Q,?,구조
+3등급,'McCoy, Miss. Agnes',female,?,1.441112,-0.444829,367226,-0.194083,Q,16,구조
+3등급,'McCoy, Miss. Alicia',female,?,1.441112,-0.444829,367226,-0.194083,Q,16,구조
+3등급,'McCoy, Mr. Bernard',male,?,1.441112,-0.444829,367226,-0.194083,Q,16,구조
+3등급,'McDermott, Miss. Brigdet Delia',female,?,-0.478904,-0.444829,330932,-0.492825,Q,13,구조
+3등급,'McEvoy, Mr. Michael',male,?,-0.478904,-0.444829,36568,-0.343816,Q,?,사망
+3등급,'McGovern, Miss. Mary',female,?,-0.478904,-0.444829,330931,-0.491054,Q,13,구조
+3등급,'McGowan, Miss. Anna ?Annie?',female,-1.032444,-0.478904,-0.444829,330923,-0.488156,Q,?,구조
+3등급,'McGowan, Miss. Katherine',female,0.355144,-0.478904,-0.444829,9232,-0.49355,Q,?,사망
+3등급,'McMahon, Mr. Martin',male,?,-0.478904,-0.444829,370372,-0.49355,Q,?,사망
+3등급,'McNamee, Mr. Neal',male,-0.40803,0.481104,-0.444829,376566,-0.332224,S,?,사망
+3등급,'McNamee, Mrs. Neal (Eileen O?Leary)',female,-0.754927,0.481104,-0.444829,376566,-0.332224,S,?,사망
+3등급,'McNeill, Miss. Bridget',female,?,-0.478904,-0.444829,370368,-0.49355,Q,?,사망
+3등급,'Meanwell, Miss. (Marion Ogden)',female,?,-0.478904,-0.444829,'SOTON/O.Q. 392087',-0.487754,S,?,사망
+3등급,'Meek, Mrs. Thomas (Annie Louise Rowley)',female,?,-0.478904,-0.444829,343095,-0.487754,S,?,사망
+3등급,'Meo, Mr. Alfonzo',male,1.777422,-0.478904,-0.444829,'A.5. 11206',-0.487754,S,?,사망
+3등급,'Mernagh, Mr. Robert',male,?,-0.478904,-0.444829,368703,-0.49355,Q,?,사망
+3등급,'Midtsjo, Mr. Karl Albert',male,-0.616168,-0.478904,-0.444829,345501,-0.493067,S,15,구조
+3등급,'Miles, Mr. Frank',male,?,-0.478904,-0.444829,359306,-0.487754,S,?,사망
+3등급,'Mineff, Mr. Ivan',male,-0.40803,-0.478904,-0.444829,349233,-0.490733,S,?,사망
+3등급,'Minkoff, Mr. Lazar',male,-0.616168,-0.478904,-0.444829,349211,-0.490733,S,?,사망
+3등급,'Mionoff, Mr. Stoytcho',male,-0.130512,-0.478904,-0.444829,349207,-0.490733,S,?,사망
+3등급,'Mitkoff, Mr. Mito',male,?,-0.478904,-0.444829,349221,-0.490733,S,?,사망
+3등급,'Mockler, Miss. Helen Mary ?Ellie?',female,?,-0.478904,-0.444829,330980,-0.491054,Q,16,구조
+3등급,'Moen, Mr. Sigurd Hansen',male,-0.33865,-0.478904,-0.444829,348123,-0.495482,S,?,사망
+3등급,'Moor, Master. Meier',male,-1.656859,-0.478904,0.710492,392096,-0.402261,S,14,구조
+3등급,'Moor, Mrs. (Beila)',female,-0.199891,-0.478904,0.710492,392096,-0.402261,S,14,구조
+3등급,'Moore, Mr. Leonard Charles',male,?,-0.478904,-0.444829,'A4. 54510',-0.487754,S,?,사망
+3등급,'Moran, Miss. Bertha',female,?,0.481104,-0.444829,371110,-0.176695,Q,16,구조
+3등급,'Moran, Mr. Daniel J',male,?,0.481104,-0.444829,371110,-0.176695,Q,?,사망
+3등급,'Moran, Mr. James',male,?,-0.478904,-0.444829,330877,-0.479865,Q,?,사망
+3등급,'Morley, Mr. William',male,0.285764,-0.478904,-0.444829,364506,-0.487754,S,?,사망
+3등급,'Morrow, Mr. Thomas Rowan',male,?,-0.478904,-0.444829,372622,-0.49355,Q,?,사망
+3등급,'Moss, Mr. Albert Johan',male,?,-0.478904,-0.444829,312991,-0.493067,S,B,구조
+3등급,'Moubarek, Master. Gerios',male,?,0.481104,0.710492,2661,-0.348728,C,C,구조
+3등급,'Moubarek, Master. Halim Gonios (?William George?)',male,?,0.481104,0.710492,2661,-0.348728,C,C,구조
+3등급,'Moubarek, Mrs. George (Omine ?Amenia? Alexander)',female,?,-0.478904,1.865813,2661,-0.348728,C,C,구조
+3등급,'Moussa, Mrs. (Mantoura Boulos)',female,?,-0.478904,-0.444829,2626,-0.503612,C,?,구조
+3등급,'Moutal, Mr. Rahamin Haim',male,?,-0.478904,-0.444829,374746,-0.487754,S,?,사망
+3등급,'Mullens, Miss. Katherine ?Katie?',female,?,-0.478904,-0.444829,35852,-0.493872,Q,16,구조
+3등급,'Mulvihill, Miss. Bertha E',female,-0.40803,-0.478904,-0.444829,382653,-0.49355,Q,15,구조
+3등급,'Murdlin, Mr. Joseph',male,?,-0.478904,-0.444829,'A./5. 3235',-0.487754,S,?,사망
+3등급,'Murphy, Miss. Katherine ?Kate?',female,?,0.481104,-0.444829,367230,-0.343816,Q,16,구조
+3등급,'Murphy, Miss. Margaret Jane',female,?,0.481104,-0.444829,367230,-0.343816,Q,16,구조
+3등급,'Murphy, Miss. Nora',female,?,-0.478904,-0.444829,36568,-0.343816,Q,16,구조
+3등급,'Myhrman, Mr. Pehr Fabian Oliver Malkolm',male,-0.824306,-0.478904,-0.444829,347078,-0.49355,S,?,사망
+3등급,'Naidenoff, Mr. Penko',male,-0.546788,-0.478904,-0.444829,349206,-0.490733,S,?,사망
+3등급,'Najib, Miss. Adele Kiamie ?Jane?',female,-1.032444,-0.478904,-0.444829,2667,-0.503693,C,C,구조
+3등급,'Nakid, Miss. Maria (?Mary?)',female,-2.003756,-0.478904,1.865813,2653,-0.339147,C,C,구조
+3등급,'Nakid, Mr. Sahid',male,-0.685547,0.481104,0.710492,2653,-0.339147,C,C,구조
+3등급,'Nakid, Mrs. Said (Waika ?Mary? Mowad)',female,-0.754927,0.481104,0.710492,2653,-0.339147,C,C,구조
+3등급,'Nancarrow, Mr. William Henry',male,0.216385,-0.478904,-0.444829,'A./5. 3338',-0.487754,S,?,사망
+3등급,'Nankoff, Mr. Minko',male,?,-0.478904,-0.444829,349218,-0.490733,S,?,사망
+3등급,'Nasr, Mr. Mustafa',male,?,-0.478904,-0.444829,2652,-0.503612,C,?,사망
+3등급,'Naughton, Miss. Hannah',female,?,-0.478904,-0.444829,365237,-0.49355,Q,?,사망
+3등급,'Nenkoff, Mr. Christo',male,?,-0.478904,-0.444829,349234,-0.490733,S,?,사망
+3등급,'Nicola-Yarred, Master. Elias',male,-1.240582,0.481104,-0.444829,2651,-0.426089,C,C,구조
+3등급,'Nicola-Yarred, Miss. Jamila',female,-1.101824,0.481104,-0.444829,2651,-0.426089,C,C,구조
+3등급,'Nieminen, Miss. Manta Josefina',female,-0.061133,-0.478904,-0.444829,3101297,-0.490169,S,?,사망
+3등급,'Niklasson, Mr. Samuel',male,-0.130512,-0.478904,-0.444829,363611,-0.487754,S,?,사망
+3등급,'Nilsson, Miss. Berta Olivia',female,-0.824306,-0.478904,-0.444829,347066,-0.493067,S,D,구조
+3등급,'Nilsson, Miss. Helmina Josefina',female,-0.269271,-0.478904,-0.444829,347470,-0.491537,S,13,구조
+3등급,'Nilsson, Mr. August Ferdinand',male,-0.616168,-0.478904,-0.444829,350410,-0.491537,S,?,사망
+3등급,'Nirva, Mr. Iisakki Antino Aijo',male,0.77142,-0.478904,-0.444829,'SOTON/O2 3101272',-0.505625,S,?,사망
+3등급,'Niskanen, Mr. Juha',male,0.632661,-0.478904,-0.444829,'STON/O 2. 3101289',-0.490169,S,9,구조
+3등급,'Nosworthy, Mr. Richard Cater',male,-0.616168,-0.478904,-0.444829,'A/4. 39886',-0.492584,S,?,사망
+3등급,'Novel, Mr. Mansouer',male,-0.095822,-0.478904,-0.444829,2697,-0.503612,C,?,사망
+3등급,'Nysten, Miss. Anna Sofia',female,-0.546788,-0.478904,-0.444829,347081,-0.49355,S,13,구조
+3등급,'Nysveen, Mr. Johan Hansen',male,2.159008,-0.478904,-0.444829,345364,-0.522772,S,?,사망
+3등급,'O?Brien, Mr. Thomas',male,?,0.481104,-0.444829,370365,-0.343816,Q,?,사망
+3등급,'O?Brien, Mr. Timothy',male,?,-0.478904,-0.444829,330979,-0.49202,Q,?,사망
+3등급,'O?Brien, Mrs. Thomas (Johanna ?Hannah? Godfrey)',female,?,0.481104,-0.444829,370365,-0.343816,Q,?,구조
+3등급,'O?Connell, Mr. Patrick D',male,?,-0.478904,-0.444829,334912,-0.493872,Q,?,사망
+3등급,'O?Connor, Mr. Maurice',male,?,-0.478904,-0.444829,371060,-0.49355,Q,?,사망
+3등급,'O?Connor, Mr. Patrick',male,?,-0.478904,-0.444829,366713,-0.49355,Q,?,사망
+3등급,'Odahl, Mr. Nils Martin',male,-0.477409,-0.478904,-0.444829,7267,-0.465052,S,?,사망
+3등급,'O?Donoghue, Ms. Bridget',female,?,-0.478904,-0.444829,364856,-0.49355,Q,?,사망
+3등급,'O?Driscoll, Miss. Bridget',female,?,-0.478904,-0.444829,14311,-0.49355,Q,D,구조
+3등급,'O?Dwyer, Miss. Ellen ?Nellie?',female,?,-0.478904,-0.444829,330959,-0.491054,Q,?,구조
+3등급,'Ohman, Miss. Velin',female,-0.546788,-0.478904,-0.444829,347085,-0.493067,S,C,구조
+3등급,'O?Keefe, Mr. Patrick',male,?,-0.478904,-0.444829,368402,-0.49355,Q,B,구조
+3등급,'O?Leary, Miss. Hanora ?Norah?',female,?,-0.478904,-0.444829,330919,-0.49202,Q,13,구조
+3등급,'Olsen, Master. Artur Karl',male,-1.448721,-0.478904,0.710492,'C 17368',-0.582022,S,13,구조
+3등급,'Olsen, Mr. Henry Margido',male,-0.130512,-0.478904,-0.444829,'C 4001',-0.20809,S,?,사망
+3등급,'Olsen, Mr. Karl Siegwart Andreas',male,0.8408,-0.478904,0.710492,4579,-0.48091,S,?,사망
+3등급,'Olsen, Mr. Ole Martin',male,?,-0.478904,-0.444829,'Fa 265302',-0.502002,S,?,사망
+3등급,'Olsson, Miss. Elina',female,0.077626,-0.478904,-0.444829,350407,-0.491537,S,?,사망
+3등급,'Olsson, Mr. Nils Johan Goransson',male,-0.130512,-0.478904,-0.444829,347464,-0.491537,S,?,사망
+3등급,'Olsson, Mr. Oscar Wilhelm',male,0.147006,-0.478904,-0.444829,347079,-0.493067,S,A,구조
+3등급,'Olsvigen, Mr. Thor Anderson',male,-0.685547,-0.478904,-0.444829,6563,-0.465052,S,?,사망
+3등급,'Oreskovic, Miss. Jelka',female,-0.477409,-0.478904,-0.444829,315085,-0.47592,S,?,사망
+3등급,'Oreskovic, Miss. Marija',female,-0.685547,-0.478904,-0.444829,315096,-0.47592,S,?,사망
+3등급,'Oreskovic, Mr. Luka',male,-0.685547,-0.478904,-0.444829,315094,-0.47592,S,?,사망
+3등급,'Osen, Mr. Olaf Elon',male,-0.963065,-0.478904,-0.444829,7534,-0.465212,S,?,사망
+3등급,'Osman, Mrs. Mara',female,0.077626,-0.478904,-0.444829,349244,-0.475518,S,?,구조
+3등급,'O?Sullivan, Miss. Bridget Mary',female,?,-0.478904,-0.444829,330909,-0.495884,Q,?,사망
+3등급,'Palsson, Master. Gosta Leonard',male,-1.934376,2.401119,0.710492,349909,-0.236105,S,?,사망
+3등급,'Palsson, Master. Paul Folke',male,-1.656859,2.401119,0.710492,349909,-0.236105,S,?,사망
+3등급,'Palsson, Miss. Stina Viola',female,-1.864997,2.401119,0.710492,349909,-0.236105,S,?,사망
+3등급,'Palsson, Miss. Torborg Danira',female,-1.5181,2.401119,0.710492,349909,-0.236105,S,?,사망
+3등급,'Palsson, Mrs. Nils (Alma Cornelia Berglund)',female,-0.061133,-0.478904,4.176455,349909,-0.236105,S,?,사망
+3등급,'Panula, Master. Eino Viljami',male,-2.003756,3.361127,0.710492,3101295,0.123497,S,?,사망
+3등급,'Panula, Master. Juha Niilo',male,-1.587479,3.361127,0.710492,3101295,0.123497,S,?,사망
+3등급,'Panula, Master. Urho Abraham',male,-1.934376,3.361127,0.710492,3101295,0.123497,S,?,사망
+3등급,'Panula, Mr. Ernesti Arvid',male,-0.963065,3.361127,0.710492,3101295,0.123497,S,?,사망
+3등급,'Panula, Mr. Jaako Arnold',male,-1.101824,3.361127,0.710492,3101295,0.123497,S,?,사망
+3등급,'Panula, Mrs. Juha (Maria Emilia Ojala)',female,0.77142,-0.478904,5.331776,3101295,0.123497,S,?,사망
+3등급,'Pasic, Mr. Jakob',male,-0.616168,-0.478904,-0.444829,315097,-0.47592,S,?,사망
+3등급,'Patchett, Mr. George',male,-0.754927,-0.478904,-0.444829,358585,-0.363137,S,?,사망
+3등급,'Paulner, Mr. Uscher',male,?,-0.478904,-0.444829,3411,-0.474954,C,?,사망
+3등급,'Pavlovic, Mr. Stefo',male,0.147006,-0.478904,-0.444829,349242,-0.490733,S,?,사망
+3등급,'Peacock, Master. Alfred Edward',male,-2.021101,0.481104,0.710492,'SOTON/O.Q. 3101315',-0.377144,S,?,사망
+3등급,'Peacock, Miss. Treasteall',female,-1.864997,0.481104,0.710492,'SOTON/O.Q. 3101315',-0.377144,S,?,사망
+3등급,'Peacock, Mrs. Benjamin (Edith Nile)',female,-0.269271,-0.478904,1.865813,'SOTON/O.Q. 3101315',-0.377144,S,?,사망
+3등급,'Pearce, Mr. Ernest',male,?,-0.478904,-0.444829,343271,-0.50804,S,?,사망
+3등급,'Pedersen, Mr. Olaf',male,?,-0.478904,-0.444829,345498,-0.493067,S,?,사망
+3등급,'Peduzzi, Mr. Joseph',male,?,-0.478904,-0.444829,'A/5 2817',-0.487754,S,?,사망
+3등급,'Pekoniemi, Mr. Edvard',male,-0.616168,-0.478904,-0.444829,'STON/O 2. 3101294',-0.490169,S,?,사망
+3등급,'Peltomaki, Mr. Nikolai Johannes',male,-0.33865,-0.478904,-0.444829,'STON/O 2. 3101291',-0.490169,S,?,사망
+3등급,'Perkin, Mr. John Henry',male,-0.546788,-0.478904,-0.444829,'A/5 21174',-0.50321,S,?,사망
+3등급,'Persson, Mr. Ernst Ulrik',male,-0.33865,0.481104,-0.444829,347083,-0.493067,S,15,구조
+3등급,'Peter, Master. Michael J',male,?,0.481104,0.710492,2668,-0.211311,C,C,구조
+3등급,'Peter, Miss. Anna',female,?,0.481104,0.710492,2668,-0.211311,C,D,구조
+3등급,'Peter, Mrs. Catherine (Catherine Rizk)',female,?,-0.478904,1.865813,2668,-0.211311,C,D,구조
+3등급,'Peters, Miss. Katie',female,?,-0.478904,-0.444829,330935,-0.486063,Q,?,사망
+3등급,'Petersen, Mr. Marius',male,-0.40803,-0.478904,-0.444829,342441,-0.487754,S,?,사망
+3등급,'Petranec, Miss. Matilda',female,-0.130512,-0.478904,-0.444829,349245,-0.490733,S,?,사망
+3등급,'Petroff, Mr. Nedelio',male,-0.754927,-0.478904,-0.444829,349212,-0.490733,S,?,사망
+3등급,'Petroff, Mr. Pastcho (?Pentcho?)',male,?,-0.478904,-0.444829,349215,-0.490733,S,?,사망
+3등급,'Petterson, Mr. Johan Emil',male,-0.33865,0.481104,-0.444829,347076,-0.493067,S,?,사망
+3등급,'Pettersson, Miss. Ellen Natalia',female,-0.824306,-0.478904,-0.444829,347087,-0.493067,S,?,사망
+3등급,'Pickard, Mr. Berk (Berk Trembisky)',male,0.147006,-0.478904,-0.444829,'SOTON/O.Q. 392078',-0.487754,S,9,구조
+3등급,'Plotcharsky, Mr. Vasil',male,?,-0.478904,-0.444829,349227,-0.490733,S,?,사망
+3등급,'Pokrnic, Mr. Mate',male,-0.893685,-0.478904,-0.444829,315095,-0.47592,S,?,사망
+3등급,'Pokrnic, Mr. Tome',male,-0.40803,-0.478904,-0.444829,315092,-0.47592,S,?,사망
+3등급,'Radeff, Mr. Alexander',male,?,-0.478904,-0.444829,349223,-0.490733,S,?,사망
+3등급,'Rasmussen, Mrs. (Lena Jacobsen Solvang)',female,?,-0.478904,-0.444829,65305,-0.486546,S,?,사망
+3등급,'Razi, Mr. Raihed',male,?,-0.478904,-0.444829,2629,-0.503612,C,?,사망
+3등급,'Reed, Mr. James George',male,?,-0.478904,-0.444829,362316,-0.50321,S,?,사망
+3등급,'Rekic, Mr. Tido',male,0.563282,-0.478904,-0.444829,349249,-0.490733,S,?,사망
+3등급,'Reynolds, Mr. Harold J',male,-0.616168,-0.478904,-0.444829,342684,-0.487754,S,?,사망
+3등급,'Rice, Master. Albert',male,-1.379341,3.361127,0.710492,382652,-0.080575,Q,?,사망
+3등급,'Rice, Master. Arthur',male,-1.795618,3.361127,0.710492,382652,-0.080575,Q,?,사망
+3등급,'Rice, Master. Eric',male,-1.587479,3.361127,0.710492,382652,-0.080575,Q,?,사망
+3등급,'Rice, Master. Eugene',male,-1.934376,3.361127,0.710492,382652,-0.080575,Q,?,사망
+3등급,'Rice, Master. George Hugh',male,-1.5181,3.361127,0.710492,382652,-0.080575,Q,?,사망
+3등급,'Rice, Mrs. William (Margaret Norton)',female,0.632661,-0.478904,5.331776,382652,-0.080575,Q,?,사망
+3등급,'Riihivouri, Miss. Susanna Juhantytar ?Sanni?',female,-0.546788,-0.478904,-0.444829,3101295,0.123497,S,?,사망
+3등급,'Rintamaki, Mr. Matti',male,0.355144,-0.478904,-0.444829,'STON/O 2. 3101273',-0.505625,S,?,사망
+3등급,'Riordan, Miss. Johanna ?Hannah?',female,?,-0.478904,-0.444829,334915,-0.494114,Q,13,구조
+3등급,'Risien, Mr. Samuel Beard',male,?,-0.478904,-0.444829,364498,-0.363137,S,?,사망
+3등급,'Risien, Mrs. Samuel (Emma)',female,?,-0.478904,-0.444829,364498,-0.363137,S,?,사망
+3등급,'Robins, Mr. Alexander A',male,1.395835,0.481104,-0.444829,'A/5. 3337',-0.363137,S,?,사망
+3등급,'Robins, Mrs. Alexander A (Grace Charity Laury)',female,1.187697,0.481104,-0.444829,'A/5. 3337',-0.363137,S,?,사망
+3등급,'Rogers, Mr. William John',male,?,-0.478904,-0.444829,'S.C./A.4. 23567',-0.487754,S,?,사망
+3등급,'Rommetvedt, Mr. Knud Paust',male,?,-0.478904,-0.444829,312993,-0.493067,S,?,사망
+3등급,'Rosblom, Miss. Salli Helena',female,-1.934376,0.481104,0.710492,370129,-0.252769,S,?,사망
+3등급,'Rosblom, Mr. Viktor Richard',male,-0.824306,0.481104,0.710492,370129,-0.252769,S,?,사망
+3등급,'Rosblom, Mrs. Viktor (Helena Wilhelmina)',female,0.77142,-0.478904,1.865813,370129,-0.252769,S,?,사망
+3등급,'Roth, Miss. Sarah A',female,?,-0.478904,-0.444829,342712,-0.487754,S,C,구조
+3등급,'Rouse, Mr. Richard Henry',male,1.395835,-0.478904,-0.444829,'A/5 3594',-0.487754,S,?,사망
+3등급,'Rush, Mr. Alfred George John',male,-0.963065,-0.478904,-0.444829,'A/4. 20589',-0.487754,S,?,사망
+3등급,'Ryan, Mr. Edward',male,?,-0.478904,-0.444829,383162,-0.49355,Q,14,구조
+3등급,'Ryan, Mr. Patrick',male,?,-0.478904,-0.444829,371110,-0.176695,Q,?,사망
+3등급,'Saad, Mr. Amin',male,?,-0.478904,-0.444829,2671,-0.503612,C,?,사망
+3등급,'Saad, Mr. Khalil',male,-0.33865,-0.478904,-0.444829,2672,-0.503693,C,?,사망
+3등급,'Saade, Mr. Jean Nassr',male,?,-0.478904,-0.444829,2676,-0.503693,C,?,사망
+3등급,'Sadlier, Mr. Matthew',male,?,-0.478904,-0.444829,367655,-0.493952,Q,?,사망
+3등급,'Sadowitz, Mr. Harry',male,?,-0.478904,-0.444829,'LP 1588',-0.496931,S,?,사망
+3등급,'Saether, Mr. Simon Sivertsen',male,0.597972,-0.478904,-0.444829,'SOTON/O.Q. 3101262',-0.50321,S,?,사망
+3등급,'Sage, Master. Thomas Henry',male,?,7.201157,1.865813,'CA. 2343',0.700453,S,?,사망
+3등급,'Sage, Master. William Henry',male,-1.067134,7.201157,1.865813,'CA. 2343',0.700453,S,?,사망
+3등급,'Sage, Miss. Ada',female,?,7.201157,1.865813,'CA. 2343',0.700453,S,?,사망
+3등급,'Sage, Miss. Constance Gladys',female,?,7.201157,1.865813,'CA. 2343',0.700453,S,?,사망
+3등급,'Sage, Miss. Dorothy Edith ?Dolly?',female,?,7.201157,1.865813,'CA. 2343',0.700453,S,?,사망
+3등급,'Sage, Miss. Stella Anna',female,?,7.201157,1.865813,'CA. 2343',0.700453,S,?,사망
+3등급,'Sage, Mr. Douglas Bullen',male,?,7.201157,1.865813,'CA. 2343',0.700453,S,?,사망
+3등급,'Sage, Mr. Frederick',male,?,7.201157,1.865813,'CA. 2343',0.700453,S,?,사망
+3등급,'Sage, Mr. George John Jr',male,?,7.201157,1.865813,'CA. 2343',0.700453,S,?,사망
+3등급,'Sage, Mr. John George',male,?,0.481104,9.95306,'CA. 2343',0.700453,S,?,사망
+3등급,'Sage, Mrs. John (Annie Bullen)',female,?,0.481104,9.95306,'CA. 2343',0.700453,S,?,사망
+3등급,'Salander, Mr. Karl Johan',male,-0.40803,-0.478904,-0.444829,7266,-0.46312,S,?,사망
+3등급,'Salkjelsvik, Miss. Anna Kristine',female,-0.616168,-0.478904,-0.444829,343120,-0.495482,S,C,구조
+3등급,'Salonen, Mr. Johan Werner',male,0.632661,-0.478904,-0.444829,3101296,-0.490169,S,?,사망
+3등급,'Samaan, Mr. Elias',male,?,1.441112,-0.444829,2662,-0.224432,C,?,사망
+3등급,'Samaan, Mr. Hanna',male,?,1.441112,-0.444829,2662,-0.224432,C,?,사망
+3등급,'Samaan, Mr. Youssef',male,?,1.441112,-0.444829,2662,-0.224432,C,?,사망
+3등급,'Sandstrom, Miss. Beatrice Irene',female,-2.003756,0.481104,0.710492,'PP 9549',-0.320632,S,13,구조
+3등급,'Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)',female,-0.40803,-0.478904,1.865813,'PP 9549',-0.320632,S,13,구조
+3등급,'Sandstrom, Miss. Marguerite Rut',female,-1.795618,0.481104,0.710492,'PP 9549',-0.320632,S,13,구조
+3등급,'Sap, Mr. Julius',male,-0.33865,-0.478904,-0.444829,345768,-0.459739,S,11,구조
+3등급,'Saundercock, Mr. William Henry',male,-0.685547,-0.478904,-0.444829,'A/5. 2151',-0.487754,S,?,사망
+3등급,'Sawyer, Mr. Frederick Charles',male,-0.37334,-0.478904,-0.444829,342826,-0.487754,S,?,사망
+3등급,'Scanlan, Mr. James',male,?,-0.478904,-0.444829,36209,-0.494033,Q,?,사망
+3등급,'Sdycoff, Mr. Todor',male,?,-0.478904,-0.444829,349222,-0.490733,S,?,사망
+3등급,'Shaughnessy, Mr. Patrick',male,?,-0.478904,-0.444829,370374,-0.49355,Q,?,사망
+3등급,'Sheerlinck, Mr. Jan Baptist',male,-0.061133,-0.478904,-0.444829,345779,-0.459739,S,11,구조
+3등급,'Shellard, Mr. Frederick William',male,?,-0.478904,-0.444829,'C.A. 6212',-0.351545,S,?,사망
+3등급,'Shine, Miss. Ellen Natalia',female,?,-0.478904,-0.444829,330968,-0.492986,Q,?,구조
+3등급,'Shorney, Mr. Charles Joseph',male,?,-0.478904,-0.444829,374910,-0.487754,S,?,사망
+3등급,'Simmons, Mr. John',male,?,-0.478904,-0.444829,'SOTON/OQ 392082',-0.487754,S,?,사망
+3등급,'Sirayanian, Mr. Orsen',male,-0.546788,-0.478904,-0.444829,2669,-0.503612,C,?,사망
+3등급,'Sirota, Mr. Maurice',male,?,-0.478904,-0.444829,392092,-0.487754,S,?,사망
+3등급,'Sivic, Mr. Husein',male,0.702041,-0.478904,-0.444829,349251,-0.490733,S,?,사망
+3등급,'Sivola, Mr. Antti Wilhelm',male,-0.616168,-0.478904,-0.444829,'STON/O 2. 3101280',-0.490169,S,?,사망
+3등급,'Sjoblom, Miss. Anna Sofia',female,-0.824306,-0.478904,-0.444829,3101265,-0.498461,S,16,구조
+3등급,'Skoog, Master. Harald',male,-1.795618,2.401119,1.865813,347088,-0.104243,S,?,사망
+3등급,'Skoog, Master. Karl Thorsten',male,-1.379341,2.401119,1.865813,347088,-0.104243,S,?,사망
+3등급,'Skoog, Miss. Mabel',female,-1.448721,2.401119,1.865813,347088,-0.104243,S,?,사망
+3등급,'Skoog, Miss. Margit Elizabeth',female,-1.934376,2.401119,1.865813,347088,-0.104243,S,?,사망
+3등급,'Skoog, Mr. Wilhelm',male,0.702041,0.481104,4.176455,347088,-0.104243,S,?,사망
+3등급,'Skoog, Mrs. William (Anna Bernhardina Karlsson)',female,1.048938,0.481104,4.176455,347088,-0.104243,S,?,사망
+3등급,'Slabenoff, Mr. Petco',male,?,-0.478904,-0.444829,349214,-0.490733,S,?,사망
+3등급,'Slocovski, Mr. Selman Francis',male,?,-0.478904,-0.444829,'SOTON/OQ 392086',-0.487754,S,?,사망
+3등급,'Smiljanic, Mr. Mile',male,?,-0.478904,-0.444829,315037,-0.47592,S,?,사망
+3등급,'Smith, Mr. Thomas',male,?,-0.478904,-0.444829,384461,-0.49355,Q,?,사망
+3등급,'Smyth, Miss. Julia',female,?,-0.478904,-0.444829,335432,-0.493872,Q,13,구조
+3등급,'Soholt, Mr. Peter Andreas Lauritz Andersen',male,-0.754927,-0.478904,-0.444829,348124,-0.495482,S,?,사망
+3등급,'Somerton, Mr. Francis William',male,0.008247,-0.478904,-0.444829,'A.5. 18509',-0.487754,S,?,사망
+3등급,'Spector, Mr. Woolf',male,?,-0.478904,-0.444829,'A.5. 3236',-0.487754,S,?,사망
+3등급,'Spinner, Mr. Henry John',male,0.147006,-0.478904,-0.444829,'STON/OQ. 369943',-0.487754,S,?,사망
+3등급,'Staneff, Mr. Ivan',male,?,-0.478904,-0.444829,349208,-0.490733,S,?,사망
+3등급,'Stankovic, Mr. Ivan',male,0.216385,-0.478904,-0.444829,349239,-0.47592,C,?,사망
+3등급,'Stanley, Miss. Amy Zillah Elsie',female,-0.477409,-0.478904,-0.444829,'CA. 2314',-0.497414,S,C,구조
+3등급,'Stanley, Mr. Edward Roland',male,-0.616168,-0.478904,-0.444829,'A/4 45380',-0.487754,S,?,사망
+3등급,'Storey, Mr. Thomas',male,2.124319,-0.478904,-0.444829,3701,?,S,?,사망
+3등급,'Stoytcheff, Mr. Ilia',male,-0.754927,-0.478904,-0.444829,349205,-0.490733,S,?,사망
+3등급,'Strandberg, Miss. Ida Sofia',female,-0.546788,-0.478904,-0.444829,7553,-0.453218,S,?,사망
+3등급,'Stranden, Mr. Juho',male,0.077626,-0.478904,-0.444829,'STON/O 2. 3101288',-0.490169,S,9,구조
+3등급,'Strilic, Mr. Ivan',male,-0.199891,-0.478904,-0.444829,315083,-0.47592,S,?,사망
+3등급,'Strom, Miss. Telma Matilda',female,-1.934376,-0.478904,0.710492,347054,-0.441143,S,?,사망
+3등급,'Strom, Mrs. Wilhelm (Elna Matilda Persson)',female,-0.061133,0.481104,0.710492,347054,-0.441143,S,?,사망
+3등급,'Sunderland, Mr. Victor Francis',male,-0.963065,-0.478904,-0.444829,'SOTON/OQ 392089',-0.487754,S,B,구조
+3등급,'Sundman, Mr. Johan Julian',male,0.979558,-0.478904,-0.444829,'STON/O 2. 3101269',-0.490169,S,15,구조
+3등급,'Sutehall, Mr. Henry Jr',male,-0.33865,-0.478904,-0.444829,'SOTON/OQ 392076',-0.507074,S,?,사망
+3등급,'Svensson, Mr. Johan',male,3.060941,-0.478904,-0.444829,347060,-0.493067,S,?,사망
+3등급,'Svensson, Mr. Johan Cervin',male,-1.101824,-0.478904,-0.444829,7538,-0.465052,S,13,구조
+3등급,'Svensson, Mr. Olof',male,-0.40803,-0.478904,-0.444829,350035,-0.492665,S,?,사망
+3등급,'Tenglin, Mr. Gunnar Isidor',male,-0.33865,-0.478904,-0.444829,350033,-0.492665,S,'13 15',구조
+3등급,'Theobald, Mr. Thomas Leonard',male,0.285764,-0.478904,-0.444829,363294,-0.487754,S,?,사망
+3등급,'Thomas, Master. Assad Alexander',male,-2.044225,-0.478904,0.710492,2625,-0.478737,C,16,구조
+3등급,'Thomas, Mr. Charles P',male,?,0.481104,-0.444829,2621,-0.518908,C,?,사망
+3등급,'Thomas, Mr. John',male,?,-0.478904,-0.444829,2681,-0.518908,C,?,사망
+3등급,'Thomas, Mr. Tannous',male,?,-0.478904,-0.444829,2684,-0.503693,C,?,사망
+3등급,'Thomas, Mrs. Alexander (Thamine ?Thelma?)',female,-0.963065,0.481104,0.710492,2625,-0.478737,C,14,구조
+3등급,'Thomson, Mr. Alexander Morrison',male,?,-0.478904,-0.444829,32302,-0.487754,S,?,사망
+3등급,'Thorneycroft, Mr. Percival',male,?,0.481104,-0.444829,376564,-0.332224,S,?,사망
+3등급,'Thorneycroft, Mrs. Percival (Florence Kate White)',female,?,0.481104,-0.444829,376564,-0.332224,S,10,구조
+3등급,'Tikkanen, Mr. Juho',male,0.147006,-0.478904,-0.444829,'STON/O 2. 3101293',-0.490169,S,?,사망
+3등급,'Tobin, Mr. Roger',male,?,-0.478904,-0.444829,383121,-0.49355,Q,?,사망
+3등급,'Todoroff, Mr. Lalio',male,?,-0.478904,-0.444829,349216,-0.490733,S,?,사망
+3등급,'Tomlin, Mr. Ernest Portage',male,0.042937,-0.478904,-0.444829,364499,-0.487754,S,?,사망
+3등급,'Torber, Mr. Ernst William',male,0.979558,-0.478904,-0.444829,364511,-0.487754,S,?,사망
+3등급,'Torfa, Mr. Assad',male,?,-0.478904,-0.444829,2673,-0.503612,C,?,사망
+3등급,'Tornquist, Mr. William Henry',male,-0.33865,-0.478904,-0.444829,LINE,-0.643283,S,15,구조
+3등급,'Toufik, Mr. Nakli',male,?,-0.478904,-0.444829,2641,-0.503612,C,?,사망
+3등급,'Touma, Master. Georges Youssef',male,-1.587479,0.481104,0.710492,2650,-0.348728,C,C,구조
+3등급,'Touma, Miss. Maria Youssef',female,-1.448721,0.481104,0.710492,2650,-0.348728,C,C,구조
+3등급,'Touma, Mrs. Darwis (Hanne Youssef Razi)',female,-0.061133,-0.478904,1.865813,2650,-0.348728,C,C,구조
+3등급,'Turcin, Mr. Stjepan',male,0.424523,-0.478904,-0.444829,349247,-0.490733,S,?,사망
+3등급,'Turja, Miss. Anna Sofia',female,-0.824306,-0.478904,-0.444829,4138,-0.453137,S,15,구조
+3등급,'Turkula, Mrs. (Hedwig)',female,2.297767,-0.478904,-0.444829,4134,-0.458048,S,15,구조
+3등급,'van Billiard, Master. James William',male,?,0.481104,0.710492,'A/5. 851',-0.363137,S,?,사망
+3등급,'van Billiard, Master. Walter John',male,-1.275272,0.481104,0.710492,'A/5. 851',-0.363137,S,?,사망
+3등급,'van Billiard, Mr. Austin Blyler',male,0.736731,-0.478904,1.865813,'A/5. 851',-0.363137,S,?,사망
+3등급,'Van Impe, Miss. Catharina',female,-1.379341,-0.478904,1.865813,345773,-0.176695,S,?,사망
+3등급,'Van Impe, Mr. Jean Baptiste',male,0.424523,0.481104,0.710492,345773,-0.176695,S,?,사망
+3등급,'Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)',female,0.008247,0.481104,0.710492,345773,-0.176695,S,?,사망
+3등급,'van Melkebeke, Mr. Philemon',male,?,-0.478904,-0.444829,345777,-0.459739,S,?,사망
+3등급,'Vande Velde, Mr. Johannes Joseph',male,0.216385,-0.478904,-0.444829,345780,-0.459739,S,?,사망
+3등급,'Vande Walle, Mr. Nestor Cyriel',male,-0.130512,-0.478904,-0.444829,345770,-0.459739,S,?,사망
+3등급,'Vanden Steen, Mr. Leo Peter',male,-0.130512,-0.478904,-0.444829,345783,-0.459739,S,?,사망
+3등급,'Vander Cruyssen, Mr. Victor',male,1.187697,-0.478904,-0.444829,345765,-0.469399,S,?,사망
+3등급,'Vander Planke, Miss. Augusta Maria',female,-0.824306,1.441112,-0.444829,345764,-0.295515,S,?,사망
+3등급,'Vander Planke, Mr. Julius',male,0.077626,2.401119,-0.444829,345763,-0.295515,S,?,사망
+3등급,'Vander Planke, Mr. Leo Edmondus',male,-0.963065,1.441112,-0.444829,345764,-0.295515,S,?,사망
+3등급,'Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)',female,0.077626,0.481104,-0.444829,345763,-0.295515,S,?,사망
+3등급,'Vartanian, Mr. David',male,-0.546788,-0.478904,-0.444829,2658,-0.503693,C,'13 15',구조
+3등급,'Vendel, Mr. Olof Edvin',male,-0.685547,-0.478904,-0.444829,350416,-0.491537,S,?,사망
+3등급,'Vestrom, Miss. Hulda Amanda Adolfina',female,-1.101824,-0.478904,-0.444829,350406,-0.491537,S,?,사망
+3등급,'Vovk, Mr. Janko',male,-0.546788,-0.478904,-0.444829,349252,-0.490733,S,?,사망
+3등급,'Waelens, Mr. Achille',male,-0.546788,-0.478904,-0.444829,345767,-0.469399,S,?,사망
+3등급,'Ware, Mr. Frederick',male,?,-0.478904,-0.444829,359309,-0.487754,S,?,사망
+3등급,'Warren, Mr. Charles William',male,?,-0.478904,-0.444829,'C.A. 49867',-0.497414,S,?,사망
+3등급,'Webber, Mr. James',male,?,-0.478904,-0.444829,'SOTON/OQ 3101316',-0.487754,S,?,사망
+3등급,'Wenzel, Mr. Linhart',male,0.181695,-0.478904,-0.444829,345775,-0.459739,S,?,사망
+3등급,'Whabee, Mrs. George Joseph (Shawneene Abi-Saab)',female,0.563282,-0.478904,-0.444829,2688,-0.503612,C,C,구조
+3등급,'Widegren, Mr. Carl/Charles Peter',male,1.465214,-0.478904,-0.444829,347064,-0.49355,S,?,사망
+3등급,'Wiklund, Mr. Jakob Alfred',male,-0.824306,0.481104,-0.444829,3101267,-0.517781,S,?,사망
+3등급,'Wiklund, Mr. Karl Johan',male,-0.616168,0.481104,-0.444829,3101266,-0.517781,S,?,사망
+3등급,'Wilkes, Mrs. James (Ellen Needs)',female,1.187697,0.481104,-0.444829,363272,-0.50804,S,?,구조
+3등급,'Willer, Mr. Aaron (?Abi Weller?)',male,?,-0.478904,-0.444829,3410,-0.474954,S,?,사망
+3등급,'Willey, Mr. Edward',male,?,-0.478904,-0.444829,'S.O./P.P. 751',-0.497414,S,?,사망
+3등급,'Williams, Mr. Howard Hugh ?Harry?',male,?,-0.478904,-0.444829,'A/5 2466',-0.487754,S,?,사망
+3등급,'Williams, Mr. Leslie',male,-0.095822,-0.478904,-0.444829,54636,-0.332224,S,?,사망
+3등급,'Windelov, Mr. Einar',male,-0.616168,-0.478904,-0.444829,'SOTON/OQ 3101317',-0.50321,S,?,사망
+3등급,'Wirz, Mr. Albert',male,-0.199891,-0.478904,-0.444829,315154,-0.47592,S,?,사망
+3등급,'Wiseman, Mr. Phillippe',male,?,-0.478904,-0.444829,'A/4. 34244',-0.50321,S,?,사망
+3등급,'Wittevrongel, Mr. Camille',male,0.424523,-0.478904,-0.444829,345771,-0.459739,S,?,사망
+3등급,'Yasbeck, Mr. Antoni',male,-0.199891,0.481104,-0.444829,2659,-0.364022,C,C,사망
+3등급,'Yasbeck, Mrs. Antoni (Selini Alexander)',female,-1.032444,0.481104,-0.444829,2659,-0.364022,C,?,구조
+3등급,'Youseff, Mr. Gerious',male,1.083628,-0.478904,-0.444829,2628,-0.503693,C,?,사망
+3등급,'Yousif, Mr. Wazli',male,?,-0.478904,-0.444829,2647,-0.503693,C,?,사망
+3등급,'Yousseff, Mr. Gerious',male,?,-0.478904,-0.444829,2627,-0.363943,C,?,사망
+3등급,'Zabour, Miss. Hileni',female,-1.067134,0.481104,-0.444829,2665,-0.364022,C,?,사망
+3등급,'Zabour, Miss. Thamine',female,?,0.481104,-0.444829,2665,-0.364022,C,?,사망
+3등급,'Zakarian, Mr. Mapriededer',male,-0.234581,-0.478904,-0.444829,2656,-0.503693,C,?,사망
+3등급,'Zakarian, Mr. Ortin',male,-0.199891,-0.478904,-0.444829,2670,-0.503693,C,?,사망
+3등급,'Zimmerman, Mr. Leo',male,-0.061133,-0.478904,-0.444829,315082,-0.491135,S,?,사망

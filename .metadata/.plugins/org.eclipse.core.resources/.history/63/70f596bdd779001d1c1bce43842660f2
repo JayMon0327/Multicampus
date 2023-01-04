@@ -1,8 +1,0 @@
-package com.multi.mvc03;
-
-public class ASite {
-
-	public void person() {
-		System.out.println("개인정보보기 기능 호출됨");
-	}
-}
