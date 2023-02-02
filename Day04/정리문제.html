@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="out.js"></script>
+    <script>
+   
+    for (let index = 0; index < 3; index++) {
+       document.write("@@@<br>");
+        
+    }
+    site = prompt('당신이 주로 가는 포털사이트는')
+    if(site == "naver") {
+        location.href="http://www.naver.com"
+    } else if(site == "daum") {
+        location.href="http://www.daum.net"
+    } else { 
+        location.href="http://www.google.com"
+    }
+
+    여행하다()
+    쉬다()
+
+    result1 = confirm("당신은 자바 프로그래머인가요?")
+    if(result1 == true) {
+        alert("훌륭한 웹프로그래머시군요!")
+        
+    } else {
+        alert("다른언어를 사용하시는군요!")
+    }
+
+    coffee = prompt("커피값")
+    buy = prompt("개수")
+    result = coffee * buy
+    if(result >=15000) {
+        alert("할인해드릴게요")
+    } else {
+        alert("정가로 내셔야해요")
+    }
+
+    food = prompt("먹고싶은 음식")
+    price = prompt("가격")
+    price2 = parseInt(price)
+
+    if(food == "커피" && price2 < 5000) {
+        alert("내가 살게요")
+    } else {
+        alert("니가 사세요")
+    }
+
+    today = prompt("지금은 오전인가요? 오후인가요?")
+    if(today == "오전" ) {
+        for (let index = 0; index < 3; index++) {
+            document.write("굿모닝<br>");
+            
+        }
+
+    }else if(today == "오후") {
+        for (let index = 0; index < 5; index++) {
+            document.write("굿애프터눈<br>");
+            
+        }
+    } else{
+        for (let index = 0; index < 10; index++) {
+            document.write("굿나잇<br>");
+            
+        }
+        
+    }
+
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
