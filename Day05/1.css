@@ -1,0 +1,48 @@
+.td1{
+    font: rgb(122, 201, 122);
+    border: 1px solid rgb(164, 208, 178);
+    background: rgb(174, 223, 185);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.td2{
+    font-size: 20px;
+    background: rgb(216, 255, 231);
+}
+
+#button1{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: green;
+    
+}
+#text1{
+    background: rgb(134, 200, 129);
+    border: 1px solid rgb(30, 207, 86);
+    border-radius : 50px 50px 50px 50px;
+
+}
+h1{
+    color: rgb(64, 51, 148);
+    font-size: 50px;
+    font-weight: bold;
+    border: 1px solid rgb(30, 207, 86);
+    border-radius : 25px 25px 25px 25px;
+    background: green;
+}
+.tr1{
+    font: red;
+    font-weight: bold;
+    font-size: 20px;
+    background: green;
+
+}
+.tr2{
+    background: white;
+}
+#table1{
+    
+    border: 1px solid rgb(30, 207, 86);
+   
+}

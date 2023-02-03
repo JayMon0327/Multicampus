@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // function pay(){
+        //     payMent_value = document.getElementById("payMent").value
+        //     buy_value = document.getElementById("buy").value
+        //     div_tag = document.getElementById("result") // 출력하는 document는 벨류값 부르지않기
+        //     buy_value_2 = parseInt(1000) 
+        //     buy_value_3 = parseInt(500) // 출력할때 계산을 위해선 계산하는 놈들끼리 묶어주기
+        //                                 // 문자 먼저 인식하면 뒤에도 문자라고 인식하기때문
+            
+
+        //     if(payMent_value == 1){
+                
+        //         div_tag.innerHTML= "더조은샵에서 " + buy_value + "원을 계좌이체로 구매하셨습니다"
+        //     }else if(payMent_value == 2){
+        //         div_tag.innerHTML= "더조은샵에서 " + (parseInt(buy_value) + buy_value_2) + "원을 신용카드로 구매하셨습니다"
+        //     }else if(payMent_value == 3){
+        //         div_tag.innerHTML= "더조은샵에서 " + (parseInt(buy_value) + buy_value_3) + "원을 휴대폰결제로 구매하셨습니다"
+        //     }
+            
+        // }
+
+        function tour(){
+            //1.입력
+            space_value = document.getElementById("space").value
+            month_value = document.getElementById("month").value
+            choice_value = document.getElementById("choice").value
+            //2.처리
+            let method = ''
+            let money = 0
+            if(choice_value == '1'){
+                method = '비행기'
+                money = 30000
+
+            }else if (choice_value == '2'){
+                method = '버스'
+                money = 10000
+            }else{
+                method = '자가용'
+                money = 50000
+            }
+            text = "나는" + month_value + "에" + space_value + "으로" + method + "를 타고 여행을 갈거에요. 비용은" + money + "원"
+
+            //3.출력
+            result_tag = document.getElementById('result')
+            result_tag.innerHTML = text
+            // space = document.getElementById("space").value
+            // month = document.getElementById("month").value
+            // choice = document.getElementById("choice").value
+            // if(choice == 1){
+            //     choice2 = "비행기를 타고 갈거에요. 비용은 30000원"
+            // }else if(choice == 2){
+            //     choice2 = "버스를 타고 갈거에요. 비용은 10000원"
+            // }else if(choice == 3){
+            //     choice2 = "자가용을 타고 갈거에요. 비용은 5000원"
+            // }
+            // div_tag = document.getElementById("result")
+            // div_tag.innerHTML = ("나는 "+ month + "에 " + space +"으로 " + choice2  )
+            
+            // div_tag = document.getElementById("result")
+            
+        }
+    </script>
+    
+
+</head>
+<body>
+    <hr color="red">
+    여행가고 싶은 곳 : <input type="text" id = "space" value = "부산"><br>
+    몇 월에 갈까요 : <input type="text" id = "month" value= "1월"><br>   
+    무얼 타고 갈까요(1)비행기(30000) (2)버스(10000) (3)자가용(50000) <br>
+    <input type="text" id="choice" value="1"><br>
+    <button onclick="tour()"> 여행 계획 버튼 </button>
+
+    <hr color="blue">
+    <div id= "result">
+        <!-- 나는 1월에 부산으로 비행기를 타고 여행을 갈거에요. 비용은 30000원 -->
+    </div>
+</body>
+</html>
