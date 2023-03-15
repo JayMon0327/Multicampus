@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body { /* 컨트롤+/ -자동주석,태그 선택!  */
+	background: #3277e6;
+}
+
+button {
+	background: red;
+}
+
+.t1 { /* .은 클래스 선택!, 여러개선택!  */
+	background: yellow;
+	width: 150px;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+회원 탈퇴 <br>
+<form action="delete.jsp"> <!-- 액션 페이지는 html이 받을 수 없다 !jsp파일로만 받음 -->
+		<table border="1">
+			<tr>
+				<td class="t1">탈퇴할아이디</td>
+				<td><input name="id"></td>
+
+			</tr>
+			<tr>
+			<td class="t1">탈퇴하기</td>
+			<td><a href="delete.jsp">
+					<button>탈퇴하기신청</button>
+			</a></td>
+
+		</tr>
+			</table>
+			</form>
+</body>
+</html>
