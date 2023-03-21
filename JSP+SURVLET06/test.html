@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function idcheck() {
+		id = document.getElementById('user').value
+		resultTag = document.getElementById('result')
+		if (id.length >= 5) {
+			resultTag.innerHTML = '<img src= img/yes.jpg width=300 height=300>'
+			location.href = "http://www.naver.com"
+		} else {
+			resultTag.innerHTML = '<img src= img/no.jpg width=300 height=300>'
+			//location은 브라우저의 주소부분을 나타내는 내장된 객체
+			//location은 href라는 변수에 요청하고 싶은 주소를 넣어주면 
+			//자바스크립트의 브라우저의 주소 부분에 주소를 넣고 엔터까지 쳐서 요청을해줌
+			location.href = "http://www.naver.com"
+		}
+	}
+
+	function pwcheck() {
+		pw = document.getElementById('pw').value
+		pw2 = document.getElementById('pw2').value
+		if (pw == pw2) {
+			resultTag.innerHTML = '<img src= img/yes.jpg width=300 height=300>'
+		} else {
+			resultTag.innerHTML = '<img src= img/no.jpg width=300 height=300>'
+		}
+	}
+</script>
+</head>
+<body>
+	자바스크립트 테스트
+	<hr>
+	아이디:
+	<input id='user' value="root">
+	<button onclick='idcheck()'>글자수 체크</button>
+	<br> 패스워드:
+	<input id='pw' value="1234">
+	<br> 패스워드2:
+	<input id='pw2' value="1234">
+	<button onclick='pwcheck()'>패스워드 동일체크</button>
+	<div id='result'
+		style="color: red; background: yellow; width: 500px; height: 50px; font-size: 30px">결과넣는
+		곳.</div>
+</body>
+</html>
