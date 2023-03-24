@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/jquery-3.6.4.js"></script>
+<script type="text/javascript">
+	$(function() { 
+		$('#b1').click(function() {
+			$.ajax({
+				url:"data/rank.xml",
+				success: function(doc){
+					alert("xml요청성공>> "+doc)
+					list = $(doc).find('rank')//find의 결과는 여러개(배열)
+					alert(list.length)
+					for(i=0;i<list.length; i++){
+						/* console.log($(list[i]).find('name').text())
+						console.log($(list[i]).find('tel').text()) */
+						name = $(list[i]).find('name').text()
+						tel = $(list[i]).find('tel').text()
+						$('#result').append(name+", "+tel+"<br>")
+					}//for
+				} //success
+			})//ajax
+			
+		})//b1
+		$('#b2').click(function() {
+			$.ajax({
+				url:"data/rank2.xml",
+				success: function(doc){
+					alert("xml요청성공>> "+doc)
+					list = $(doc).find('winner')//find의 결과는 여러개(배열)
+					alert(list.length)
+					for(i=0;i<list.length; i++){
+						year = $(list[i]).find('year').text()
+						class1 = $(list[i]).find('class').text()
+						name = $(list[i]).find('name').text()
+						field = $(list[i]).find('field').text()
+						$('#result').append(year + ", " + class1 + ", " 
+								+ name +", " + field+"<br>")
+					}//for
+				} //success
+			})//ajax
+			
+		})//b2
+		$('#b3').click(function() {
+			$.ajax({
+				url:"data/dataset.xml",
+				success: function(doc){
+					alert("xml요청성공>> "+doc)
+					list = $(doc).find('record')//find의 결과는 여러개(배열)
+					alert(list.length)
+					for(i=0;i<list.length; i++){
+						id = $(list[i]).find('id').text()
+						first_name = $(list[i]).find('first_name').text()
+						last_name = $(list[i]).find('last_name').text()
+						email = $(list[i]).find('email').text()
+						gender = $(list[i]).find('gender').text()
+						address = $(list[i]).find('address').text()
+						$('#result').append(id + ", " + first_name + ", " 
+								+ last_name +", "+ email
+								+ ", " + gender + ", "+ address+"<br>")
+						$.ajax({
+							url: "mock.jsp",
+						
+							data : {
+								id : id,
+								first_name : first_name,
+								last_name : last_name,
+								email : email,
+								gender : gender,
+								address : address
+							}, 
+							success: function() {
+								console.log('넣기 성공~!')
+							} //success
+						}) //ajax
+					}//for
+				} //success
+			})//ajax
+			
+		})//b3
+	}) //$
+</script>
+</head>
+<body bgcolor="lime">
+<button style='color: blue; background: pink' id ="b1">XML받아오기-1</button>
+<button style='color: blue; background: yellow' id ="b2">XML받아오기-2</button>
+<button style='color: blue; background: yellow' id ="b3">XML받아오기-3</button>
+<hr color="red">
+<div id="result"></div>
+</body>
+</html>
