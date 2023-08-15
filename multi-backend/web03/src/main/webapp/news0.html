@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Insert title here</title>
+
+<script type="text/javascript"
+	src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/cors.js"></script>
+
+<script type="text/javascript">
+
+    $(function() {
+        $('button').click(function() {
+            $.ajax({
+            	crossOrigin: true,
+                url: "http://art.chosun.com/site/data/rss/rss.xml",
+                dataType: 'json',
+                success: function(doc) { //JSON
+                    alert(doc)
+                    list = doc.items
+                    alert(list.length)
+                    if(list.length > 0){
+                        $(list).each(function(index, news) {
+                            title = news.title
+                            link = news.link
+                            item = '<a href=' + link + '>' + title + '</a>'
+                            $('div').append(item + '<br>')
+                         })//each
+                    }//if
+                }//success
+            })//ajax
+        })//b1
+    })//root
+</script>
+
+</head>
+
+<body>
+	<button>신문기사(RSS받기) 아트조선</button>
+	<hr color="red">
+	<div></div>
+</body>
+</html>

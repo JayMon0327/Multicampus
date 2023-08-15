@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script 
+ src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+</script>
+
+<script>
+//$ ==> body태그의미, $() ==> body부분부터 먼저 읽어서 램에 준비시켜줘!
+	$(function() { //익명함수
+		//아이디가 b1인 것을 클릭했을 때, 이렇게 처리해줘!!
+		//document.getElementById('b1') ==> $('#b1')
+		$('#b1').click(function() {
+			//food, where
+			food = $('#food').val()
+			where = $('#where').val()
+			alert(food + " " + where)
+		})
+		$('#b2').click(function() {
+			site = $('#site').val()
+			if (site == 'movie') {
+				location.href = 'http://www.cgv.co.kr'
+			} else {
+				location.href = 'http://www.tour.co.kr'
+			}
+		})
+	})
+</script>
+</head>
+<body>
+	먹고싶은 음식 : <input id='food'> <br>
+	가고싶은 장소 : <input id='where'> <br>
+	<button id='b1'>입력정보 확인</button>
+	<br>
+	현재 내가 제일 많이 들어가는 사이트 : <input id='site'> <br>
+	<button id='b2'>입력정보 확인</button>
+</body>
+</html>

@@ -1,0 +1,33 @@
+package 조건문;
+
+import javax.swing.JOptionPane;
+
+public class IfTest3 {
+
+	public static void main(String[] args) {
+		//누적시키는 변수는 반복문안에 넣으면 안됨.!
+		//반복할 때마다 누적되지 않고, 초기화되기 때문에.!
+		int ok = 0, no = 0, etc = 0;
+		while (true) {
+			String data = JOptionPane.showInputDialog("ok)긍정, no)부정, etc)기타, x)종료");
+			if (data.equals("x")) {
+				System.out.println("반복문 종료합니다.");
+				break;
+			}
+			if (data.equals("ok")) {
+				System.out.println("긍정");
+				ok++;//증감연산자
+			} else if (data.equals("no")) {
+				System.out.println("부정");
+				no++;
+			} else {
+				System.out.println("잘모르겠음.");
+				etc++;
+			}
+		}
+		System.out.println("긍정횟수: " + ok + "회");
+		System.out.println("부정횟수: " + no + "회");
+		System.out.println("잘 모르겠음횟수: " + etc + "회");
+	}
+
+}

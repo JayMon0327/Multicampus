@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<!-- 절대주소: 시작부분부터 주소를 표현 -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+</script>
+<!-- 상대주소: 현재파일 기준으로 주소를 표현 -->
+<script type="text/javascript" src="../js/jquery.ajax-cross-origin.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		x2 = 100 //처음부터 호출하려면 먼저 선언해주세요.!
+		//실습1) 선언하지 말고 b3에서 생성 후, b1에서 alert(x2)
+		//실습2) 선언후, 재실행하여 b1에서 alert(x2) 
+		$('#b1').click(function() {
+			alert(x2) //만든 다음에 사용하면 호출 가능함.
+			moneyValue = $('#money').val()
+			choiceValue = $('#choice').val()
+
+			$.ajax({
+				url : 'money.jsp',
+				data : {
+					money : moneyValue,
+					choice : choiceValue
+				},
+				success : function(x) { //x=jsp파일의 실행결과
+					alert('응답받은 내용: ' + x)
+					$('div').html('<font color=blue>결제금액은: ' + x + '</font>')
+				} //success
+			}) //ajax
+		}) //b1
+
+		$('#b2').click(function() {
+			idValue = $('#id').val()
+			//원하는 곳에서 아무때나 페이지를 넘기지 않고, 서버와
+			//통신하고자 하는 경우 ajax(비동기통신)
+			$.ajax({
+				url : 'idCheck.jsp',
+				data : {
+					id : idValue
+				},
+				success : function(x) { //x=jsp파일의 실행결과
+					alert('서버와의 통신 성공')
+					alert('응답받은 내용: ' + x)
+					$('div').html('<font color=red>응답받은 내용: ' + x + '</font>')
+				} //success
+			}) //ajax
+		}) //b2
+
+		$('#b3').click(function() {
+			phoneValue = $('#phone').val()
+			//var x2 = 200
+			$.ajax({
+				url : 'phone.jsp',
+				data : {
+					tel : phoneValue
+				},
+				success : function(x) { //x=jsp파일의 실행결과
+					alert('응답받은 내용: ' + x)
+					$('div').html('<font color=red>도착한 인증문자: ' + x + '</font>')
+					x2 = x.trim() //22243
+				} //success
+			}) //ajax
+		}) //b3
+		
+		$('#b4').click(function() {
+			meValue = $('#me').val()
+			alert(x2 + " " + meValue)
+			if(x2 == meValue){
+				$('div').html('<font color=red>본인인증완료</font>')
+			}else{
+				$('div').html('<font color=blue>본인인증실패</font>')
+			}
+		})
+	}) //$
+</script>
+</head>
+<body bgcolor="pink">
+	<h3>비동기통신으로 서버와 통신하기</h3>
+	<!--test에 입력한 id값을 서버에서 받아..id님 환영합니다.!!이라고
+     div에 넣어보세요. test.jsp-->
+	결제금액 :
+	<input type="text" id="money">
+	<br> 1)계좌이체, 2)신용카드, 3)휴대폰결제
+	<br> 결제수단 :
+	<input type="text" id="choice">
+	<button style='color: blue; background: green' id='b1'>결제하기</button>
+	<hr color="red">
+	회원가입할 id입력:
+	<input type="text" id='id'>
+	<button style='color: blue; background: yellow' id='b2'>회원가입시
+		id중복 체크</button>
+	<hr color="red">
+	인증받을 전화번호 입력:
+	<input type="text" id='phone'>
+	<button style='color: blue; background: fuchsia;' id='b3'>인증번호
+		받기</button>
+	<br> <input type="text" id='me' placeholder="인증번호 넣기" >
+	<button style='color: blue; background: lime;' id='b4'>인증번호
+		확인</button>
+	<hr color="green">
+	<div id="result"></div>
+</body>
+</html>

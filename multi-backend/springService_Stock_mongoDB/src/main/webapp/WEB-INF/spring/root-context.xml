@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo-1.8.xsd">
+	<context:property-placeholder location="classpath:db.properties" />
+	
+	<bean id="my" class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg ref="config"></constructor-arg>
+	</bean>
+
+	<!-- myBatis 설정만 담당하는 객체 생성 -->
+	<bean id="config" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dbcp"></property>
+		<property name="configLocation"
+			value="classpath:mybatis-config.xml"></property>
+	</bean>
+
+
+	<!-- dbcp 객체 생성 -->
+	<bean id="dbcp" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName"
+			value="${db.driver}"></property>
+		<property name="url" value="${db.url}"></property>
+		<property name="username" value="${db.user}"></property>
+		<property name="password" value="${db.pass}"></property>
+	</bean>
+
+
+<!-- cluster0.8py0j10.mongodb.net -->
+ <!-- host="localhost"
+        port="27017" credentials="winner:1234@shop2" -->
+ <!-- mongo -->
+    <mongo:mongo-client
+        host="cluster0.8py0j10.mongodb.net"
+        port="27017" credentials="root:1234@test" >
+        <mongo:client-options
+            connections-per-host="50"
+            threads-allowed-to-block-for-connection-multiplier="10"
+            connect-timeout="2000"
+            max-wait-time="2500"
+            socket-keep-alive="false"
+            socket-timeout="2500"
+        />
+    </mongo:mongo-client>
+ 
+    <bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+        <constructor-arg ref="mongo" />
+        <constructor-arg name="databaseName" value="test" />
+    </bean>
+</beans>

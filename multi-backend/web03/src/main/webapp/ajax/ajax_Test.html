@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>...</title>
+<script type="text/javascript"
+	src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="../js/jquery.ajax-cross-origin.min.js"></script>
+<!-- 크로스도메인 해결 플러그인 -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$.ajax({
+			crossOrigin : true, // 크로스도메인 해결 플러그인
+			url : "http://rss.hankyung.com /new/news_enter.xml",
+			success : function(index, item) {
+				alert(item)
+				console.log(item)
+			}
+		})
+	})
+</script>
+</head>
+<body>
+</body>
+</html>

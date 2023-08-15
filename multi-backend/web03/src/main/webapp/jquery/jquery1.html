@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script 
+ src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+</script>
+
+<script>
+//$ ==> body태그의미, $() ==> body부분부터 먼저 읽어서 램에 준비시켜줘!
+	$(function() { //익명함수
+		//아이디가 b1인 것을 클릭했을 때, 이렇게 처리해줘!!
+		//document.getElementById('b1') ==> $('#b1')
+		$('#b1').click(function() {
+			//alert('b1버튼을 클릭하셨군요')
+			user = $('#user').val() //==> id가 user인 태그의 입력값(value)을 가지고 오세요.
+			pw = $('#pw').val()
+			alert('당신의 아이디는 ' + user + ' 패스워드는 ' + pw)
+		})
+	})
+</script>
+</head>
+<body>
+	아이디 입력 : <input id='user'> <br>
+	패스워드 입력 : <input id='pw'> <br>
+	<button id='b1'>로그인 처리</button>
+</body>
+</html>

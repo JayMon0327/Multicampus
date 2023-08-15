@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+</script>
+
+<script>
+	$(function() { //익명함수
+		$('#b1').click(function() {
+			alert('되냐 안되냐..')
+			$.ajax({
+				url : "../ok.html",
+				success : function(x) { 
+					//x에 ok.html의 내용이 들어감.
+					//성공했을 때 실행할 부분
+					alert('성공, 받은 데이터는 ' + x)
+					$('#d1').html('성공, 받은 데이터는 ' + x)
+				},
+				error : function(e) {
+					//e에 ok.html에서 발생한 에러 들어감.
+					//실패했을 때 실행할 부분
+					alert('실패, 실패의 내용 ' + e)
+				} //error
+			}) //ajax
+		}) //b1
+		
+		$('#b2').click(function() {
+			alert('되냐 안되냐..2')
+			$.ajax({
+				url : "../tour.html",
+				success : function(x) { 
+					//x에 ok.html의 내용이 들어감.
+					//성공했을 때 실행할 부분
+					alert('성공, 받은 데이터는 ' + x)
+					$('#d2').html('성공, 받은 데이터는 ' + x)
+				},
+				error : function(e) {
+					//e에 ok.html에서 발생한 에러 들어감.
+					//실패했을 때 실행할 부분
+					alert('실패, 실패의 내용 ' + e)
+				} //error
+			}) //ajax
+		}) //b2
+		
+		$('#b3').click(function() {
+			alert('../되냐 안되냐..3')
+			$.ajax({
+				url : "weather.html",
+				success : function(x) { 
+					//x에 ok.html의 내용이 들어감.
+					//성공했을 때 실행할 부분
+					alert('성공, 받은 데이터는 ' + x)
+					$('#d3').html('성공, 받은 데이터는 ' + x)
+				},
+				error : function(e) {
+					//e에 ok.html에서 발생한 에러 들어감.
+					//실패했을 때 실행할 부분
+					alert('실패, 실패의 내용 ' + e)
+				} //error
+			}) //ajax
+		}) //b2
+		
+	}) //$
+</script>
+</head>
+<body>
+	<!-- a태그는 호출하면 페이지가 순서대로 넘어가는 동기통신 -->
+	<!-- <a href="ok.html">공공데이터 포탈 요청</a> <br>
+<a href="tour.html">주변 맛집 정보 요청</a> <br>
+<a href="weather.html">기상청 정보 요청</a> <br> -->
+	<button id="b1">공공데이터 포탈 요청</button>
+	<button id="b2">주변 맛집 정보 요청</button>
+	<button id="b3">기상청 정보 요청</button>
+	<hr>
+	<div id=d1 style="background: yellow;"></div>
+	<br>
+	<div id=d2 style="background: pink;"></div>
+	<br>
+	<div id=d3 style="background: lime;"></div>
+	<br>
+</body>
+</html>

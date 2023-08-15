@@ -1,0 +1,27 @@
+
+install.packages("rJava")
+
+install.packages("reshape")
+library(reshape)
+mdata <- melt(rdata, id.vars=1:4, na.rm=TRUE)
+mdata
+write.csv(mdata, "melt.csv", row.names=F)
+
+
+
+mdata <- melt(rdata, id=(c("company","lan_speed","RANK","speadMean")))
+
+R_HOME
+D:\Program Files\R\R-4.0.0
+
+
+R_LIBS_USER
+D:\Program Files\R\R-4.0.0\library\rJava
+
+PATH
+%R_HOME%\bin\x64
+
+plot(mdata)
+hist(mdata$value)
+plot(density(mdata$value))
+boxplot(mdata$value)

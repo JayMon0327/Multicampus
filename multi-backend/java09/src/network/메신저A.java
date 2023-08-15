@@ -1,0 +1,80 @@
+package network;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+
+import javax.swing.JFrame;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+
+public class 메신저A extends JFrame {
+	private JTextField input;
+	private JTextArea list;
+	DatagramSocket socket;
+	
+	public 메신저A() throws Exception {
+		socket = new DatagramSocket(5000);
+		setTitle("메신저 A");
+		setSize(300, 1000);
+		
+		list = new JTextArea();
+		list.setFont(new Font("궁서", Font.PLAIN, 30));
+		list.setBackground(Color.YELLOW);
+		getContentPane().add(list, BorderLayout.CENTER);
+		
+		input = new JTextField();
+		input.setFont(new Font("궁서", Font.BOLD, 30));
+		input.setBackground(Color.GREEN);
+		getContentPane().add(input, BorderLayout.SOUTH);
+		input.setColumns(10);
+		list.setEditable(false);
+		input.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				String data = input.getText();
+				//입력한 값 가지고 와서, list up!
+				list.append("정원>>" + data + "\n");
+				input.setText("");
+				try {
+					//상대방에게 네트워크 전송! 
+					DatagramSocket socket = new DatagramSocket();
+					byte[] data2 = data.getBytes();
+					InetAddress ip = InetAddress.getByName("192.168.123.186");
+					DatagramPacket packet = new DatagramPacket(data2, data2.length, ip, 5000);
+					socket.send(packet);
+					socket.close();
+				} catch (Exception e2) {
+					System.out.println("데이터 보내는 중 에러발생!");
+				}
+				
+			}
+		});
+		
+		setVisible(true);
+	}
+	
+	public void process() {
+		while (true) {
+			try {
+				//빈 패킷 필요
+				byte[] data = new byte[256];
+				DatagramPacket packet = new DatagramPacket(data, data.length);
+				socket.receive(packet);
+				list.append("민병>>" + new String(data) + "\n");
+			} catch (Exception e) {
+				System.out.println("데이터 받는 도중 에러발생!!");
+			} 
+		}
+	}
+	
+	public static void main(String[] args) throws Exception {
+		메신저A m = new 메신저A();
+		m.process();
+	}
+
+}

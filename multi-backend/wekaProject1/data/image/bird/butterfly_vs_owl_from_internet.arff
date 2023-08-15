@@ -1,0 +1,25 @@
+@relation 검증
+@attribute filename string
+@attribute class {BUTTERFLY,OWL}
+@data
+검증나비01.jpg,BUTTERFLY
+검증나비02.jpg,BUTTERFLY
+검증나비03.jpg,BUTTERFLY
+검증나비04.jpg,BUTTERFLY
+검증나비05.jpg,BUTTERFLY
+검증나비06.jpg,BUTTERFLY
+검증나비07.jpg,BUTTERFLY
+검증나비08.jpg,BUTTERFLY
+검증나비09.jpg,BUTTERFLY
+검증나비10.jpg,BUTTERFLY
+검증부엉이01.jpg,OWL
+검증부엉이02.jpg,OWL
+검증부엉이03.jpg,OWL
+검증부엉이04.jpg,OWL
+검증부엉이05.jpg,OWL
+검증부엉이06.jpg,OWL
+검증부엉이07.jpg,OWL
+검증부엉이08.jpg,OWL
+검증부엉이09.jpg,OWL
+검증부엉이10.jpg,OWL
+검증자동차05.jpg,OWL

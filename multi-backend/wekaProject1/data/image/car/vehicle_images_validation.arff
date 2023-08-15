@@ -1,0 +1,19 @@
+@relation vehicle_images
+@attribute filename string
+@attribute class {PLANE,TRAIN,CAR}
+@data
+검증자동차01.jpg,CAR
+검증자동차02.jpg,CAR
+검증자동차03.jpg,CAR
+검증자동차04.jpg,CAR
+검증자동차05.jpg,CAR
+검증항공기01.jpg,PLANE
+검증항공기02.jpg,PLANE
+검증항공기03.jpg,PLANE
+검증항공기04.jpg,PLANE
+검증항공기05.jpg,PLANE
+검증열차01.jpg,TRAIN
+검증열차02.jpg,TRAIN
+검증열차03.jpg,TRAIN
+검증열차04.jpg,TRAIN
+검증열차05.jpg,TRAIN

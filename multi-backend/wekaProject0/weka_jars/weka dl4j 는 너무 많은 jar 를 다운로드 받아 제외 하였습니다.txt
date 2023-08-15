@@ -1,0 +1,2 @@
+package manager 로 다운로드 받은 후
+WEKA_HOME\packages\wekaDeeplearning4j\lib 의 내용을 참조하세요
