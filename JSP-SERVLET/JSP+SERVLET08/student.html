@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/jquery-3.6.4.js"></script>
+<script type="text/javascript">
+	$(function() { 
+		$('#b3').click(function() {
+			$.ajax({
+				url:"data/student.xml",
+				success: function(doc){
+					alert("xml요청성공>> "+doc)
+					list = $(doc).find('record')//find의 결과는 여러개(배열)
+					alert(list.length)
+					for(i=0;i<list.length; i++){
+						name = $(list[i]).find('name').text()
+						number = $(list[i]).find('number').text()
+						department = $(list[i]).find('department').text()
+					
+						$('#result').append(name + ", " + number + ", " 
+								+ department +"<br>")
+						$.ajax({
+							url: "student.jsp",
+						
+							data : {
+								name : name,
+								number : number,
+								department : department,
+						
+							}, 
+							success: function() {
+								console.log('넣기 성공~!')
+							} //success
+						}) //ajax
+					}//for
+				} //success
+			})//ajax
+			
+		})//b3
+	}) //$
+</script>
+</head>
+<body bgcolor="lime">
+<button style='color: blue; background: pink' id ="b1">XML받아오기-1</button>
+<button style='color: blue; background: yellow' id ="b2">XML받아오기-2</button>
+<button style='color: blue; background: yellow' id ="b3">XML받아오기-3</button>
+<hr color="red">
+<div id="result"></div>
+</body>
+</html>

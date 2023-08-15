@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function idcheck() {
+		name = document.getElementById('name').value
+		com = document.getElementById('com').value
+		level = document.getElementById('level').value
+		gender = document.getElementById('gender').value
+		resultTag = document.getElementById('result')
+		total=com+"회사에 "+level+"으로있는 "+name+"입니다"
+		if(gender==man){
+			resultTag.innerHTML = '<img src= img/yes.jpg width=300 height=300>'
+		}else{
+			resultTag.innerHTML = '<img src= img/no.jpg width=300 height=300>'
+		}
+			divTag = document.getElementByID('result')
+			divTag.innerHTML = total
+	}
+
+	
+</script>
+</head>
+<body>
+	자바스크립트 테스트
+	<hr>
+	이름:<input id='name' value="홍길동">
+	회사명:<input id='com' value="멀티">
+	직책:<input id='level' value="팀장">
+	성별:<input id='gender' value="남자">
+	<button onclick='idcheck()'>확인</button>
+	
+	<div id='result'
+		style="color: red; background: yellow; width: 500px; height: 50px; font-size: 30px">결과넣는
+		곳.</div>
+</body>
+</html>

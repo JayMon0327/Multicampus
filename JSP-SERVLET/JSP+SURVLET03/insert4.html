@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>영화등록페이지</title>
+<script type="text/javascript">
+	//alert('글 작성 페이지입니다. 반갑습니다')
+</script>
+<style type="text/css">
+body { /* 컨트롤+/ -자동주석,태그 선택!  */
+	background: #3277e6;
+}
+
+button {
+	background: red;
+}
+
+.t1 { /* .은 클래스 선택!, 여러개선택!  */
+	background: yellow;
+	width: 150px;
+	text-align: center;
+}
+
+#b1 { /* #은 아이디 선택!, 특정한 것 선택 한 개만 선택 */
+	color: white;
+	background: green;
+}
+
+#b2 {
+	color: white;
+	background: blue;
+}
+</style>
+</head>
+<body>
+	<!-- no,title,content,writer 게시판글쓰기  -->
+	<h3>영화등록페이지</h3>
+	<hr>
+	
+	<form action="insert4.jsp">
+		<table border="1">
+			<tr>
+				<td class="t1">id</td>
+				<td><input name="id"></td>
+
+			</tr>
+			<tr>
+				<td class="t1">title</td>
+				<td><input name="title"></td>
+
+			</tr>
+			<tr>
+				<td class="t1">content</td>
+				<td><input name="content" type="file"></td>
+
+			</tr>
+			<tr>
+				<td class="t1">location</td>
+				<td><input name="location"></td>
+
+			</tr>
+			<tr>
+				<td class="t1">director</td>
+				<td><input name="director"></td>
+
+			</tr>
+			<tr>
+				<td colspan="2" class="t1">
+					<button id="b2">작성완료</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
