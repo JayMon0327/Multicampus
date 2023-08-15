@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function pay(){
+            payMent_value = document.getElementById("payMent").value
+            buy_value = document.getElementById("buy").value
+            div_tag = document.getElementById("result") // 출력하는 document는 벨류값 부르지않기
+            buy_value_2 = parseInt(1000) 
+            buy_value_3 = parseInt(500) // 출력할때 계산을 위해선 계산하는 놈들끼리 묶어주기
+                                        // 문자 먼저 인식하면 뒤에도 문자라고 인식하기때문
+            
+
+            if(payMent_value == 1){
+                
+                div_tag.innerHTML= "더조은샵에서 " + buy_value + "원을 계좌이체로 구매하셨습니다"
+            }else if(payMent_value == 2){
+                div_tag.innerHTML= "더조은샵에서 " + (parseInt(buy_value) + buy_value_2) + "원을 신용카드로 구매하셨습니다"
+            }else if(payMent_value == 3){
+                div_tag.innerHTML= "더조은샵에서 " + (parseInt(buy_value) + buy_value_3) + "원을 휴대폰결제로 구매하셨습니다"
+            }
+            
+        }
+    </script>
+    
+
+</head>
+<body>
+    <hr color="red">
+    구매상점 : <input type="text" id = "shop" value = "더조은샵"><br>
+    결제금액 : <input type="text" id = "buy" value= "10000"><br>   
+    입력수단(1)계좌이체 (2)신용카드 (3)휴대폰결제 <br>
+    <input type="text" id="payMent" value="1"><br>
+    <button onclick="pay()"> 결제 버튼 </button>
+
+    <hr color="blue">
+    <div id= "result">
+        결과
+    </div>
+</body>
+</html>

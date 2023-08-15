@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function hi() {
+            alert('여러분 ~~2시간이 끝나요!! 힘내세요!!')
+        }
+        function bye() {
+            alert('여러분 드디어 끝낫어요!! 안녕히가세요')
+        }
+        function check() {
+            id = "root"
+            pw = "1234"
+            id2 = document.getElementById('id2').value //"root"
+            pw2 = document.getElementById('pw2').value //"1234"
+            //id2가 id와 일치, pw2가 pw와 일치 둘다 만족하면
+            //로그인성공!!
+            //result안에 오른쪽에 있는 내용을 html 코드로 안쪽에 집어넣어요
+            result = document.getElementById('result')
+            if(id2 == id && pw2 == pw){
+               result.innerHTML ="<font color =red>로그인성공"
+            } else{
+                result.innerHTML ="<font color =blue>아이디 및 비밀번호가 틀립니다"
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="hi()">인사처리</button>
+    <button onclick="bye()">안녕처리</button>
+    <hr color="red">
+    <table align="center">
+        <tr>
+            <td width="300px">아이디 : <input type="text" id="id2" value="root" ><br></td>
+        </tr>
+        <tr>
+            <td width="300px">비밀번호 : <input type="text" id = "pw2" value="1234"></td>
+        </tr>
+        <tr>
+            <td><button onclick="check()">로그인처리</button></td>
+        </tr>
+        
+    </table>
+    <div id="result">
+        결과 들어갈 곳.
+    </div>
+
+    
+    
+</body>
+</html>

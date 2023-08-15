@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function hi() {
+            alert('여러분 ~~2시간이 끝나요!! 힘내세요!!')
+        }
+        function bye() {
+            alert('여러분 드디어 끝낫어요!! 안녕히가세요')
+        }
+        function check() {
+            id = "root"
+            pw = "1234"
+           
+            
+            id2 = document.getElementById('id2').value //"root"
+            pw2 = document.getElementById('pw2').value //"1234"
+            //id2가 id와 일치, pw2가 pw와 일치 둘다 만족하면
+            //로그인성공!!
+            //result안에 오른쪽에 있는 내용을 html 코드로 안쪽에 집어넣어요
+            result = document.getElementById('result')
+            if(id2 == id && pw2 == pw){
+               result.innerHTML ="<font color =red><h3>로그인성공<h3> <img src = ss.jpg>" 
+
+            } else{
+                result.innerHTML ="<font color =blue>아이디 및 비밀번호가 틀립니다 <img src = ff.jpg"
+            }
+            
+        }
+        
+
+        
+        
+        function check2(){
+            // 1. id가 id2인 input태그의 value값을 가지고 와야한다.
+            id2_value = document.getElementById('id2').value //접근연산자 .
+            // 2. 글자길이(length)를 구해서
+            size = id2_value.length
+            // 3. 5글자 미만이면 오류 메시지를 뿌려주세요.
+            if(size <5){
+                div_tag = document.getElementById('result')
+                div_tag.innerHTML = "<font color red>아이디는 5글자 이상으로 해주세요</font>"
+                
+            }else{
+                div_tag.innerHTML =""
+            }
+        
+                
+            }
+        
+        function check3(){
+            pw2 = document.getElementById('pw2').value // 정보를 가져오는것
+            pw3 = document.getElementById('pw3').value
+            if(pw2 == pw3){
+                result.innerHTML = "확인완료"
+            }else {
+                result.innerHTML = "불일치"
+            }
+            
+
+        }
+    </script>
+</head>
+<body>
+    <button onclick="hi()">인사처리</button>
+    <button onclick="bye()">안녕처리</button>
+    <hr color="red">
+    
+        
+             아이디 : <input type="text" id="id2" value="root" >
+             <button onclick="check2()">글자수체크</button><br>
+        
+       
+             비밀번호 : <input type="text" id = "pw2" value="1234"><br>
+             비밀번호2 : <input type="text" id = "pw3" value="1233">
+             <button onclick="check3()">비밀번호 확인</button>
+        
+        
+             <br><button onclick="check()"><h3>로그인처리</h3></button>
+        
+        
+    
+    <div id="result">
+        
+    </div>
+
+    
+    
+</body>
+</html>

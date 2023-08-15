@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="1.js"></script>
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+    
+  $( function() {
+    $( "#slider" ).slider();
+  } );
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/cesiumjs/1.78/Build/Cesium/Cesium.js"></script>
+</head>
+<body>
+    <h1 align="center"><img src="sulek.JPG" width="100px" height="50px"> 영화 정보 사이트</h1>
+    <hr color="green">
+    <table>
+        <tr>
+            <td></td>
+            <td><textarea  id="text1" cols="28" rows="3"></textarea></td>
+            <td><button onclick="move()" ><h3><img src="search.png" width="20px" height="25px" align="left">검색</h3></button></td>
+        </tr>
+    </table>
+    
+    
+   <table  id="table1">
+    <thead>
+        <tr class="tr1">
+            <td>순위</td>
+            <td> 제목</td>
+            <td>관객수</td>
+        </tr>
+        <tr class="tr2">
+            <td>1</td>
+            <td> 아바타</td>
+            <td> 10,000,000명</td>
+        </tr>
+        <tr class="tr2">
+            <td>2</td>
+            <td> 슬램덩크</td>
+            <td> 3,000,000명</td>
+        </tr>
+        <tr></tr><tr></tr><tr></tr>
+    </thead>
+   </table>
+    <table align="center">
+        <thead>
+            <tr>
+                <td class="td1"> 아이디 :</td>
+                <td class="td2"><input type="text" id="id2" value="root" ></td>
+            </tr>
+            <tbody>
+                <tr>
+                    <td class="td1">비밀번호 :</td>
+                    <td class="td2"><input type="text" id = "pw2" value="1234"></td>
+                </tr>
+                <tr>
+                    <td id = "button1"><button onclick="check()"><h3>로그인처리</h3></button></td>
+                </tr>
+            </tbody>
+        </thead>
+    </table>
+    <h3>오시는길</h3>
+    <div id="map" style="width:200px;height:200px;"></div>
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=88f896886abf19a672c8d5c5cda98408"></script>
+	<script>
+		var container = document.getElementById('map');
+		var options = {
+			center: new kakao.maps.LatLng(33.450701, 126.570667),
+			level: 3
+		};
+
+		var map = new kakao.maps.Map(container, options);
+	</script>
+
+
+    
+
+    <div id ='result' align="center"></div>
+    <div id="slider"></div>
+</body>
+</html>

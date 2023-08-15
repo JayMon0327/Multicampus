@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jQuery UI Accordion - Default functionality</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+
+      $(function () {
+        //b1을 클릭했을때 오른쪽에 있는 함수를 실행해줘요.
+        // = document.getElementById('b3') == $('#b3')
+        $('#b1').click(function() {
+          // alert('b1클릭함.')
+          $.ajax({
+            url: "info.html", //ajax를 어디로 연결할 것인가
+            success : function(x) { // 연결이 성공했을 때 무슨 함수를 실행할것이냐
+              $('#d1').html(x)
+            }
+          })
+        }) //b1
+        $('#b2').click(function() {
+          // alert('b1클릭함.')
+          $.ajax({
+            url: "info2.html",
+            success : function(x) {
+              $('#d2').html(x)
+            }
+          })
+        })
+        $('#b3').click(function() {
+          // alert('b1클릭함.')
+          $.ajax({
+            url: "info3.html",
+            success : function(x) {
+              $('#d3').html(x)
+            }
+          })
+        })
+      }); // $
+    </script>
+  </head>
+  <body>
+    <button id = 'b1'>영화정보 받아오기(info.html)</button>
+    <button id = 'b2'>코로나정보 받아오기(info2.html)</button>
+    <button id = 'b3'>교통정보 받아오기(info3.html)</button>
+    <hr color="red" border:boid>
+  </body>
+  <hr>
+  <div id="d1" style="width: 200px; height: 100px; background: lime;"></div>
+  <div id="d2" style="width: 200px; height: 100px; background: rgb(162, 107, 150);"></div>
+  <div id="d3" style="width: 200px; height: 100px; background: rgb(198, 191, 115);"></div>
+</html>
