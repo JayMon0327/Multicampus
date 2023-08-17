@@ -1,4 +1,2 @@
-# win
-
-# multicampus spring class
-## java back-end class
+# 멀티캠퍼스
+## 국비지원 교육 소스 모음
